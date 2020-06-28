@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'tovi.fun',
   },
   plugins: ['gatsby-plugin-react-helmet'],
 }

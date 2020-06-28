@@ -1,0 +1,93 @@
+.Header{
+    position: fixed;
+    width: 100%;
+    padding: 40px 0;
+    z-index: 100;
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.HeaderScrolled{
+    background: rgba(250, 250, 250, 0.8);
+    padding: 15px 0;
+    backdrop-filter: blur(20px);
+}
+
+.HeaderGroup{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0 50px;
+    vertical-align: baseline;
+}
+
+.HeaderLogo{
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.HeaderLogo img{
+    vertical-align: middle;
+    display: inline-block;
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.HeaderLogo img:nth-child(1):hover{
+    transform: scale(1.1);
+}
+
+.HeaderButton{
+    margin-right: -16px;
+}
+
+.HeaderButton a{
+    font-size: 16px;
+    padding: 16px;
+    color: #130C31;
+    font-weight: 700;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.HeaderButton a:hover{
+    color: #8C00F9;
+    text-shadow: 0px 0px 16px rgba(140, 0, 249, 0.1);
+}
+
+
+@media(max-width:640px){
+    .Header{
+        padding:12px 0;
+    }
+
+    .HeaderGroup{
+        padding: 0 20px;
+    }
+
+    .HeaderButton{
+        margin-right: -12px;
+    }
+
+    .HeaderButton a{
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .HeaderButton a:nth-child(3){
+        display: none;
+    }
+
+    .HeaderLogo img:nth-child(2){
+        display: none;
+    }
+
+  }
