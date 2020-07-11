@@ -1,11 +1,11 @@
 import React from 'react'
-import Cell from '../components/Cell'
-import issue5 from '../../staticdata/issue5.json'
-import Archive from '../components/Archive'
-import issues from '../../staticdata/issues.json'
 import styled from 'styled-components'
-import Subscribe from '../components/Subscribe'
+import Cell from '../components/Cell'
+import Archive from '../components/Archive'
 import About from '../components/About'
+import Subscribe from '../components/Subscribe'
+import issues from '../../staticdata/issues.json'
+import issue5 from '../../staticdata/issue5.json'
 import { COLORS } from '../values/colors'
 
 const SectionCaption = styled.div`
@@ -97,7 +97,7 @@ const IndexPage = () => (
     </div>
 
     <SectionCaption id="IdCaption">
-      <CaptionTitle>Issue #4</CaptionTitle>
+      <CaptionTitle>Issue #5</CaptionTitle>
       <CaptionDate>2020.06.20</CaptionDate>
     </SectionCaption>
 

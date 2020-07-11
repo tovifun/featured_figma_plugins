@@ -5,7 +5,16 @@ module.exports = {
     keywords:'Tovi, React, Figma, Design, Artical, UI, designer, Blog, Persoanl Website'
   },
   plugins: [
-    'gatsby-plugin-react-helmet'],
+    // {
+    //   resolve: `gatsby-plugin-styled-components`,
+    //   options: {
+    //     // Add any options here
+    //   },
+    // },
+    // `gatsby-plugin-styled-components`,
+    'gatsby-plugin-react-helmet'
+  ],
+
 }
 
 

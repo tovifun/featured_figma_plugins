@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Cell from '../components/Cell'
 import issue1 from '../../staticdata/issue1.json'
 import Archive from '../components/Archive'
@@ -85,7 +84,7 @@ const SubscribePage = () => (
 
     <SectionBread>
       <BreadHome>Issue #1</BreadHome>
-      <BreadCurrent>2020.06.20</BreadCurrent>
+      <BreadCurrent>2019-10-21</BreadCurrent>
     </SectionBread>
 
     <SectionCellGroup>

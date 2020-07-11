@@ -83,7 +83,7 @@ const SubscribePage = () => (
 
     <SectionBread>
       <BreadHome>Issue #2</BreadHome>
-      <BreadCurrent>2020.06.20</BreadCurrent>
+      <BreadCurrent>2019-12-29</BreadCurrent>
     </SectionBread>
 
     <SectionCellGroup>
