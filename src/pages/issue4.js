@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Cell from '../components/Cell'
 import issue4 from '../../staticdata/issue4.json'
 import Archive from '../components/Archive'
