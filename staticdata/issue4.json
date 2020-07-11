@@ -1,0 +1,204 @@
+{
+    "cells": [
+        {
+          "title": "Juuust Handoff",
+          "link": "https://www.figma.com/community/plugin/830051293378016221/Juuust-Handoff",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/Juuust-Handoff.png",
+          "tag": "Handoff",
+          "text": "国内知名 Figma 中文社区的作者（相信大家都知道的）。虽然同类型的插件有好多个，但是这个插件的体验还是很不错的",
+          "author": "Jun"
+        },
+        {
+          "title": "BeatFlyer Lite",
+          "link": "https://www.figma.com/community/plugin/776923340646658146/BeatFlyer-Lite",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/BeatFlyer-Lite.png",
+          "tag": "创意",
+          "text": "非常强悍的一个插件！给 Frame 里的内容添加一些预设的动画效果！",
+          "author": "Christian Giordano"
+        },
+        {
+          "title": "Halftones",
+          "link": "https://www.figma.com/community/plugin/818097713452519609/Halftones",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/Halftones.png",
+          "tag": "图片处理",
+          "text": "将图片处理成半调网点图！之前还有个将图片处理成 duotone 的也是这个作者的插件。喜欢！",
+          "author": "Fabien"
+        },
+        {
+          "title": "Paginate",
+          "link": "https://www.figma.com/community/plugin/805217025770129636/Paginate",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/Paginate.png",
+          "tag": "设计辅助",
+          "text": "挺有意思的一个插件，创建一个 component 作为页码指示器，然后将它放到 Frame 里，他就会自动更新页数",
+          "author": "Simon Riisnæs Dagfinrud"
+        },
+        {
+          "title": "Timer",
+          "link": "https://www.figma.com/community/plugin/820311256083321341/Timer",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/Timer.png",
+          "tag": "小应用",
+          "text": "这个插件怕不是有毒，不过很有意思的哈哈哈。。你输入一个时间格式的文字，然后运行插件，就会根据这个时间来进行倒计时。",
+          "author": "Leonard Thomas"
+        },
+        {
+          "title": "Styler",
+          "link": "https://www.figma.com/community/plugin/820660579767995949/Styler",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/styler.png",
+          "tag": "设计辅助",
+          "text": "和之前介绍的 Chroma 类似，生成样式的，不过这个功能要多一些",
+          "author": "Andrei Iancu"
+        },
+        {
+          "title": "Bookmarks",
+          "link": "https://www.figma.com/community/plugin/826695732068751801/Bookmarks",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/Bookmarks.png",
+          "tag": "效率提升",
+          "text": "给文件里的图层添加标记，然后可以快速地在标记的图层间进行导航。这个在演示文件的时候会非常有用（类似于 Figma 的评论功能，如果能够结合一下，会更加好用）。",
+          "author": "Jackie Chui"
+        },
+        {
+          "title": "Frame Status",
+          "link": "https://www.figma.com/community/plugin/811381661295562811/Frame-Status",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/Frame-Status.png",
+          "tag": "设计辅助",
+          "text": "给 Frame 添加状态指示，比如进行中、已完成这些",
+          "author": "Héctor Vásquez"
+        },
+        {
+          "title": "Bunch description change",
+          "link": "https://www.figma.com/community/plugin/824407127671340098/Bunch-description-change",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/Bunch-description-change.png",
+          "tag": "效率提升",
+          "text": "像批量修改图层名字一样，批量修改组件的描述。",
+          "author": "Fabian B."
+        },
+        {
+          "title": "Image Grid",
+          "link": "https://www.figma.com/community/plugin/824130560660439050/Image-Grid",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/Image-Grid.png",
+          "tag": "图片处理",
+          "text": "挺简单实用的一个插件，将 Frame 里的图片随机排布好，如果你在做 moodboard，这个插件应该能提供帮助。",
+          "author": "Evan Wallace"
+        },
+        {
+          "title": "Lazy Export",
+          "link": "https://www.figma.com/community/plugin/824059814042167296/Lazy-Export",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/Lazy-Export.png",
+          "tag": "图片导出",
+          "text": "内置了几组常用的导出设置，使用了一下，非常方便（如果能够存储用户自定义的导出设置，那就完美）",
+          "author": "Kyle Kochanek"
+        },
+        {
+          "title": "Frametastic",
+          "link": "https://www.figma.com/community/plugin/822809274991177560/Frametastic",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/Frametastic.png",
+          "tag": "设计辅助",
+          "text": "设置几个Frame尺寸，然后这个插件可以帮你生成这些尺寸的的设计图（前提是你设置好 Constrains）",
+          "author": "Cabify"
+        },
+        {
+          "title": "Component Variables",
+          "link": "https://www.figma.com/community/plugin/819995136233235915/Component-Variables",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/Component-Variables.png",
+          "tag": "效率提升",
+          "text": "强烈推荐，给 组件 内的元素设置一些变量，然后通过插件面板来控制这些元素的状态。",
+          "author": "Luiz"
+        },
+        {
+          "title": "Mansory Grid Layout Organizer",
+          "link": "https://www.figma.com/community/plugin/819711000718921105/Mansory-Grid-Layout-Organizer",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/Mansory-Grid-Layout-Organizer.png",
+          "tag": "图片处理",
+          "text": "和前面的 Image Grid 有点类似，不过这个是瀑布流方式排列的",
+          "author": "Alexandr Drugov"
+        },
+        {
+          "title": "Clay Mockups 3D",
+          "link": "https://www.figma.com/community/plugin/819335598581469537/Clay-Mockups-3D",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/Clay-Mockups-3D.png",
+          "tag": "3D",
+          "text": "还不错的一个插件，不过类似的插件很多了。如果非要用的话，我会选择用之前推荐过的 Vectary",
+          "author": "Hamish"
+        },
+        {
+          "title": "Batch Styler",
+          "link": "https://www.figma.com/community/plugin/818203235789864127/Batch-Styler",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/Batch-Styler.png",
+          "tag": "效率提升",
+          "text": "很实用，批量修改字体和颜色样式。（如果颜色格式能多一些，那会更好）",
+          "author": "Jan Six"
+        },
+        {
+          "title": "Figma Chinese Rename",
+          "link": "https://www.figma.com/community/plugin/817636639982340201/Figma-Chinese-Rename",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/Figma-Chinese-Rename.png",
+          "tag": "效率提升",
+          "text": "帮助 Figma 中文用户合理命名图层的插件",
+          "author": "三球"
+        },
+        {
+          "title": "Export styles to CSS variables",
+          "link": "https://www.figma.com/community/plugin/816737626312049592/Export-styles-to-CSS-variables",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/Export-styles-to-CSS-variables.png",
+          "tag": "Code",
+          "text": "将样式导出为 CSS 变量",
+          "author": "Felix Thålin"
+        },
+        {
+          "title": "Style Organizer",
+          "link": "https://www.figma.com/community/plugin/816627069580757929/Style-Organizer",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/Style-Organizer.png",
+          "tag": "Style",
+          "text": "对于喜欢严格要求自己使用 Style 来进行设计的人来说，这将非常实用。",
+          "author": "SHOPEE"
+        },
+        {
+          "title": "SVG Export",
+          "link": "https://www.figma.com/community/plugin/814345141907543603/SVG-Export",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/SVG-Export.png",
+          "tag": "SVG",
+          "text": "拓展 Figma 的 SVG 导出功能",
+          "author": "Hamish"
+        },
+        {
+          "title": "Focus CSS",
+          "link": "https://www.figma.com/community/plugin/811977401825396882/Focus-CSS",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/focus-css.png",
+          "tag": "Code",
+          "text": "选中元素，然后生成它的 CSS。",
+          "author": "Viesturs Marnauza"
+        },
+        {
+          "title": "Switor",
+          "link": "https://www.figma.com/community/plugin/811288323820451882/Switor",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/Switor.png",
+          "tag": "Theme",
+          "text": "主题切换，比之前介绍过的 Themer 要轻量一些",
+          "author": "Anashkin Andrey"
+        },
+        {
+          "title": "Spacing Manager",
+          "link": "https://www.figma.com/community/plugin/809099681305129697/Spacing-Manager",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/Spacing-Manager.png",
+          "tag": "效率提升",
+          "text": "还不错的一个插件，解决 Autolayout 不能设置 内部的间距的问题。不过如果 Figma 有自带的设置间距的方法会更好些。",
+          "author": "Farid Sabitov"
+        },
+        {
+          "title": "skale",
+          "link": "https://www.figma.com/community/plugin/808289809557716614/skale",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/skale.png",
+          "tag": "设计辅助",
+          "text": "帮助你比较精确地缩放 一个 instance（另外，作者的其它插件也都还不错）",
+          "author": "Jan Six"
+        },
+        {
+          "title": "View Finder",
+          "link": "https://www.figma.com/community/plugin/803995080229630997/View-Finder",
+          "image": "https://raw.githubusercontent.com/twowei/tovi_data/master/figma_plugins/View-Finder.png",
+          "tag": "效率提升",
+          "text": "将当前 Viewport 保存，然后可以通过点击保存的 viewport 来快速到达。和 Bookmarks 有以异曲同工之处",
+          "author": "Ahmed Genaidy"
+        }
+      ]
+}

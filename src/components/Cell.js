@@ -1,61 +1,116 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import { COLORS } from '../values/colors'
 
 
 const CellGroup = styled.div`
     width: 100%;
     position: relative;
     overflow: hidden;
-    border-top: 2px solid #E0E0E9;
+    border-top: 2px solid ${COLORS.border};
     transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+    &:hover{
+        border-color: ${COLORS.brand};
+        transform: translateY(-2px);
+        cursor: pointer;
+        h3{
+        text-decoration:underline;
+        color:${COLORS.brand};
+    }
+    }
 `
 const CellInfo = styled.div`
+
 `
+const CellLogo = styled.img`
+    background: ${COLORS.image_default};
+    width:36px;
+    height: 36px;
+    float: left;
+    margin: 20px 12px 14px 0px;
+    border-radius: 50%;
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+    @media (max-width:640px){
+        margin-right:10px;
+        width: 34px;
+        height: 34px;
+    }
+`
+
 const CellImage = styled.div`
-    background: black;
+    background: ${COLORS.image_default};
     background-image:url(${props => props.image});
     background-size:36px;
     float: left;
-    margin: 24px 12px 14px 0px;
+    margin: 20px 12px 14px 0px;
     border-radius: 50%;
     width: 36px;
     height: 36px;
     transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+    @media (max-width:640px){
+        margin-right:10px;
+        width: 34px;
+        height: 34px;
+        background-size:34px;
+    }
 `
-const CellTitle = styled.div`
+
+
+const CellTitle = styled.h3`
     margin: 0;
-    padding: 20px 0 0 0;
+    padding: 16px 0 0 0;
     font-weight: 600;
     font-size: 16px;
     line-height: 22px;
-    color: #130C31;
+    color: ${COLORS.neutral_4};
+    @media (max-width:640px){
+        font-size:15px;
+        padding-top:20px;
+        line-height: 22px;
+    }
 `
-const CellAuthor = styled.div`
+const CellAuthor = styled.p`
+    font-weight:normal;
     margin: 0;
     padding: 0;
     font-size: 14px;
     line-height: 20px;
-    color: #B2ABBB;
+    color: ${COLORS.neutral_2};
+    @media (max-width:640px){
+        font-size:13px;
+        line-height: 18px;
+    }
 `
-const CellText = styled.div`
-    font-weight: 500;
-    color: #534E66;
+const CellText = styled.p`
+    font-weight: 400;
+    color: ${COLORS.neutral_4};
     margin: 0;
     padding: 12px 0 8px 0;
+    line-height:1.5em;
+    @media (max-width:640px){
+        font-size:15px;
+        line-height:1.55em;
+    }
 `
-const CellTag = styled.div`
+const CellTag = styled.p`
     font-weight: 500;
-    color: #534E66;
+    color: ${COLORS.neutral_4};
     margin: 0;
     padding: 0px 0 16px 0;
+    @media (max-width:640px){
+        font-size:15px;
+    }
 `
 
 
 const Cell = props => (
+    <a href={props.link} width="100%" target="_blank">
     <CellGroup>
         <CellInfo>
-            <CellImage image={props.image}></CellImage>
+            {/* <CellLogo src={require('../images_figma/arc.png')}></CellLogo> */}
+            <CellLogo src={props.image}></CellLogo>
+            {/* <CellLogo src={props.image}></CellLogo> */}
+            {/* <CellImage image={props.image}></CellImage> */}
             <CellTitle>{props.title}</CellTitle>
             <CellAuthor>{props.author}</CellAuthor>
         </CellInfo>
@@ -63,6 +118,7 @@ const Cell = props => (
         <CellTag>{props.tag}</CellTag>
 
     </CellGroup>
+    </a>
 )
 
 export default Cell

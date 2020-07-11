@@ -36,10 +36,10 @@ class Header extends React.Component{
           <Link to="/"><img height="28px" src={require('../images/tovifun_logo.png')}  /><img height="28px" src={require('../images/tovifun_wordmark.gif')}  /></Link>
         </div>
         <div className="HeaderButton"> 
-          <Link to="/courses">Courses</Link>
-          <Link to="/downloads">Downloads</Link>
-          <Link to="/courses">Workshop</Link>
-          <Link to="/courses">Subscribe</Link>        
+          <Link to="/">最新</Link>
+          <Link to="/#IdArchive">往期</Link>
+          <Link to="/#IdAbout">关于</Link>
+          <Link to="/#IdSubscribe">订阅</Link>        
         </div>
       </div>
       </div>  

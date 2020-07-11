@@ -7,13 +7,13 @@
 }
 
 .HeaderScrolled{
-    background: rgba(250, 250, 250, 0.8);
+    background: rgba(250, 250, 250, 0.85);
     padding: 15px 0;
     backdrop-filter: blur(20px);
 }
 
 .HeaderGroup{
-    max-width: 800px;
+    max-width: 636px;
     margin: 0 auto;
     display: flex;
     -webkit-box-pack: justify;
@@ -47,20 +47,20 @@
 }
 
 .HeaderButton{
-    margin-right: -16px;
+    margin-right: -20px;
 }
 
 .HeaderButton a{
     font-size: 16px;
-    padding: 16px;
-    color: #130C31;
-    font-weight: 700;
+    padding: 20px;
+    color: rgba(4, 0, 20, 0.98);
+    font-weight: 600;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .HeaderButton a:hover{
-    color: #8C00F9;
-    text-shadow: 0px 0px 16px rgba(140, 0, 249, 0.1);
+    color: #B800F9;
+    /* text-shadow: 0px 0px 16px rgba(140, 0, 249, 0.1); */
 }
 
 
@@ -70,21 +70,21 @@
     }
 
     .HeaderGroup{
-        padding: 0 20px;
+        padding: 0 24px;
     }
 
     .HeaderButton{
-        margin-right: -12px;
+        margin-right: -16px;
     }
 
     .HeaderButton a{
-        padding: 12px;
-        font-size: 14px;
+        padding: 16px;
+        font-size: 15px;
     }
 
-    .HeaderButton a:nth-child(3){
+    /* .HeaderButton a:nth-child(3){
         display: none;
-    }
+    } */
 
     .HeaderLogo img:nth-child(2){
         display: none;
