@@ -46,7 +46,7 @@ const CellTitle = styled.h3`
     color: ${COLORS.neutral_4};
     @media (max-width:640px){
         font-size:15px;
-        padding-top:20px;
+        ${'' /* padding-top:20px; */}
         line-height: 22px;
     }
 `
@@ -88,6 +88,7 @@ const Cell = props => (
     <a href={props.link} width="100%" target="_blank">
     <CellGroup>
         <CellInfo>
+            {/* <CellLogo src={require('../ffp/img/arc.png')}></CellLogo> */}
             <CellLogo src={props.image}></CellLogo>
             <CellTitle>{props.title}</CellTitle>
             <CellAuthor>{props.author}</CellAuthor>
