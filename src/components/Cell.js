@@ -37,25 +37,6 @@ const CellLogo = styled.img`
     }
 `
 
-const CellImage = styled.div`
-    background: ${COLORS.image_default};
-    background-image:url(${props => props.image});
-    background-size:36px;
-    float: left;
-    margin: 20px 12px 14px 0px;
-    border-radius: 50%;
-    width: 36px;
-    height: 36px;
-    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
-    @media (max-width:640px){
-        margin-right:10px;
-        width: 34px;
-        height: 34px;
-        background-size:34px;
-    }
-`
-
-
 const CellTitle = styled.h3`
     margin: 0;
     padding: 16px 0 0 0;
@@ -107,10 +88,7 @@ const Cell = props => (
     <a href={props.link} width="100%" target="_blank">
     <CellGroup>
         <CellInfo>
-            {/* <CellLogo src={require('../images_figma/arc.png')}></CellLogo> */}
             <CellLogo src={props.image}></CellLogo>
-            {/* <CellLogo src={props.image}></CellLogo> */}
-            {/* <CellImage image={props.image}></CellImage> */}
             <CellTitle>{props.title}</CellTitle>
             <CellAuthor>{props.author}</CellAuthor>
         </CellInfo>

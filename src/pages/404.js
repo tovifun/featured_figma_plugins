@@ -1,17 +1,37 @@
 import React from 'react'
+import styled from 'styled-components'
+import { COLORS } from '../values/colors'
 
+
+const AboutGroup = styled.div`
+    max-width: 636px;
+    position: relative;
+    margin:0 auto;
+    padding:240px 0;
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+    a{
+        text-decoration:underline;
+    }
+`
+
+const AboutText = styled.div`
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 16px;
+    color: ${COLORS.neutral_4};
+    line-height:1.7em;
+    margin-bottom:8px;
+    @media (max-width:640px){
+        font-size:15px;
+        line-height: 1.85em;
+    }
+`
 
 const NotFoundPage = () => (
-  <div className="PageGroup">
-    <div className="PageTitle">
-      <div className="PageTitleGroup">
-        <h1 className="GradientText">Subscribe</h1>
-        <p>This year, I'm focusing big-time on writing content for front-end developers. Expect rich, bite-sized tutorials along with career-development articles. There will be no spam and you can unsubscribe at any time.</p>
-      </div>
-      <div className="PagePush"></div>
-    </div>
-    
-  </div>
+  <AboutGroup>
+    <AboutText>404</AboutText>
+  </AboutGroup>
 )
 
 export default NotFoundPage

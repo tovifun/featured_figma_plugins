@@ -4,8 +4,8 @@ import Cell from '../components/Cell'
 import Archive from '../components/Archive'
 import About from '../components/About'
 import Subscribe from '../components/Subscribe'
-import issues from '../../staticdata/issues.json'
-import issue5 from '../../staticdata/issue5.json'
+import issues from '../ffp/issues.json'
+import issue5 from '../ffp/issue5.json'
 import { COLORS } from '../values/colors'
 
 const SectionCaption = styled.div`
@@ -29,7 +29,7 @@ const CaptionTitle = styled.p`
 `
 
 const CaptionDate = styled.p`
-margin:0;
+  margin:0;
   margin-left: 12px;
   color: ${COLORS.neutral_2};
   font-weight:500;
@@ -92,11 +92,11 @@ const IndexPage = () => (
     <div className="Hero">
       <div className="HeroGroup">
         <h1><span className="GradientText">Featured</span><br />Figma<br />Plugins.</h1>
-        <p>每个月的最后一个星期天，给你推荐当月更新的、值得尝试的 Figma 插件。可以关注公众号，或者订阅邮件通讯获得更新提醒。</p>
+        <p>每月的最后一天，给你推荐当月更新的、值得尝试的 Figma 插件。可以关注公众号，或者订阅邮件通讯获得更新提醒。</p>
       </div>
     </div>
 
-    <SectionCaption id="IdCaption">
+    <SectionCaption>
       <CaptionTitle>Issue #5</CaptionTitle>
       <CaptionDate>2020.06.20</CaptionDate>
     </SectionCaption>

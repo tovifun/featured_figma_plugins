@@ -3,7 +3,7 @@ import './index.css'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Header from '../components/header'
-import FooterMini from '../components/FooterMini'
+import Footer from '../components/Footer'
 
 const Layout = ({ children, data }) => (
   <div>
@@ -35,7 +35,7 @@ const Layout = ({ children, data }) => (
     />
     <Header />
       {children()}
-    <FooterMini/>
+    <Footer />
   </div>
 )
 

@@ -1,19 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
-
-:root {
-  --sys-sans: -apple-system,BlinkMacSystemFont,"Helvetica Neue";
-  --cjk-sans:  "PingFang SC","Hiragino Sans GB","Droid Sans Fallback","Microsoft YaHei";
-}
-
-html, body{
-  height: 100%;
+*{
   padding: 0;
   margin: 0;
 }
 
 body{
-  font-family: var(--cjk-sans),sans-serif;
-  font: 400 var(--sys-sans),var(--cjk-sans),sans-serif;  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Droid Sans Fallback","Microsoft YaHei";
+  font-weight:normal;
   font-size: 14px;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
@@ -37,11 +29,11 @@ a{
 }
 
 .Hero h1{
-  font-family: 'Raleway', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   margin:0;
   color:rgba(4, 0, 20, 0.98);
   font-size: 48px;
-  line-height:1.1;
+  line-height:1;
+  font-weight: 900;
   text-transform:uppercase;
   opacity: 0;
   animation: HeroAnimation;
@@ -65,12 +57,6 @@ a{
   margin: 20px 0;
   opacity: 0;
   animation: HeroAnimation 1s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
-}
-
-.Hero a{
-  font-weight: 600;
-  color: #B800F9;
-  padding: 0 2px;
 }
 
 

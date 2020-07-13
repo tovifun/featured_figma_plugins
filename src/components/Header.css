@@ -1,7 +1,7 @@
 .Header{
     position: fixed;
     width: 100%;
-    padding: 40px 0;
+    padding: 32px 0;
     z-index: 100;
     transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
@@ -9,7 +9,7 @@
 .HeaderScrolled{
     background: rgba(250, 250, 250, 0.85);
     padding: 15px 0;
-    backdrop-filter: blur(20px);
+    /* backdrop-filter: blur(20px); */
 }
 
 .HeaderGroup{
@@ -81,10 +81,6 @@
         padding: 16px;
         font-size: 15px;
     }
-
-    /* .HeaderButton a:nth-child(3){
-        display: none;
-    } */
 
     .HeaderLogo img:nth-child(2){
         display: none;
