@@ -4,8 +4,8 @@ import Cell from '../components/Cell'
 import Archive from '../components/Archive'
 import About from '../components/About'
 import Subscribe from '../components/Subscribe'
-import issues from '../ffp/issues.json'
-import issue5 from '../ffp/issue5.json'
+import issues from '../data/issues.json'
+import issue5 from '../data/issue5.json'
 import { COLORS } from '../values/colors'
 
 const SectionCaption = styled.div`
