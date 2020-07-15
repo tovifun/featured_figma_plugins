@@ -7,6 +7,7 @@ import Subscribe from '../components/Subscribe'
 import issues from '../data/issues.json'
 import issue5 from '../data/issue5.json'
 import { COLORS } from '../values/colors'
+// import ComponentA from '../components/ComponentA'
 
 const SectionCaption = styled.div`
   margin: 0 auto;
@@ -128,7 +129,7 @@ const IndexPage = () => (
     <SectionAbout id="IdAbout">
       <About></About>
     </SectionAbout>
-
+  {/* <ComponentA></ComponentA> */}
     <SectionSubscribe id="IdSubscribe">
       <Subscribe></Subscribe>
     </SectionSubscribe>

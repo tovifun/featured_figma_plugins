@@ -61,7 +61,7 @@ const Subscribe = () =>(
         <SubscribeGroup>
             <Stamp width='120' height='120' src={require('../images/tovifun_stamp.png')}></Stamp>
 
-            <Title>订阅</Title>
+            <Title>订阅一下，获得更新通知</Title>
             <Text>关注 <a href="/" target="_blank">我的公众号</a>，或者订阅 <a href="https://www.getrevue.co/profile/tovi" target="_blank">邮件通讯</a> ，获取 Figma 插件和我的博客文章更新提醒。</Text>
             {/* <Button><Link to="/subscribe">去订阅</Link></Button> */}
         </SubscribeGroup>

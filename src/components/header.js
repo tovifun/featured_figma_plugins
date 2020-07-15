@@ -32,7 +32,7 @@ class Header extends React.Component{
       'Header HeaderScrolled' : 'Header'}>
       <div className="HeaderGroup">
         <div className="HeaderLogo">
-          <Link to="/"><img height="28px" src={require('../images/tovifun_logo.png')}  /><img height="28px" src={require('../images/tovifun_wordmark.gif')}  /></Link>
+          <Link to="/"><img height="28px" src={require('../images/tovifun_logo.png')}  /><img height="28px" src={require('../images/tovixjun.gif')}  /></Link>
         </div>
         <div className="HeaderButton"> 
           <Link to="/">最新</Link>
