@@ -6,7 +6,7 @@
           "tag": "设计辅助",
           "text": "快速地在两个元素之间创建箭头连线",
           "author": "SHOPEE SINGAPORE",
-          "image": "img/arrow_auto.png"
+          "image": "images/arrow_auto.png"
         },
         {
           "title": "AutoLayout",
@@ -14,7 +14,7 @@
           "tag": "设计辅助",
           "text": "插件是上下文菜单形式的，会根据选取的状态而改变状态。然后功能也还不错，根据图层顺序来 Autolayout",
           "author": "Carlo Jörges",
-          "image": "img/auto_layout.png"
+          "image": "images/auto_layout.png"
         },
         {
           "title": "Design Tokenizer",
@@ -22,7 +22,7 @@
           "tag": "设计辅助",
           "text": "生成你的样式的 json 格式文本。插件的设计也非常有趣",
           "author": "Lee Brenner",
-          "image": "img/design_tokenizer.png"
+          "image": "images/design_tokenizer.png"
         },
         {
           "title": "Duotones",
@@ -30,7 +30,7 @@
           "tag": "创意生成",
           "text": "如果你使用过 Spotify，那么你应该对它们的歌单的封面效果印象深刻，这个插件可以帮助你快速实现那种效果",
           "author": "Fabien",
-          "image": "img/duotones.png"
+          "image": "images/duotones.png"
         },
         {
           "title": "Ionicons",
@@ -38,7 +38,7 @@
           "tag": "图标下载",
           "text": "来自 ionicons.com 的图标",
           "author": "Ahmad Al Haddad",
-          "image": "img/ionicons.png"
+          "image": "images/ionicons.png"
         },
         {
           "title": "Minimap",
@@ -46,7 +46,7 @@
           "tag": "设计辅助",
           "text": "如果你使用过 Photoshop，那么你可能知道它的一个叫预览的面板。这个就和它类似",
           "author": "Rasmus",
-          "image": "img/minimap.png"
+          "image": "images/minimap.png"
         },
         {
           "title": "Nisa Text Splitter",
@@ -54,7 +54,7 @@
           "tag": "文字处理",
           "text": "将文本进行打散、重组等操作，实用性还不错",
           "author": "Orkhan Jafarov 🦄",
-          "image": "img/nisa_text_splitter.png"
+          "image": "images/nisa_text_splitter.png"
         },
         {
           "title": "Pixels",
@@ -62,7 +62,7 @@
           "tag": "创意生成",
           "text": "给图片处理成像素画的效果！",
           "author": "Fabien",
-          "image": "img/pixels.png"
+          "image": "images/pixels.png"
         },
         {
           "title": "PWA Icon App Exports",
@@ -70,7 +70,7 @@
           "tag": "设计辅助",
           "text": "选中一个 Frame，运行插件后就可以设置一套默认的导出尺寸",
           "author": "Geoffrey Crofte",
-          "image": "img/pwa_icon_app_exports.png"
+          "image": "images/pwa_icon_app_exports.png"
         },
         {
           "title": "Quantizer",
@@ -78,7 +78,7 @@
           "tag": "设计辅助",
           "text": "将横纵规整的 frame 或 group 重新排列，比如你可以将 3 栏变为两栏。非常好用",
           "author": "Vadim Pleshkov",
-          "image": "img/quantizer.png"
+          "image": "images/quantizer.png"
         },
         {
           "title": "Regulator",
@@ -86,7 +86,7 @@
           "tag": "设计辅助",
           "text": "帮助你给 颜色样式 重命名。终于有这种插件了，不过我相信迟早 Figma 官方会注意到这个问题的",
           "author": "Miguel Solorio",
-          "image": "img/regulator.png"
+          "image": "images/regulator.png"
         },
         {
           "title": "Retextifier",
@@ -94,7 +94,7 @@
           "tag": "文字处理",
           "text": "选区包含文字的 frame 或 group ，运行插件后会将里边所有的字段展示出来，并且每段文字都有输入框，方便修改每段文字",
           "author": "Vadim Pleshkov",
-          "image": "img/retextifier.png"
+          "image": "images/retextifier.png"
         },
         {
           "title": "Sympli Handoff",
@@ -102,7 +102,7 @@
           "tag": "设计辅助",
           "text": "类似于 Zeplin 的一个东西，收费方案也类似，不过设计没那么好看。（可以考虑加入到工作流中）",
           "author": "Sympli ✨",
-          "image": "img/sympli_handoff.png"
+          "image": "images/sympli_handoff.png"
         },
         {
           "title": "Text Filler",
@@ -110,7 +110,7 @@
           "tag": "设计辅助",
           "text": "存储几段文字，并可以快速地在设计中使用",
           "author": "Nate Greenwall",
-          "image": "img/text_filler.png"
+          "image": "images/text_filler.png"
         },
         {
           "title": "Text Styles Generator",
@@ -118,7 +118,7 @@
           "tag": "设计辅助",
           "text": "用来批量生成文字样式，可以和生成颜色样式的 Chroma 搭配使用",
           "author": "Vadim Pleshkov",
-          "image": "img/text_styles_generator.png"
+          "image": "images/text_styles_generator.png"
         },
         {
           "title": "Vectary 3D",
@@ -126,7 +126,7 @@
           "tag": "创意生成",
           "text": "近段时间最火的一个插件了吧，通过使用它可以在 Figma 中插入一些 3D 的图片",
           "author": "Vectary",
-          "image": "img/vectory.png"
+          "image": "images/vectory.png"
         },
         {
           "title": "Add numbers to texts",
@@ -134,7 +134,7 @@
           "tag": "文字处理",
           "text": "在多段文本转换成有序列表（在文本前面添加数字）",
           "author": "Simon Epskamp",
-          "image": "img/add_numbers_to_texts.png"
+          "image": "images/add_numbers_to_texts.png"
         },
         {
           "title": "Arc",
@@ -142,7 +142,7 @@
           "tag": "文字处理",
           "text": "Arc 可以快速地将一段文字沿着一个椭圆弧度摆放",
           "author": "unfold.co",
-          "image": "img/arc.png"
+          "image": "images/arc.png"
         },
         {
           "title": "Bullets",
@@ -150,7 +150,7 @@
           "tag": "文字处理",
           "text": "添加自定义的列表前面的小图标，用了一下还是可以的，而且是用 component 来做列表图标，替换起来非常方便",
           "author": "Mirko Santangelo",
-          "image": "img/bullets.png"
+          "image": "images/bullets.png"
         },
         {
           "title": "Bunch Text Changer",
@@ -158,7 +158,7 @@
           "tag": "文字处理",
           "text": "说中文吞字的朋友，可以试试这个插件，选中一个或多个文本，弹出一个输入框，接着在输入框里输入文字！",
           "author": "Vadim Pleshkov",
-          "image": "img/bunch_text_changer.png"
+          "image": "images/bunch_text_changer.png"
         },
         {
           "title": "Chroma",
@@ -166,7 +166,7 @@
           "tag": "设计辅助",
           "text": "我很喜欢这个插件，它的作用是，根据当前形状来创建 Color Styles，这样你就可以批量创建 Color Styles 了（居然是 VS Code）的设计师出的",
           "author": "Miguel Solorio",
-          "image": "img/chroma.png"
+          "image": "images/chroma.png"
         },
         {
           "title": "Color Compass",
@@ -174,7 +174,7 @@
           "tag": "色板渐变",
           "text": "根据所选颜色，生成一系列相关的颜色，帮助你调整颜色方案",
           "author": "Jaclyn Tan",
-          "image": "img/color_compass.png"
+          "image": "images/color_compass.png"
         },
         {
           "title": "Component Page",
@@ -182,7 +182,7 @@
           "tag": "设计辅助",
           "text": "如果你习惯 Sketch 那种有个单独的 Component 页来存放 Component，那么可以试试这个",
           "author": "Tom Lowry",
-          "image": "img/component_page.png"
+          "image": "images/component_page.png"
         },
         {
           "title": "Content Reel",
@@ -190,7 +190,7 @@
           "tag": "内容填充",
           "text": "一个比较全能的内容填充插件，可以填充文字、图标和图片等。不过内容是这个插件定好的，不能自定义，如果不想在内容上花功夫就可以用用",
           "author": "Microsoft",
-          "image": "img/content_reel.png"
+          "image": "images/content_reel.png"
         },
         {
           "title": "Dither",
@@ -198,7 +198,7 @@
           "tag": "图片处理",
           "text": "这个插件有点厉害，直接在 Figma 里给图片添加颜色抖动效果。你可以先去玩一下，你会回来点赞的",
           "author": "Victor Aremu",
-          "image": "img/dither.png"
+          "image": "images/dither.png"
         },
         {
           "title": "Easometric",
@@ -206,7 +206,7 @@
           "tag": "设计辅助",
           "text": "创建 isometric 绘图时可以使用",
           "author": "Aaron Iker",
-          "image": "img/easometric.png"
+          "image": "images/easometric.png"
         },
         {
           "title": "Feather Icons",
@@ -214,7 +214,7 @@
           "tag": "图标下载",
           "text": "在 Figma 中直接下载 Feather 图标，知道 Feather Icons 的人都知道，这是个质量比较高的开源图标。",
           "author": "Cole Bemis",
-          "image": "img/feather_icons.png"
+          "image": "images/feather_icons.png"
         },
         {
           "title": "Figmaotion",
@@ -222,7 +222,7 @@
           "tag": "设计辅助",
           "text": "在 Figma 里直接制作简易的动效，不过可维护性不佳，适合做那种做完就扔的展示动效，其他的还是老老实实用 Ae 吧。",
           "author": "Liam Martens",
-          "image": "img/figmotion.png"
+          "image": "images/figmotion.png"
         },
         {
           "title": "Font Fascia",
@@ -230,7 +230,7 @@
           "tag": "文字处理",
           "text": "检测文件中某个字体所使用的次数，还有哪些字体使用了，并且列出来。觉得是个很不错的插件",
           "author": "thenew",
-          "image": "img/font_fascia.jpg"
+          "image": "images/font_fascia.jpg"
         },
         {
           "title": "Google Sheets Sync",
@@ -238,7 +238,7 @@
           "tag": "内容填充",
           "text": "同步 Google 表格的数据，直接到你的 Figma 文件，实用性和可玩性双佳",
           "author": "David Williames",
-          "image": "img/google_sheets_sync.png"
+          "image": "images/google_sheets_sync.png"
         },
         {
           "title": "icns/ico Generator",
@@ -246,7 +246,7 @@
           "tag": "设计辅助",
           "text": "导出 .ico 和 .icns 格式的图片。如果你需要制作 Windows 或 macOS 图标的话会很有用",
           "author": "Aaron Iker",
-          "image": "img/icnsico_generator.png"
+          "image": "images/icnsico_generator.png"
         },
         {
           "title": "Image tracer",
@@ -254,7 +254,7 @@
           "tag": "图片处理",
           "text": "将黑白的位图转换为矢量图。（和 Dither 搭配使用有奇效😁）",
           "author": "David Williames",
-          "image": "img/image_tracer.png"
+          "image": "images/image_tracer.png"
         },
         {
           "title": "Masker",
@@ -262,7 +262,7 @@
           "tag": "设计辅助",
           "text": "为你的界面套一层样机遮罩",
           "author": "Vyacheslav Myskov",
-          "image": "img/masker.png"
+          "image": "images/masker.png"
         },
         {
           "title": "Noise",
@@ -270,7 +270,7 @@
           "tag": "图形处理",
           "text": "画插图的人应该会比较喜欢，生成 燥点 的工具",
           "author": "Dustin Mierau",
-          "image": "img/noise.png"
+          "image": "images/noise.png"
         },
         {
           "title": "QR Code Generator",
@@ -278,7 +278,7 @@
           "tag": "创意生成",
           "text": "生成一个链接的二维码，感觉还是挺有用的，比如你可以将你的 Prototype 生成一个二维码，在手机上扫码查看",
           "author": "David Williames",
-          "image": "img/qr_code_generator.png"
+          "image": "images/qr_code_generator.png"
         },
         {
           "title": "Responsify ⚡️",
@@ -286,7 +286,7 @@
           "tag": "设计辅助",
           "text": "选择一个 Frame，生成这个 frame 的各个尺寸大小的效果，帮助你快速测试每个设备大小下设计是否合理",
           "author": "Brian Lovin",
-          "image": "img/responsify.png"
+          "image": "images/responsify.png"
         },
         {
           "title": "Roto",
@@ -294,7 +294,7 @@
           "tag": "图形处理",
           "text": "很好玩的一个插件，将你的形状或文字，转变成 3D 形状，里边有些参数可以设置，推荐玩一下",
           "author": "Carlo Jörges",
-          "image": "img/roto.png"
+          "image": "images/roto.png"
         },
         {
           "title": "SkewDat",
@@ -302,7 +302,7 @@
           "tag": "图形处理",
           "text": "SkewDat 可以帮助你快速斜切形状和文本，补足 Figma 不能难以制作斜切文字和形状的短板",
           "author": "unfold.co",
-          "image": "img/skewdat.png"
+          "image": "images/skewdat.png"
         },
         {
           "title": "Smart Text",
@@ -310,7 +310,7 @@
           "tag": "设计辅助",
           "text": "挺好玩的一个插件，创建一些文本表达式来链接到图层的属性，当属性改变，那么该文本也改变",
           "author": "Mirko Santangelo",
-          "image": "img/smart_text.png"
+          "image": "images/smart_text.png"
         },
         {
           "title": "Snap to Grid",
@@ -318,7 +318,7 @@
           "tag": "设计辅助",
           "text": "Figma 本身有 Snap to pixel grid， 而这个插件可以自定义一些网格，比如 4x4 的网格，让你的元素统统完美地对齐这些网格",
           "author": "Andreslav Kozlov",
-          "image": "img/snap_to_grid.jpg"
+          "image": "images/snap_to_grid.jpg"
         },
         {
           "title": "Visibility",
@@ -326,7 +326,7 @@
           "tag": "设计辅助",
           "text": "蛮有意思的一个插件，给图层命名为 `～visibility` 运行插件时会显示/隐藏该命名的所有插件",
           "author": "Egor",
-          "image": "img/visibility.png"
+          "image": "images/visibility.png"
         },
         {
           "title": "Wave & Сurve",
@@ -334,7 +334,7 @@
           "tag": "创意生成",
           "text": "生成波纹线段，插件的交互做的还可以的，是个实用的小工具",
           "author": "Andreslav",
-          "image": "img/wave_and_curve.png"
+          "image": "images/wave_and_curve.png"
         }
       ]
 }
