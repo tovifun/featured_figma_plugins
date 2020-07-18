@@ -31,7 +31,7 @@ const BreadHome = styled.p`
 const BreadCurrent = styled.p`
 margin:0;
   margin-left: 12px;
-  color: ${COLORS.neutral_2}
+  color: ${COLORS.neutral_2};
   font-weight:500;
 `
 
