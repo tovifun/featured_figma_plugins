@@ -1,4 +1,5 @@
 import React from 'react'
+import Layout from '../layouts'
 import styled from 'styled-components'
 import Cell from '../components/Cell'
 import Archive from '../components/Archive'
@@ -88,7 +89,7 @@ const SectionSubscribe = styled.div`
 `
 
 const IndexPage = () => (
-  <div>
+  <Layout>
     <div className="Hero">
       <div className="HeroGroup">
         <h1><span className="GradientText">Featured</span><br />Figma<br />Plugins.</h1>
@@ -102,7 +103,7 @@ const IndexPage = () => (
     </SectionCaption>
 
     <SectionCellGroup>
-    {issue5.cells.map(cell => (
+    {issue5.cells.map((cell, index) => (
       <Cell
         title={cell.title}
         image={cell.image}
@@ -110,17 +111,19 @@ const IndexPage = () => (
         text={cell.text}
         tag={cell.tag}
         link={cell.link}
-         />
+        key={index}
+      />
     ))}
     </SectionCellGroup>
 
     <SectionArchive id="IdArchive">
-      {issues.issue.map(issue =>(
+      {issues.issue.map((issue, index) =>(
         <Archive
           title={issue.title}
           date={issue.date}
           link={issue.link}
           total={issue.total}
+          key={index}
         />
       ))}
     </SectionArchive>
@@ -132,7 +135,7 @@ const IndexPage = () => (
     <SectionSubscribe id="IdSubscribe">
       <Subscribe></Subscribe>
     </SectionSubscribe>
-  </div>
+  </Layout>
 )
 
 export default IndexPage

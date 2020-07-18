@@ -69,8 +69,8 @@ const About = () => (
         <AboutText>再或者，你也可以像我一样，不想遗漏那些好的插件，使用非常笨的方法，每个月打开社区插件列表，把近期更新的插件都安装来玩一下。</AboutText>
         <AboutText>不过你完全不需要这么做，因为我已经体验过一遍了，并且挑选出了其中比较好的插件（就是这个网页中所展示的）。每个月挑选的数量也不会特别多，可能你花几分钟就浏览完了。</AboutText>
         <AboutTitle>关于这个网站</AboutTitle>
-        <AboutText>这个网页的前身是一个 Figma Prototype，内容和这个网页差不多（你可以在我的 <a href="https://www.figma.com/@tovi" target="_blank">Figma 个人页里</a> 找到这个原型，这个网站的源文件也在里边）。不过因为每次更新都需要进行比较繁琐的工作，于是就想做成这个网页来展示，之前那个 Prototype 之后也不会更新了。</AboutText>
-        <AboutText>每个月的最后一天，我会进行更新，你可以在下方订阅我的邮件通讯获得更新提醒。如果你想进行评论、反馈，可以 <a href="https://www.figma.com/@tovi" target="_blank">在这篇文章下留言</a>（留言专用帖😂）。</AboutText>
+        <AboutText>这个网页的前身是一个 Figma Prototype，内容和这个网页差不多（你可以在我的 <a href="https://www.figma.com/@tovi" target="_blank" rel="noreferrer">Figma 个人页里</a> 找到这个原型，这个网站的源文件也在里边）。不过因为每次更新都需要进行比较繁琐的工作，于是就想做成这个网页来展示，之前那个 Prototype 之后也不会更新了。</AboutText>
+        <AboutText>每个月的最后一天，我会进行更新，你可以在下方订阅我的邮件通讯获得更新提醒。如果你想进行评论、反馈，可以 <a href="https://www.figma.com/@tovi" target="_blank" rel="noreferrer">在这篇文章下留言</a>（留言专用帖<span role="img" aria-label="Face with Tears of Joy">😂</span>）。</AboutText>
         
         <AboutTitle>接下来想做的</AboutTitle>
         <AboutText>因为开发能力实在有限，许多功能目前都实现不出来。事实上，这个网站是边看教程边做的，然后想要实现什么效果再去搜。所以，估计代码和性能都非常一般。等接下来如果有能力的话，有几个东西想实现的（也欢迎给我提建议！）：</AboutText>
@@ -83,7 +83,7 @@ const About = () => (
         目前这个项目的大致情况就是如此，如果哪一天 Figma 社区的发现机制变得完善，这个项目就不需要进行下去了（笑。
         </AboutText>
         <AboutText>
-        你居然阅读到了最后！非常感谢！这已经是对我是最大的支持了 😘
+        你居然阅读到了最后！非常感谢！这已经是对我是最大的支持了 <span role="img" aria-label="love">😘</span>
         </AboutText>
 
     </AboutGroup>

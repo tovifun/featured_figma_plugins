@@ -1,4 +1,5 @@
 import React from 'react'
+import Layout from '../layouts'
 import Cell from '../components/Cell'
 import issue2 from '../data/issue2.json'
 import Archive from '../components/Archive'
@@ -25,13 +26,13 @@ const SectionBread = styled.div`
 
 const BreadHome = styled.p`
   margin:0;
-  color: ${COLORS.neutral_4}
+  color: ${COLORS.neutral_4};
 `
 
 const BreadCurrent = styled.p`
-margin:0;
+  margin:0;
   margin-left: 12px;
-  color: ${COLORS.neutral_2}
+  color: ${COLORS.neutral_2};
   font-weight:500;
 `
 
@@ -79,7 +80,7 @@ const SectionSubscribe = styled.div`
 `
 
 const SubscribePage = () => (
-  <div>
+  <Layout>
 
     <SectionBread>
       <BreadHome>Issue #2</BreadHome>
@@ -115,7 +116,7 @@ const SubscribePage = () => (
       <Subscribe></Subscribe>
     </SectionSubscribe>
 
-  </div>
+  </Layout>
 )
 
 export default SubscribePage

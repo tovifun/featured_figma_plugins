@@ -85,18 +85,18 @@ const CellTag = styled.p`
 
 
 const Cell = props => (
-    <a href={props.link} width="100%" target="_blank">
-    <CellGroup>
-        <CellInfo>
-            {/* <CellLogo src={require('../ffp/img/arc.png')}></CellLogo> */}
-            <CellLogo src={props.image}></CellLogo>
-            <CellTitle>{props.title}</CellTitle>
-            <CellAuthor>{props.author}</CellAuthor>
-        </CellInfo>
-        <CellText>{props.text}</CellText>
-        <CellTag>{props.tag}</CellTag>
+    <a href={props.link} width="100%" target="_blank" rel="noreferrer">
+        <CellGroup>
+            <CellInfo>
+                {/* <CellLogo src={require('../ffp/img/arc.png')}></CellLogo> */}
+                <CellLogo src={props.image}></CellLogo>
+                <CellTitle>{props.title}</CellTitle>
+                <CellAuthor>{props.author}</CellAuthor>
+            </CellInfo>
+            <CellText>{props.text}</CellText>
+            <CellTag>{props.tag}</CellTag>
 
-    </CellGroup>
+        </CellGroup>
     </a>
 )
 

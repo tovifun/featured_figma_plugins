@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Layout from '../layouts'
 import { COLORS } from '../values/colors'
 
 
@@ -29,9 +30,11 @@ const AboutText = styled.div`
 `
 
 const NotFoundPage = () => (
-  <AboutGroup>
-    <AboutText>404</AboutText>
-  </AboutGroup>
+  <Layout>
+    <AboutGroup>
+      <AboutText>404</AboutText>
+    </AboutGroup>
+  </Layout>
 )
 
 export default NotFoundPage

@@ -1,4 +1,5 @@
 import React from 'react'
+import Layout from '../layouts'
 import Cell from '../components/Cell'
 import issue4 from '../data/issue4.json'
 import Archive from '../components/Archive'
@@ -78,7 +79,7 @@ const SectionSubscribe = styled.div`
 `
 
 const SubscribePage = () => (
-  <div>
+  <Layout>
 
     <SectionBread>
       <BreadHome>Issue #4</BreadHome>
@@ -114,7 +115,7 @@ const SubscribePage = () => (
       <Subscribe></Subscribe>
     </SectionSubscribe>
 
-  </div>
+  </Layout>
 )
 
 export default SubscribePage

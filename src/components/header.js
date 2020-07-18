@@ -28,19 +28,21 @@ class Header extends React.Component{
 
   render(){
     return(
-      <div className={this.state.hasScrolled ? 
-      'Header HeaderScrolled' : 'Header'}>
-      <div className="HeaderGroup">
-        <div className="HeaderLogo">
-          <Link to="/"><img height="28px" src={require('../images/tovifun_logo.png')}  /><img height="28px" src={require('../images/tovifun_wordmark.gif')}  /></Link>
+      <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
+        <div className="HeaderGroup">
+          <div className="HeaderLogo">
+            <Link to="/">
+              <img height="28px" src={require('../images/tovifun_logo.png')} alt="logo"/>
+              <img height="28px" src={require('../images/tovifun_wordmark.gif')} alt="logo"/>
+            </Link>
+          </div>
+          <div className="HeaderButton"> 
+            <Link to="/">最新</Link>
+            <Link to="/#IdArchive">往期</Link>
+            <Link to="/#IdAbout">关于</Link>
+            <Link to="/#IdSubscribe">订阅</Link>        
+          </div>
         </div>
-        <div className="HeaderButton"> 
-          <Link to="/">最新</Link>
-          <Link to="/#IdArchive">往期</Link>
-          <Link to="/#IdAbout">关于</Link>
-          <Link to="/#IdSubscribe">订阅</Link>        
-        </div>
-      </div>
       </div>  
     )
   }
