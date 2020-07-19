@@ -79,7 +79,7 @@ const SectionArchive = styled.div`
     }
 `
 const SectionAbout = styled.div`
-  padding: 100px 50px 100px 50px;
+  padding: 64px 50px 100px 50px;
   background:#F7F3FA;
   @media (max-width:640px){
       padding: 64px 24px 64px;
@@ -94,7 +94,7 @@ const IndexPage = () => (
     <div className="Hero">
       <div className="HeroGroup">
         <h1><span className="GradientText">Featured</span><br />Figma<br />Plugins.</h1>
-        <p>每月的最后一天，给你推荐当月更新的、值得尝试的 Figma 插件。可以关注公众号，或者订阅邮件通讯获得更新提醒。</p>
+        <p>每月的最后一天，给你推荐当月更新的、值得尝试的 Figma 插件。下一次推送时间：7月31日。可以关注公众号获得更新提醒。</p>
       </div>
     </div>
 

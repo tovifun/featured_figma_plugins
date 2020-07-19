@@ -22,18 +22,18 @@ const Stamp = styled.img`
   margin-left: auto;
   margin-right: auto;
   margin-bottom:24px;
-  opacity: 0.7;
+  opacity: 0.9;
 `
-const Title = styled.p`
-    text-align:center;
-    font-weight: 600;
-    font-size: 28px;
-    color:${COLORS.neutral_4};
-    margin:8px auto;
-    @media (max-width:640px){
-        font-size: 24px;
-    }    
-`
+// const Title = styled.p`
+//     text-align:center;
+//     font-weight: 600;
+//     font-size: 28px;
+//     color:${COLORS.neutral_4};
+//     margin:8px auto;
+//     @media (max-width:640px){
+//         font-size: 24px;
+//     }    
+// `
 
 const Text = styled.p`
     text-align:center;
@@ -51,18 +51,21 @@ const Text = styled.p`
         text-decoration:underline;
         transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
     }
-    a:hover{
+    ${'' /* a:hover{
         font-size:1.02em;
-    }
+    } */}
 `
 
 const Subscribe = () =>(
         <FooterGroup>
         <SubscribeGroup>
-            <Stamp width='120' height='120' src={require('../images/tovifun_stamp.png')}></Stamp>
+            {/* <Stamp width='120' height='120' src={require('../images/tovifun_stamp.png')}></Stamp> */}
+            <Stamp width='160' src={require('../images/tovifun_qrcode.png')}></Stamp>
 
-            <Title>订阅</Title>
-            <Text>关注 <a href="/" target="_blank" rel="noreferrer">我的公众号</a>，或者订阅 <a href="https://www.getrevue.co/profile/tovi" target="_blank" rel="noreferrer">邮件通讯</a> ，获取 Figma 插件和我的博客文章更新提醒。</Text>
+
+            <Text>↑<br />扫描上方二维码，关注 Tovi 的公众号，获取 Figma 插件和我的博客文章更新提醒。</Text>
+            {/* <Title>订阅一下，获得更新通知</Title>
+            <Text>关注 <a href="/" target="_blank" rel="noreferrer">Tovi的公众号</a>，或者订阅 <a href="https://www.getrevue.co/profile/tovi" target="_blank" rel="noreferrer">邮件通讯</a> ，获取 Figma 插件和我的博客文章更新提醒。</Text> */}
             {/* <Button><Link to="/subscribe">去订阅</Link></Button> */}
         </SubscribeGroup>
         

@@ -33,7 +33,7 @@ class Header extends React.Component{
           <div className="HeaderLogo">
             <Link to="/">
               <img height="28px" src={require('../images/tovifun_logo.png')} alt="logo"/>
-              <img height="28px" src={require('../images/tovifun_wordmark.gif')} alt="logo"/>
+              <img height="28px" src={require('../images/tovixjun.gif')} alt="logo"/>
             </Link>
           </div>
           <div className="HeaderButton"> 
