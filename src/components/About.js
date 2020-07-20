@@ -97,7 +97,7 @@ const About = () => (
         <AboutText>不过你完全不需要这么做，因为我们已经体验过一遍了，并且挑选出了其中比较好的插件（就是这个网页中所展示的）。每个月挑选的数量也不会特别多，可能你花几分钟就浏览完了。</AboutText>
         <AboutTitle>关于这个网站</AboutTitle>
         <AboutText>这个网页的前身是一个 Figma Prototype，内容和这个网页差不多（你可以在 Tovi 的 <a href="https://www.figma.com/@tovi" target="_blank" rel="noreferrer">Figma 个人页里</a> 找到这个原型）。不过因为每次更新都需要进行比较繁琐的工作，于是就想做成这个网页来展示，之前那个 Prototype 之后也不会更新了。</AboutText>
-        <AboutText>每个月的最后一天，我们会进行更新，你可以在下方订阅获得更新提醒。如果你想进行评论、反馈，可以 <a href="https://www.figma.com/@tovi" target="_blank" rel="noreferrer">在这篇文章下留言</a>（留言专用帖<span role="img" aria-label="Face with Tears of Joy">😂</span>）。</AboutText>
+        <AboutText>每个月的最后一天，我们会进行更新，你可以在下方订阅获得更新提醒。如果你想进行评论、反馈，可以 <a href="https://mp.weixin.qq.com/s/SqMktXLMPU-BRsAMPn7XOQ" target="_blank" rel="noreferrer">在这篇文章下留言</a>（留言专用帖<span role="img" aria-label="Face with Tears of Joy">😂</span>）。</AboutText>
         
         <AboutTitle>接下来想做的</AboutTitle>
         <AboutText>接下有几个东西想实现的（也欢迎给我们提建议！）：</AboutText>

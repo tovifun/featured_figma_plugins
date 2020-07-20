@@ -45,7 +45,7 @@ const Text = styled.p`
     margin:0px auto;
     @media (max-width:640px){
         font-size: 15px;
-        max-width:320px;
+        max-width:340px;
     }
     a{  
         text-decoration:underline;

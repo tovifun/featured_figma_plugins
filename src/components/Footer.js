@@ -17,8 +17,10 @@ const FooterText = styled.div`
     height: 120px;
     text-align: center;
     font-size:16px;
+    color:${COLORS.neutral_3};
+    font-weith:normal;
     a{
-        color:${COLORS.neutral_4};
+        color:${COLORS.neutral_3};
         font-size:16px;
         padding:8px;
         transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
