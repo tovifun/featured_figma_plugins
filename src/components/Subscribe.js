@@ -63,7 +63,7 @@ const Subscribe = () =>(
             <Stamp width='160' src={require('../images/tovifun_qrcode.png')}></Stamp>
 
 
-            <Text>↑<br />扫描上方二维码，关注 Tovi 的公众号，获取 Figma 插件和我的博客文章更新提醒。</Text>
+            <Text>↑<br />扫描上方二维码，关注 Tovi 的公众号<br />获取精选 Figma 插件更新提醒</Text>
             {/* <Title>订阅一下，获得更新通知</Title>
             <Text>关注 <a href="/" target="_blank" rel="noreferrer">Tovi的公众号</a>，或者订阅 <a href="https://www.getrevue.co/profile/tovi" target="_blank" rel="noreferrer">邮件通讯</a> ，获取 Figma 插件和我的博客文章更新提醒。</Text> */}
             {/* <Button><Link to="/subscribe">去订阅</Link></Button> */}

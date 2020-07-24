@@ -27,7 +27,7 @@ const CellLogo = styled.img`
     width:36px;
     height: 36px;
     float: left;
-    margin: 20px 12px 14px 0px;
+    margin: 20px 12px 0px 0px;
     border-radius: 50%;
     transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
     @media (max-width:640px){
@@ -46,8 +46,7 @@ const CellTitle = styled.h3`
     color: ${COLORS.neutral_4};
     @media (max-width:640px){
         font-size:15px;
-        ${'' /* padding-top:20px; */}
-        line-height: 22px;
+        line-height: 21px;
     }
 `
 const CellAuthor = styled.p`
@@ -66,7 +65,7 @@ const CellText = styled.p`
     font-weight: 400;
     color: ${COLORS.neutral_4};
     margin: 0;
-    padding: 12px 0 8px 0;
+    padding: 12px 0 10px 0;
     line-height:1.5em;
     @media (max-width:640px){
         font-size:15px;
@@ -94,7 +93,7 @@ const Cell = props => (
                 <CellAuthor>{props.author}</CellAuthor>
             </CellInfo>
             <CellText>{props.text}</CellText>
-            <CellTag>{props.tag}</CellTag>
+            <CellTag>#{props.tag}</CellTag>
 
         </CellGroup>
     </a>

@@ -40,7 +40,7 @@ class Header extends React.Component{
             <Link to="/">最新</Link>
             <Link to="/#IdArchive">往期</Link>
             <Link to="/#IdAbout">关于</Link>
-            <Link to="/#IdSubscribe">订阅</Link>        
+            <Link to="/#IdSubscribe">关注</Link>        
           </div>
         </div>
       </div>  

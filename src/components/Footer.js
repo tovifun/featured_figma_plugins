@@ -22,7 +22,7 @@ const FooterText = styled.div`
     a{
         color:${COLORS.neutral_3};
         font-size:16px;
-        padding:8px;
+        padding:2px;
         transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
         text-decoration: underline;
     }
@@ -43,7 +43,7 @@ const FooterText = styled.div`
 const Footer = () =>(
         <FooterGroup>
         <FooterText>
-        Designed & Developed by<a href="http://tovi.fun/" target="_blank">Tovi</a>&<a href="https://juuun.io/" target="_blank">Juuun</a>    
+        Designed & Developed by <a href="http://tovi.fun/" target="_blank" rel="noreferrer" >Tovi</a>&<a href="https://juuun.io/" target="_blank" rel="noreferrer">Juuun</a>    
         </FooterText>
         </FooterGroup>
 )
