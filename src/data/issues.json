@@ -1,6 +1,12 @@
 {
     "issue": [
         {
+          "title": "Issue #5",
+          "total": "42",
+          "date": "2020-06-20",
+          "link": "/issue5"
+        },
+        {
           "title": "Issue #4",
           "total": "25",
           "date": "2020-04-25",
