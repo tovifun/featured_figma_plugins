@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  body{
+    font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Droid Sans Fallback","Microsoft YaHei";
+    font-weight:normal;
+    font-size: 14px;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  a{
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .HeroGroup{
+    margin:0 auto;
+    max-width: 636px;
+    padding: 160px 50px 0px 50px;
+  }
+  
+  .Hero h1{
+    margin:0;
+    font-size: 48px;
+    line-height:1;
+    font-weight: 900;
+    text-transform:uppercase;
+    opacity: 0;
+    animation: HeroAnimation;
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  
+  .GradientText{
+    color: #7c229c;
+    background: -webkit-linear-gradient(191.62deg, #5f119b -12.61%, #91097c 113.05%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .Hero p{
+    font-size:16px;
+    line-height: 1.6;
+    margin: 20px 0;
+    opacity: 0;
+    animation: HeroAnimation 1s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  
+  .layout{
+      background-color: #fff;
+      transition: all .5s;
+  }
+  
+  @media(max-width:640px){
+    .HeroGroup{
+      padding: 108px 24px 0px;
+    }
+  
+    .Hero h1{
+      font-size:36px;
+    }
+  
+    .Hero p{
+      font-size: 15px;
+    }
+  }
+  
+  @keyframes HeroAnimation{
+    0% {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    100%{
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }

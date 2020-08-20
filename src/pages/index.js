@@ -1,17 +1,13 @@
-import React from 'react'
+import React, { useState }from 'react'
 import Layout from '../layouts'
 import styled from 'styled-components'
 import Cell from '../components/Cell'
 import Classify from '../components/Classify'
-// import Archive from '../components/Archive'
-// import About from '../components/About'
 import Subscribe from '../components/Subscribe'
-// import issues from '../data/issues.json'ß
 import store from '../data'
 
 import { COLORS } from '../values/colors'
 import AboutAlt from '../components/AboutAlt'
-// import { graphql } from 'gatsby'
 
 let dates = Object.keys(store.date)
 dates.sort((a,b) => {
@@ -84,12 +80,6 @@ const SectionClassify = styled.div`
   padding: 50px;
 `
 
-// const SectionArchive = styled.div`
-//   padding: 80px 50px 80px 50px;
-//   @media (max-width:640px){
-//       padding: 70px 24px 70px;
-//     }
-// `
 const SectionAbout = styled.div`
   padding: 64px 50px 100px 50px;
   background:#F7F3FA;
@@ -98,14 +88,14 @@ const SectionAbout = styled.div`
     }
 `
 
-const SectionSubscribe = styled.div`
-`
+const SectionSubscribe = styled.div``
 
-const IndexPage = () => (
-  <Layout>
-    <div className="Hero">
+const IndexPage = () => {
+  const [theme, setState] = useState('default')
+  return (<Layout className={`${theme}-layout`} onChangeTheme={setState}>
+    <div className={`Hero ${theme}-Hero`}>
       <div className="HeroGroup">
-        <h1><span className="GradientText">Featured</span><br />Figma<br />Plugins.</h1>
+        <h1><span className={`GradientText ${theme}-GradientText`}>Featured</span><br />Figma<br />Plugins.</h1>
         <p>每月的最后一天，给你推荐当月更新的、值得尝试的 Figma 插件。<br />下一次推送时间：8月31日。可以关注公众号获得更新提醒。</p>
       </div>
     </div>
@@ -133,40 +123,13 @@ const IndexPage = () => (
       <Classify></Classify>
     </SectionClassify>
 
-    {/* <SectionArchive id="IdArchive">
-      {issues.issue.map((issue, index) =>(
-        <Archive
-          title={issue.title}
-          date={issue.date}
-          link={issue.link}
-          total={issue.total}
-          key={index}
-        />
-      ))}
-    </SectionArchive> */}
-
     <SectionAbout id="IdAbout">
-      {/* <About></About> */}
       <AboutAlt></AboutAlt>
     </SectionAbout>
-  {/* <ComponentA></ComponentA> */}
     <SectionSubscribe id="IdSubscribe">
       <Subscribe></Subscribe>
     </SectionSubscribe>
-  </Layout>
-)
+  </Layout>)
+}
 
 export default IndexPage
-
-// export const query = graphql`
-//   query SiteTitleQuery{
-//     allContentfulLink{
-//       edges {
-//         node {
-//           name
-//           url
-//         }
-//       }
-//     }
-//   }
-// `

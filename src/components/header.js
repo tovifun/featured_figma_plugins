@@ -30,7 +30,7 @@ class Header extends React.Component{
   }
 
   onChangeTheme(e){
-    console.log(e)
+    if(typeof this.props.onChangeTheme === 'function') this.props.onChangeTheme(e.target.value)
   }
 
   render(){
@@ -49,9 +49,9 @@ class Header extends React.Component{
             <Link to="/#IdArchive">往期</Link>
             <Link to="/#IdAbout">关于</Link>
             <Link to="/#IdSubscribe">关注</Link>
-            <select onBlur={this.onChangeTheme}>
-              <option value="0">默认主题</option>
-              <option value="1">黑色主题</option>
+            <select onInput={this.onChangeTheme.bind(this)}>
+              <option value="default">默认主题</option>
+              <option value="dark">黑色主题</option>
             </select>    
           </div>
         </div>

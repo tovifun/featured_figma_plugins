@@ -1,0 +1,18 @@
+a.default-link{
+    color: #B800F9;
+}
+.default-Hero{
+    background: -webkit-linear-gradient(-90deg, #FBEBFF 0%, #FFFFFF 100%);
+}
+.default-Hero h1{
+    color:rgba(4, 0, 20, 0.98);
+}
+.default-Hero p{
+    color:rgba(4, 0, 20, 0.98);
+}
+.default-GradientText{
+    color: #B800F9;
+    background: -webkit-linear-gradient(191.62deg, #8C00F9 -12.61%, #FF04D8 113.05%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

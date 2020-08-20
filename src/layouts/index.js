@@ -1,12 +1,14 @@
 import { useStaticQuery, graphql } from "gatsby"
 import React from 'react'
-import './index.css'
+import '../theme/global.css'
+import '../theme/default.css'
+import '../theme/dark.css'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
-const Layout = ({ children, data }) => {
+const Layout = ({ children, onChangeTheme, className}) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -21,7 +23,7 @@ const Layout = ({ children, data }) => {
     `
   )
   return (
-    <div>
+    <div className={`layout ${className}`}>
       <Helmet
         title={site.siteMetadata.title}
         meta={[
@@ -48,7 +50,7 @@ const Layout = ({ children, data }) => {
           },
         ]}
       />
-      <Header />
+      <Header onChangeTheme={onChangeTheme}/>
         {children}
       <Footer />
     </div>
