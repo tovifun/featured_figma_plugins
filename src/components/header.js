@@ -11,8 +11,11 @@ class Header extends React.Component{
   }
 
   componentDidMount(){
-    window.addEventListener('scroll',
-    this.handleScroll)
+    window.addEventListener('scroll', this.handleScroll)
+  }
+
+  componentWillUnmount(){
+    window.removeEventListener('scroll', this.handleScroll)
   }
 
   handleScroll = (event) =>{
@@ -26,6 +29,10 @@ class Header extends React.Component{
     }
   }
 
+  onChangeTheme(e){
+    console.log(e)
+  }
+
   render(){
     return(
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
@@ -36,11 +43,16 @@ class Header extends React.Component{
               <img height="28px" src={require('../images/tovixjun.gif')} alt="logo"/>
             </Link>
           </div>
-          <div className="HeaderButton"> 
+          <div className="HeaderButton">
             <Link to="/">最新</Link>
+            <Link to="/#IdClassify">分类</Link>
             <Link to="/#IdArchive">往期</Link>
             <Link to="/#IdAbout">关于</Link>
-            <Link to="/#IdSubscribe">关注</Link>        
+            <Link to="/#IdSubscribe">关注</Link>
+            <select onBlur={this.onChangeTheme}>
+              <option value="0">默认主题</option>
+              <option value="1">黑色主题</option>
+            </select>    
           </div>
         </div>
       </div>  

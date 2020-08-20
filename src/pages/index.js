@@ -2,13 +2,20 @@ import React from 'react'
 import Layout from '../layouts'
 import styled from 'styled-components'
 import Cell from '../components/Cell'
-import Archive from '../components/Archive'
+import Classify from '../components/Classify'
+// import Archive from '../components/Archive'
 import About from '../components/About'
 import Subscribe from '../components/Subscribe'
-import issues from '../data/issues.json'
-import issue6 from '../data/issue6.json'
+// import issues from '../data/issues.json'
+import store from '../data'
+
 import { COLORS } from '../values/colors'
 // import ComponentA from '../components/ComponentA'
+
+let dates = Object.keys(store.date)
+dates.sort((a,b) => {
+  return new Date(b) - new Date(a)
+})
 
 const SectionCaption = styled.div`
   margin: 0 auto;
@@ -72,12 +79,16 @@ const SectionCellGroup = styled.div`
   }
 `
 
-const SectionArchive = styled.div`
-  padding: 80px 50px 80px 50px;
-  @media (max-width:640px){
-      padding: 70px 24px 70px;
-    }
+const SectionClassify = styled.div`
+  padding: 50px;
 `
+
+// const SectionArchive = styled.div`
+//   padding: 80px 50px 80px 50px;
+//   @media (max-width:640px){
+//       padding: 70px 24px 70px;
+//     }
+// `
 const SectionAbout = styled.div`
   padding: 64px 50px 100px 50px;
   background:#F7F3FA;
@@ -99,12 +110,12 @@ const IndexPage = () => (
     </div>
 
     <SectionCaption>
-      <CaptionTitle>Issue #6</CaptionTitle>
-      <CaptionDate>2020.07.31</CaptionDate>
+      <CaptionTitle>Issue #{dates.length}</CaptionTitle>
+      <CaptionDate>{dates[0]}</CaptionDate>
     </SectionCaption>
 
     <SectionCellGroup>
-    {issue6.cells.map((cell, index) => (
+    {store.date[dates[0]].map((cell, index) => (
       <Cell
         title={cell.title}
         image={cell.image}
@@ -117,7 +128,11 @@ const IndexPage = () => (
     ))}
     </SectionCellGroup>
 
-    <SectionArchive id="IdArchive">
+    <SectionClassify id="IdClassify">
+      <Classify></Classify>
+    </SectionClassify>
+
+    {/* <SectionArchive id="IdArchive">
       {issues.issue.map((issue, index) =>(
         <Archive
           title={issue.title}
@@ -127,7 +142,7 @@ const IndexPage = () => (
           key={index}
         />
       ))}
-    </SectionArchive>
+    </SectionArchive> */}
 
     <SectionAbout id="IdAbout">
       <About></About>
