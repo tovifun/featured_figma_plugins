@@ -4,8 +4,8 @@ import styled from 'styled-components'
 import Cell from '../components/Cell'
 import Classify from '../components/Classify'
 // import Archive from '../components/Archive'
-import About from '../components/About'
-import Subscribe from '../components/Subscribe
+// import About from '../components/About'
+import Subscribe from '../components/Subscribe'
 // import issues from '../data/issues.json'ß
 import store from '../data'
 
