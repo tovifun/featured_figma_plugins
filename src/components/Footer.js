@@ -43,7 +43,7 @@ const FooterText = styled.div`
 const Footer = () =>(
         <FooterGroup>
         <FooterText>
-        Designed & Developed by <a href="http://tovi.fun/" target="_blank" rel="noreferrer" >Tovi</a>&<a href="https://juuun.io/" target="_blank" rel="noreferrer">Juuun</a>    
+        Designed & Developed by <a href="https://www.figma.com/@tovi" target="_blank" rel="noreferrer" >Tovi</a>&<a href="https://juuun.io/" target="_blank" rel="noreferrer">Juuun</a>    
         </FooterText>
         </FooterGroup>
 )

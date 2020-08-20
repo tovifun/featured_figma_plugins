@@ -5,12 +5,13 @@ import Cell from '../components/Cell'
 import Classify from '../components/Classify'
 // import Archive from '../components/Archive'
 import About from '../components/About'
-import Subscribe from '../components/Subscribe'
-// import issues from '../data/issues.json'
+import Subscribe from '../components/Subscribe
+// import issues from '../data/issues.json'ß
 import store from '../data'
 
 import { COLORS } from '../values/colors'
-// import ComponentA from '../components/ComponentA'
+import AboutAlt from '../components/AboutAlt'
+// import { graphql } from 'gatsby'
 
 let dates = Object.keys(store.date)
 dates.sort((a,b) => {
@@ -105,7 +106,7 @@ const IndexPage = () => (
     <div className="Hero">
       <div className="HeroGroup">
         <h1><span className="GradientText">Featured</span><br />Figma<br />Plugins.</h1>
-        <p>每月的最后一天，给你推荐当月更新的、值得尝试的 Figma 插件。<br />下一次推送时间：7月31日。可以关注公众号获得更新提醒。</p>
+        <p>每月的最后一天，给你推荐当月更新的、值得尝试的 Figma 插件。<br />下一次推送时间：8月31日。可以关注公众号获得更新提醒。</p>
       </div>
     </div>
 
@@ -145,7 +146,8 @@ const IndexPage = () => (
     </SectionArchive> */}
 
     <SectionAbout id="IdAbout">
-      <About></About>
+      {/* <About></About> */}
+      <AboutAlt></AboutAlt>
     </SectionAbout>
   {/* <ComponentA></ComponentA> */}
     <SectionSubscribe id="IdSubscribe">
@@ -155,3 +157,16 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
+// export const query = graphql`
+//   query SiteTitleQuery{
+//     allContentfulLink{
+//       edges {
+//         node {
+//           name
+//           url
+//         }
+//       }
+//     }
+//   }
+// `

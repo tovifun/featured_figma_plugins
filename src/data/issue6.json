@@ -85,7 +85,7 @@
   {
     "title": "Copypasta",
     "link": "https://www.figma.com/community/plugin/858058624022776906/Copypasta",
-    "image": "images/copypasta.png",
+    "image": "images/copypasta.jpg",
     "tag": "Utility ",
     "text": "简单的小插件，不过很实用。将复制的元素批量粘贴到多个 Frame 里。",
     "text-en": "Copypasta is a multi-frame clipboard tool. Select layers from multiple frames and duplicate them to multiple frames simultaneously.",
