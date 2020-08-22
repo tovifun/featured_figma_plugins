@@ -5,7 +5,7 @@
     "title": "Context Switch",
     "link": "https://www.figma.com/community/plugin/855144415496096302/Context-Switch",
     "image": "images/context_switch.png",
-    "tag": "text",
+    "tag": "文本处理",
     "text": "这一期很喜欢的一个。当你需要进行多语言切换的应用时可以试试。不过操作起来稍微有点麻烦，需要像 Google Sheets Sync 一样做一些准备工作。",
     "text-en": "Manage content writing across your team’s product with multiple state using Airtable.",
     "author": "Lichin"
@@ -14,7 +14,7 @@
     "title": "Design System Manager",
     "link": "https://www.figma.com/community/plugin/862818788004280193/Toolabs-Design-System-Manager",
     "image": "images/toolabs_design_system_manager.png",
-    "tag": "Design Systems",
+    "tag": "组件与样式",
     "text": "很强大的一个设计系统管理插件。功能很多，有点复杂，需要研究一下如何使用。",
     "text-en": "Design Tokens, Theme Management and more...",
     "author": "Toolabs"
@@ -23,7 +23,7 @@
     "title": "Fonts Changer",
     "link": "https://www.figma.com/community/plugin/855541165287118497/Fonts-Changer",
     "image": "images/fonts_changer.png",
-    "tag": "Text",
+    "tag": "文本处理",
     "text": "非常好用的一个插件，不要错过。帮你找出设计中所有用到的字体，然后方便修改。",
     "text-en": "Change all fonts in your designs easily.",
     "author": "RenatoX"
@@ -32,7 +32,7 @@
     "title": "Deck",
     "link": "https://www.figma.com/community/plugin/865691094985831837/Deck---BETA",
     "image": "images/deck.png",
-    "tag": "Deck",
+    "tag": "创意生成",
     "text": "将选中的 Frame 转换成 PPTX 格式的幻灯片。试了一下，还是很好用的，不过目前好像还有点 Bug。",
     "text-en": "Export Figma frames as editable PPTX slides.",
     "author": "Jinson Johny"
@@ -41,7 +41,7 @@
     "title": "Conditioner",
     "link": "https://www.figma.com/community/plugin/864522070735580340/Conditioner",
     "image": "images/conditioner.png",
-    "tag": "Component",
+    "tag": "组件与样式",
     "text": "有点类似于 Themer 切换主题色的意思 —— 做好不同的几组 Components，然后通过这个插件在几组组件间来回切换来演示不同组件下的效果。不过完成度有点低，操作也很繁琐。",
     "text-en": "Show how components in your design should look under different application conditions.",
     "author": "Ryan Berg"
@@ -50,7 +50,7 @@
     "title": "Chinese Data Generator",
     "link": "https://www.figma.com/community/plugin/864052338727969891/Chinese-User-Data-Generator",
     "image": "images/chinese_user_data_generator.png",
-    "tag": "Generate",
+    "tag": "内容填充",
     "text": "Figma.Cool 出的另一款为中文用户服务的插件 —— 随机生成假的姓名、地址等中文数据。",
     "text-en": "-",
     "author": "Figma.Cool"
@@ -59,7 +59,7 @@
     "title": "Quick Thumbnail",
     "link": "https://www.figma.com/community/plugin/861544263629766272/Quick-Thumbnail",
     "image": "images/quick_thumbnail.png",
-    "tag": "Generate",
+    "tag": "创意生成",
     "text": "Jun 做的又一个插件，帮你生成一个漂亮的文件 Cover。",
     "text-en": "Quick help to build a beautiful thumbnail!",
     "author": "Jun"
@@ -68,7 +68,7 @@
     "title": "GitLab",
     "link": "https://www.figma.com/community/plugin/860845891704482356/GitLab",
     "image": "images/gitlab.png",
-    "tag": "Handoff",
+    "tag": "代码与交付",
     "text": "官方GitLab插件，将设计上传到GitLab Issues。",
     "text-en": "The Official GitLab plugin to seamlessly upload your designs from Figma to GitLab issues.",
     "author": "GitLab"
@@ -77,7 +77,7 @@
     "title": "Select by Font",
     "link": "https://www.figma.com/community/plugin/858763146572554425/Select-by-Font",
     "image": "images/select_by_font.png",
-    "tag": "Utility ",
+    "tag": "文本处理",
     "text": "选择一些文字，运行插件后可以列出区域内所有用到的字体。有点类似于自带的 Selection Color。",
     "text-en": "Figma’s Selection Color tool but for Fonts and Styles.",
     "author": "Surbhi Gupta"
@@ -86,7 +86,7 @@
     "title": "Copypasta",
     "link": "https://www.figma.com/community/plugin/858058624022776906/Copypasta",
     "image": "images/copypasta.jpg",
-    "tag": "Utility ",
+    "tag": "效率小工具 ",
     "text": "简单的小插件，不过很实用。将复制的元素批量粘贴到多个 Frame 里。",
     "text-en": "Copypasta is a multi-frame clipboard tool. Select layers from multiple frames and duplicate them to multiple frames simultaneously.",
     "author": "Rui P. Cabrinha"
@@ -95,7 +95,7 @@
     "title": "Anima ",
     "link": "https://www.figma.com/community/plugin/857346721138427857/Anima",
     "image": "images/anima.jpg",
-    "tag": "Export",
+    "tag": "代码与交付",
     "text": "这个插件这段时间安装量还挺大的，之前 Sketch 版的也应该有许多人知道。这个插件相当于是 Figma Prototype 的增强版。",
     "text-en": "Publish websites with Figma or export HTML in a single click!",
     "author": "Anima"
@@ -104,7 +104,7 @@
     "title": "Truncate Lines",
     "link": "https://www.figma.com/community/plugin/856491403215301428/Truncate-Lines",
     "image": "images/truncate_lines.png",
-    "tag": "Utility ",
+    "tag": "文本处理 ",
     "text": "将文本锁定为固定行数，或者单词数。",
     "text-en": "Limit the number of lines of text that appear in your designs.",
     "author": "Andrew Cobley"
@@ -113,7 +113,7 @@
     "title": "Style Lens",
     "link": "https://www.figma.com/community/plugin/856227067026087708/Style-Lens",
     "image": "images/style_lens.png",
-    "tag": "Utility ",
+    "tag": "效率小工具",
     "text": "功能很强，不过用起来不太流畅。这个插件将你页面中所有用到的 fills, fonts, strokes, shadows 等属性全部列列出来。方便你进行选择，可以说是 Figma 自带的 Select all with same ...的升级版",
     "text-en": "Style lens surfaces all the fills, fonts, strokes, shadows, blurs, radii, and text you’re using across your page and lets you quickly make broad sweeping changes to all the layers at once.",
     "author": "GOOD PLUGINS"
@@ -122,7 +122,7 @@
     "title": "Vector Logos",
     "link": "https://www.figma.com/community/plugin/854152902511629627/Vector-Logos",
     "image": "images/vector_logos.png",
-    "tag": "Generate",
+    "tag": "创意生成",
     "text": "在 Figma 中搜索标志和品牌名字，然后直接插入 SVG 格式的 Logo",
     "text-en": "Find and insert SVG versions of logos and brands without leaving the comforts of Figma.",
     "author": "Monstera Labs"
@@ -131,7 +131,7 @@
     "title": "Bibbble",
     "link": "https://www.figma.com/community/plugin/853711286555784472/Bibbble",
     "image": "images/bibbble.jpg",
-    "tag": "Inspiration",
+    "tag": "创意生成",
     "text": "感觉作者把自己的灵感截图库都贡献出来了。这个插件包含了一些流行网站的截图，并按照模块分类。不过插件的视窗太小，还不如做成一个网站来得实用。",
     "text-en": "Bibbble is UX/UI screenshot library handpicked from most popular websites.",
     "author": "Klāvs Bušs"
@@ -140,7 +140,7 @@
     "title": "Figma Finder",
     "link": "https://www.figma.com/community/plugin/851217747476215597/Figma-Finder",
     "image": "images/figma_finder.png",
-    "tag": "Utility ",
+    "tag": "设计辅助 ",
     "text": "感觉还挺好用的，将所有的元素列出来，可以通过搜索定位。",
     "text-en": "Figma Finder is a launcher utility plugin.It gives you quick access to all your essential things.",
     "author": "Oz Hashimoto"
@@ -149,7 +149,7 @@
     "title": "Coolors",
     "link": "https://www.figma.com/community/plugin/867494723165643537/Bring-yours-Coolors-pallet-into-Figma",
     "image": "images/bring_your_coolors_pallet_into_figma.png",
-    "tag": "Color",
+    "tag": "颜色和渐变",
     "text": "在 Coolors.co 网站选择色板，然后通过链接直接在 Figma 中生成。",
     "text-en": "Bring your color pallet into figma by pasting Coolors.co URL\n",
     "author": "Mateusz"
@@ -158,7 +158,7 @@
     "title": "Stories by Freepik",
     "link": "https://www.figma.com/community/plugin/865232148477039928/Stories-by-Freepik",
     "image": "images/stories_by_freepik.png",
-    "tag": "Illustration",
+    "tag": "图标和插图",
     "text": "来自 Freepik 的矢量插画。量比较少，不过可以试试。",
     "text-en": "Stories is the latest creation from Freepik, one of the main references in the free graphic resources market.",
     "author": "Freepik Labs"
@@ -167,7 +167,7 @@
     "title": "Unlocker",
     "link": "https://www.figma.com/community/plugin/862912103841000337/Unlocker",
     "image": "images/unlocker.png",
-    "tag": "Utility ",
+    "tag": "设计辅助",
     "text": "列出当前页面中的所有锁住的元素，然后可以在列表中方便地解锁它们。",
     "text-en": "Centrally manage your locked layers.",
     "author": "Figma.Cool"
@@ -176,7 +176,7 @@
     "title": "Text Search",
     "link": "https://www.figma.com/community/plugin/861860229188829870/Text-Search",
     "image": "images/text_search.png",
-    "tag": "Utility ",
+    "tag": "文本处理",
     "text": "搜索页面中的文字，支持 Frame 名和文字；不过如果结果有定位就更好了。",
     "text-en": "Search for text within your design.",
     "author": "yuko"
@@ -185,7 +185,7 @@
     "title": "Compare Text",
     "link": "https://www.figma.com/community/plugin/861012857284170316/Compare-Text",
     "image": "images/compare_text.png",
-    "tag": "Text",
+    "tag": "文本处理",
     "text": "选中两个包含文字的不同元素，运行插件后可以比较出两个元素之间不同地方。",
     "text-en": "Spot the differences in text content between two items. Works on text layers or frames, instances, and components that contain text.",
     "author": "Will Berger"
@@ -194,7 +194,7 @@
     "title": "Colors to Code",
     "link": "https://www.figma.com/community/plugin/857997781988109369/Colors-to-Code",
     "image": "images/colors_to_code.png",
-    "tag": "Handoff",
+    "tag": "代码与交付",
     "text": "又一个将颜色样式生成为代码的插件。",
     "text-en": "This plugin converts color tokens to code. It currently supports JSON, CSS and SCSS formats.",
     "author": "Hiroki Tani"
@@ -203,7 +203,7 @@
     "title": "Spell Inspector",
     "link": "https://www.figma.com/community/plugin/855719871403260622/Spell-Inspector",
     "image": "images/spell_inspector.png",
-    "tag": "Text",
+    "tag": "文本处理",
     "text": "帮助纠正文件中 英文 拼写错误。",
     "text-en": "Spell Inspector helps accurately find and correct spelling errors for English language. It will correct your typos and misused words in minutes.",
     "author": "LOGICWIND "
@@ -212,7 +212,7 @@
     "title": "Imagif",
     "link": "https://www.figma.com/community/plugin/853653804321575174/Imagif",
     "image": "images/imagif.png",
-    "tag": "Image",
+    "tag": "创意生成",
     "text": "直接在 Figma 中查找并插入 GIF， 类似于另一个插件 Gifs, 不过这个插件体验要好些。",
     "text-en": "Imagif is your one-stop solution for placing images & GIFs right into your design file.",
     "author": "AwesomeFigmaPlugins"
@@ -221,7 +221,7 @@
     "title": "Rotate Each",
     "link": "https://www.figma.com/community/plugin/865687644009449883/Rotate-Each",
     "image": "images/rotate_each.png",
-    "tag": "Random",
+    "tag": "设计辅助",
     "text": "选中元素，运行插件，然后它会将它们按照各自的中心点进行随机角度的旋转。配合 Smart Animate 可以生成一些有意思的动画作为背景。",
     "text-en": "Select one or multiple objects and rotate them randomly around their center point.",
     "author": "Stephen Barkan"
@@ -230,25 +230,16 @@
     "title": "Get Palette",
     "link": "https://www.figma.com/community/plugin/866200342776340994/Get-Palette",
     "image": "images/get_palette.jpg",
-    "tag": "Color",
+    "tag": "颜色和渐变",
     "text": "选中图片，运行插件后可以从图片中生成色板。虽然很好用，不过和另一款去年发布的 Image Palette 功能几乎一样。",
     "text-en": "Create beautiful colour palettes using images. ",
     "author": "Mayan Sachan"
   },
   {
-    "title": "Table of Contents",
-    "link": "https://www.figma.com/community/plugin/865650075456407958/Table-of-Contents",
-    "image": "images/table_of_contents.png",
-    "tag": "Generate",
-    "text": "帮你生成一个目录 Frame —— 包含了项目中的页面。可以用来帮助第一次看当前项目的人熟悉文件。",
-    "text-en": "Generate a table of contents for project automatically. ",
-    "author": "Discord"
-  },
-  {
     "title": "Tailwind UI Color Palette",
     "link": "https://www.figma.com/community/plugin/853905984020840743/Tailwind-UI-Color-Palette",
     "image": "images/tailwind_us_color_palette.jpg",
-    "tag": "Color",
+    "tag": "颜色和渐变",
     "text": "很简单的一个插件，刚开始创建新文件的时候可以使用一下。这个插件可以帮助你生成 Tailwind UI 的颜色样式。",
     "text-en": "This will create Tailwind UI Color Styles in your figma file.",
     "author": "Varun A"
@@ -257,7 +248,7 @@
     "title": "Pencil Pal",
     "link": "https://www.figma.com/community/plugin/852436272709911555/Pencil-Pal",
     "image": "images/pencil_pal.png",
-    "tag": "Utility ",
+    "tag": "设计辅助",
     "text": "对于经常使用 Pencil Tool 的人来说这个应该会很实用。",
     "text-en": "Pencil Pal is for folks who want to get a little more out of the pencil tool.",
     "author": "Nelson Taruc"

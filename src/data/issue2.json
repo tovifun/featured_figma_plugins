@@ -4,7 +4,7 @@
         {
           "title": "Select Same",
           "link": "https://www.figma.com/c/plugin/792767780551514994/Select-Same",
-          "tag": "设计辅助",
+          "tag": "效率小工具",
           "text": "Figma 自带这个功能而且更为丰富，不过这个插件可以提供比较便捷的操作",
           "author": "Andreslav Kozlov",
           "image": "images/select_same.jpg"
@@ -20,7 +20,7 @@
         {
           "title": "Icons8",
           "link": "https://www.figma.com/c/plugin/791103617505812222/Icons8",
-          "tag": "图标",
+          "tag": "图标和插图",
           "text": "如果你有 Icons8 付费账号，那么这个插件就是你需要的：搜索图标、拖入 Figma！",
           "author": "Icons8",
           "image": "images/icons8.jpg"
@@ -28,7 +28,7 @@
         {
           "title": "Copy waste more",
           "link": "https://www.figma.com/c/plugin/743187242388663080/Copy-waste-more",
-          "tag": "设计辅助",
+          "tag": "效率小工具",
           "text": "强烈推荐！复制一个元素之后，你可以粘贴这个元素的更多属性到新的元素里！",
           "author": "Alain Groeneweg",
           "image": "images/copy_waste_more.png"
@@ -44,7 +44,7 @@
         {
           "title": "Copy paste position size",
           "link": "https://www.figma.com/c/plugin/787948653989604774/Copy-paste-position-size",
-          "tag": "设计辅助",
+          "tag": "效率小工具",
           "text": "和 Copy waste more 有点类似，不过没那么好用，因为没有面板",
           "author": "Sunshauiqi",
           "image": "images/copy_paste_position.png"
@@ -52,7 +52,7 @@
         {
           "title": "Wireframer",
           "link": "https://www.figma.com/c/plugin/787660853629435276/Wireframer",
-          "tag": "原型辅助",
+          "tag": "原型与协作",
           "text": "生成低保真原型里常见的那种矩形的文本内容占位",
           "author": "Jim Raptis",
           "image": "images/wireframer.png"
@@ -60,7 +60,7 @@
         {
           "title": "SmoothShadow",
           "link": "https://www.figma.com/c/plugin/788830704169694737/SmoothShadow",
-          "tag": "生成阴影",
+          "tag": "设计辅助",
           "text": "这段时间里最热门的插件了，生成更加平滑、好看的阴影",
           "author": "Philipp Brumm",
           "image": "images/smoothshadow.png"
@@ -68,7 +68,7 @@
         {
           "title": "Font Explorer",
           "link": "https://www.figma.com/c/plugin/786891204057439536/Font-Explorer",
-          "tag": "字体",
+          "tag": "文本处理",
           "text": "如果你在做英文产品的设计，那么可以使用一下，帮你生成几组英文字体来进行对比选择",
           "author": "Bogdan Soare",
           "image": "images/font_explorer.png"
@@ -76,7 +76,7 @@
         {
           "title": "FigSequencer",
           "link": "https://www.figma.com/c/plugin/787116494164162901/FigSequencer",
-          "tag": "音乐创作",
+          "tag": "创意生成",
           "text": "在 figma 中创作音乐😂，玩不懂，不过作者给的几个例子还是挺有意思的",
           "author": "Karl Jiang",
           "image": "images/figsequencer.png"
@@ -84,7 +84,7 @@
         {
           "title": "Redlines",
           "link": "https://www.figma.com/c/plugin/781354942292031141/Redlines",
-          "tag": "标注",
+          "tag": "代码与交付",
           "text": "就如作者说的，虽然 Figma 自带标注，不过遇到需要手动标注的时候，可以试试这个",
           "author": "Danny Keane",
           "image": "images/redlines.png"
@@ -92,7 +92,7 @@
         {
           "title": "Text Updater",
           "link": "https://www.figma.com/c/plugin/782063652295846647/Text-Updater",
-          "tag": "字体更新",
+          "tag": "文本处理",
           "text": "另一款可以更新字体的插件，之前介绍过两款。这一款是国内的设计师做的，可以试试",
           "author": "Zhida",
           "image": "images/text_updater.png"
@@ -100,7 +100,7 @@
         {
           "title": "Advanced SVG Export",
           "link": "https://www.figma.com/c/plugin/782713260363070260/Advanced-SVG-Export",
-          "tag": "导出",
+          "tag": "代码与交付",
           "text": "Figma 可以导出 SVG，不过这款第三方的导出插件，可以帮你在导出前优化 SVG",
           "author": "Okotoki",
           "image": "images/advanced_svg_export.png"
@@ -108,7 +108,7 @@
         {
           "title": "Match fills to local styles",
           "link": "https://www.figma.com/c/plugin/783240561193792353/Match-fills-to-local-styles",
-          "tag": "颜色优化",
+          "tag": "组件与样式",
           "text": "插件的作用就从名字中可以体现出（将所选的颜色，替换成 Styles 里的颜色），一款简单粗暴，但直接有效的插件",
           "author": "Golf Sinteppadon",
           "image": "images/match_fills_to_local_styles.jpg"
@@ -116,7 +116,7 @@
         {
           "title": "Third",
           "link": "https://www.figma.com/c/plugin/772499949564209716/Third",
-          "tag": "3D",
+          "tag": "创意生成",
           "text": "Figma 中导入和渲染 3D 文件",
           "author": "Victor Aremu",
           "image": "images/third.png"
@@ -140,7 +140,7 @@
         {
           "title": "Video Cover",
           "link": "https://www.figma.com/c/plugin/780947947828574828/Video-Cover",
-          "tag": "图片下载",
+          "tag": "内容填充",
           "text": "如果你是做视频产品的，那么可以试下这个：下载 Youtube / Vimeo 视频封面",
           "author": "Aarón García Hervás",
           "image": "images/video_cover.png"
@@ -148,7 +148,7 @@
         {
           "title": "UI Faces",
           "link": "https://www.figma.com/c/plugin/769664006254845172/UI-Faces",
-          "tag": "图片下载",
+          "tag": "内容填充",
           "text": "生成图片，类似于 Unsplash ，不过这个就只有头像",
           "author": "Aleksandar Tasevski",
           "image": "images/ui_faces.png"

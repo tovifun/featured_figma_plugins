@@ -5,7 +5,7 @@
       "title": "Live Preview",
       "link": "https://www.figma.com/community/plugin/849390271196300773/Live-Preview",
       "image": "images/live_preview.png",
-      "tag": "Prototype",
+      "tag": "原型与协作",
       "text": "将 Prototype 的链接转换成一个二维码，方便他人扫码预览，感觉有点鸡肋。",
       "text-en": "Converts Prototype's link into a QR code for others to scan and preview. Feels like the feature is a bit ribbed.",
       "author": "Cash App"
@@ -14,7 +14,7 @@
       "title": "Glyphs",
       "link": "https://www.figma.com/community/plugin/849323869157549525/Glyphs",
       "image": "images/glyphs.png",
-      "tag": "Text",
+      "tag": "文本处理",
       "text": "类似于 macOS 上自带的 Character Viewer， 便于插入各种特殊的字符。不过用起来还没有自带的方便。",
       "text-en": "Similar to the Character Viewer that comes with macOS, it is easy to insert various special characters.",
       "author": "Yury Zeliankouski"
@@ -23,7 +23,7 @@
       "title": "Paletteer ",
       "link": "https://www.figma.com/community/plugin/849144368519969202/Paletteer",
       "image": "images/paletteer.png",
-      "tag": "Color",
+      "tag": "颜色和渐变",
       "text": "为选中的颜色生成色板的插件，有类似功能的插件也有好多个。",
       "text-en": "Take a proactive approach to building color palettes for digital design projects.",
       "author": "John the Designer"
@@ -32,7 +32,7 @@
       "title": "Retro Super Storm",
       "link": "https://www.figma.com/community/plugin/848873559411765651/Retro-Super-Storm",
       "image": "images/retro_super_storm.png",
-      "tag": "Productivity",
+      "tag": "原型与协作",
       "text": "在 Figma 中生成一些效率工具，有用户故事地图、头脑风暴和复盘三个模板可以选，省了好几个工具的钱。",
       "text-en": "Easy tool to set a productive team meetings with a simple UI.",
       "author": "Anna Voshkarina 🔥"
@@ -41,7 +41,7 @@
       "title": "Zelda Maker",
       "link": "https://www.figma.com/community/plugin/846537436529611787/Zelda-Maker",
       "image": "images/zelda_maker.png",
-      "tag": "Game",
+      "tag": "创意生成",
       "text": "塞尔达编辑器，直接在 Figma 里制作塞尔达地图，而且可以在制作玩地图之后可以直接玩！作者真是个人才。。。",
       "text-en": "Play and make Zelda worlds.",
       "author": "Golf Sinteppadon"
@@ -50,7 +50,7 @@
       "title": "Hand Wireframe",
       "link": "https://www.figma.com/community/plugin/846345227416352754/Hand-Wireframe",
       "image": "images/hand_wireframe.png",
-      "tag": "Wireframe",
+      "tag": "创意生成",
       "text": "将你的线框图变为手绘风格的，还挺有意思的。",
       "text-en": "Create hand-drawn wireframe in your design.",
       "author": "Sonny Lazuardi"
@@ -59,7 +59,7 @@
       "title": "Camera Color Copy Paste",
       "link": "https://www.figma.com/community/plugin/845733021314534317/Camera-Color-Copy-Paste",
       "image": "images/camera_color_copy_paste.png",
-      "tag": "Color",
+      "tag": "颜色和渐变",
       "text": "将手机拍到的物体的颜色同步到 Figma 中，体验做得非常的好。",
       "text-en": "Copy & paste color directly from your camera.",
       "author": "Sonny Lazuardi"
@@ -68,7 +68,7 @@
       "title": "Chinese Font Picker",
       "link": "https://www.figma.com/community/plugin/851126455550003999/Chinese-Font-Picker",
       "image": "images/chinese_font_picker.png",
-      "tag": "Font",
+      "tag": "文本处理",
       "text": "中文字体选择器（Chinese Font Picker）选择和预览系统中已安装的中文字体。",
       "text-en": "Previews the installed Chinese fonts on the system.",
       "author": "Figma.Cool"
@@ -77,7 +77,7 @@
       "title": "Streamline",
       "link": "https://www.figma.com/community/plugin/852192486284901337/Streamline",
       "image": "images/streamline.png",
-      "tag": "Icon",
+      "tag": "图标和插图",
       "text": "Streamline 家的 icon，质量和数量都挺高的。没购买也可以参考下。",
       "text-en": "The World's Largest Icon Pack, Now Available With Figma. ✨",
       "author": "Webalys "
@@ -86,7 +86,7 @@
       "title": "Recognize ",
       "link": "https://www.figma.com/community/plugin/851113644019611421/Recognize",
       "image": "images/recognize.png",
-      "tag": "Text",
+      "tag": "文本处理",
       "text": "识别图片中的文字，并将它们转为文本。图片转文字。",
       "text-en": "Recognize text from image.",
       "author": "Dmitry Frolov"
@@ -95,7 +95,7 @@
       "title": "Style Guide Generator",
       "link": "https://www.figma.com/community/plugin/843888808931861032/Style-Guide-Generator",
       "image": "images/style_guide_generator.png",
-      "tag": "Style Guide",
+      "tag": "组件与样式",
       "text": "从你的 Figma Styles 里生成 Style Guide， 而且可以随意定制模板，如果你想要做一个样式指南，这个插件可以用一下。",
       "text-en": "Generate your custom style guides from Figma styles easily.",
       "author": "Nomad Interactive"
@@ -104,7 +104,7 @@
       "title": "Web cards",
       "link": "https://www.figma.com/community/plugin/842576196203523350/Web-cards",
       "image": "images/web_cards.png",
-      "tag": "Inspiration",
+      "tag": "创意生成",
       "text": "填入网址，然后它会帮你将网址内容生成漂亮的卡片。",
       "text-en": "Turn URLs into beautiful cards!",
       "author": "Noah Levin"
@@ -113,7 +113,7 @@
       "title": "Walkthrough ",
       "link": "https://www.figma.com/community/plugin/842446161433227510/Walkthrough",
       "image": "images/walkthrough.png",
-      "tag": "Note",
+      "tag": "原型与协作",
       "text": "可以用来创建一个演示流程。在开会时帮助演示设计或者原型的时候会很有用。不过不太喜欢它这套主题，如果能定制就会很好。",
       "text-en": "Create a guided flow through any selection of elements. Add notes and share your Walkthrough with others.",
       "author": "Joseph Wright"
@@ -122,7 +122,7 @@
       "title": "Unit Converter",
       "link": "https://www.figma.com/community/plugin/841435609952260079/Unit-Converter",
       "image": "images/unit_converter.png",
-      "tag": "Utility ",
+      "tag": "设计辅助",
       "text": "单位换算的小工具，还挺方便的。",
       "text-en": "Convert Inches to Centimeters to Milimeters to Pixels per Inch.",
       "author": "Marcelo Novaes"
@@ -131,7 +131,7 @@
       "title": "Rotate Copies",
       "link": "https://www.figma.com/community/plugin/841400867216942053/Rotate-Copies",
       "image": "images/rotate_copies.png",
-      "tag": "Utility ",
+      "tag": "设计辅助",
       "text": "旋转复制的小插件，类似与 Sketch 自带的旋转复制工具。",
       "text-en": "Create rotated copies of any element.",
       "author": "Christian Konrad"
@@ -140,7 +140,7 @@
       "title": "Grids Generator",
       "link": "https://www.figma.com/community/plugin/841313026689642442/Grids-Generator",
       "image": "images/grids_generator.png",
-      "tag": "Utility ",
+      "tag": "布局与网格",
       "text": "就如名字所说的，快速生成 Grid。",
       "text-en": "Apply any frame with grid styles configurations.",
       "author": "Jacky Lee"
@@ -149,7 +149,7 @@
       "title": "Page Automator",
       "link": "https://www.figma.com/community/plugin/841201477778898873/Page-Automator",
       "image": "images/page_automator.png",
-      "tag": "Utility ",
+      "tag": "设计辅助",
       "text": "帮你批量创建预设好的 Page，尤其在项目开始的时候，会需要提前创建好多个页面。",
       "text-en": "Automate creating multiple pages.",
       "author": "Afnizar Nur Ghifari"
@@ -158,7 +158,7 @@
       "title": "Responsive",
       "link": "https://www.figma.com/community/plugin/840727678445998968/Responsive",
       "image": "images/responsive.png",
-      "tag": "Layout",
+      "tag": "设计辅助",
       "text": "非常酷的一个插件，直接在 Figma 预览你做好的响应式设计。当你拖动 Frame 宽度时，不同的设计会随着你设置好的断点展示出来。",
       "text-en": "Preview your responsive designs inside Figma!",
       "author": "Emin Sinani"
@@ -167,7 +167,7 @@
       "title": "Glyph Picker ↗",
       "link": "https://www.figma.com/community/plugin/840100703409292995/Glyph-Picker-%E2%86%97",
       "image": "images/glyph_picker.png",
-      "tag": "Text",
+      "tag": "文本处理",
       "text": "和前面的 Glyphs 类似，也是复制一些特殊图象字符的，不过这个是将比较常见的挑选了出来。",
       "text-en": "With Glyph Picker you can get your favorite glyphs in one click.",
       "author": "Grigoriy Mashkovtsev"
@@ -176,7 +176,7 @@
       "title": "Blush ",
       "link": "https://www.figma.com/community/plugin/838959511417581040/Blush",
       "image": "images/blush.png",
-      "tag": "Illustration",
+      "tag": "图标和插图",
       "text": "这个插件相当热门。作者也很多人知道，Pablo Stanley。这个插件相当于在 Figma 里做了一个插图平台，一些设计师的插图作品在上面，选了之后直接插入 Figma，需要付费解锁 SVG 格式的。",
       "text-en": "Create and customize illustrations in your designs with Blush.",
       "author": "Pablo Stanley"
@@ -185,7 +185,7 @@
       "title": "Pitchdeck Presentation Studio",
       "link": "https://www.figma.com/community/plugin/838925615018625519/Pitchdeck-Presentation-Studio",
       "image": "images/pitchdeck_presentation_studio.png",
-      "tag": "Figmatic ",
+      "tag": "创意生成 ",
       "text": "在 Figma 里直接做了一个迷你版的 Powerpoint 插件，看起来挺强大，不过体验比较一般。而且我想不到有什么场景会使用到这个插件。",
       "text-en": "Create and present slide decks with animations, videos and links from your Figma designs",
       "author": "Figmatic"
@@ -194,7 +194,7 @@
       "title": "Radium",
       "link": "https://www.figma.com/community/plugin/838889318422718953/Radium",
       "image": "images/radium.png",
-      "tag": "Utility",
+      "tag": "设计辅助",
       "text": "和前面的 Rotate Copies 比较类似。有这个需求的可以对比一下试试",
       "text-en": "Generate rotated copies of the selected object. Ideal for designing watches and other radial UI's.",
       "author": "Ian Cox"
@@ -203,7 +203,7 @@
       "title": "Fignotes",
       "link": "https://www.figma.com/community/plugin/838904613852450283/Fignotes",
       "image": "images/fignotes.png",
-      "tag": "Utility",
+      "tag": "原型与协作",
       "text": "插入一些即时贴卡片，不过颜色和阴影设计得不够好。",
       "text-en": "Fignotes turns figma into a collaborative space for organizing and synthesizing notes! ",
       "author": "Qiqi Xu"
@@ -212,7 +212,7 @@
       "title": "Search & Focus",
       "link": "https://www.figma.com/community/plugin/838752837372119505/Search-%26-Focus",
       "image": "images/search_and_focus.png",
-      "tag": "Utility",
+      "tag": "效率小工具",
       "text": "使用这个插件通过 Frame 名搜索和跳到当前页面的 Frame。",
       "text-en": "Search everything in Figma with autocomplete. Focusing on your results - just choose item in lists.",
       "author": "Владимир Симоненко"
@@ -221,7 +221,7 @@
       "title": "Automatic Style Guides",
       "link": "https://www.figma.com/community/plugin/838622388628773312/Automatic-Style-Guides",
       "image": "images/automatic_style_guides.png",
-      "tag": "Style Guide",
+      "tag": "组件与样式",
       "text": "将你的 Styles 里的颜色字体自动生成一个漂亮的 Style Guide。",
       "text-en": "Automatically generate a nice Style Guide for the color fonts in your Styles.",
       "author": "Jordan Geizer"
@@ -230,7 +230,7 @@
       "title": "Unused Components",
       "link": "https://www.figma.com/community/plugin/838413521721548186/Unused-Components",
       "image": "images/unused_components.png",
-      "tag": "Analytics",
+      "tag": "设计辅助",
       "text": "扫描您的文件中所有未使用的组件以及您使用每个组件的次数。",
       "text-en": "Scan you file for all unsued components and how many times you've used each component.",
       "author": "Idan Arbel"
@@ -239,7 +239,7 @@
       "title": "Flatten Selection to Bitmap",
       "link": "https://www.figma.com/community/plugin/837846252158418235/Flatten-Selection-to-Bitmap",
       "image": "images/flatten_selection_to_bitmap.png",
-      "tag": "Utility",
+      "tag": "图片处理",
       "text": "将选中的元素转为位图，Figma 自带这个功能，不过只能1倍，这个插件可以设置多倍的。",
       "text-en": "Rasterize the selected layers at a high resolution (2x, 3x, 4x, 8x, or 10x).",
       "author": "Yuan Qing Lim"
@@ -248,7 +248,7 @@
       "title": "Label Maker",
       "link": "https://www.figma.com/community/plugin/837733390949354788/Label-Maker",
       "image": "images/label_frames.png",
-      "tag": "Utility",
+      "tag": "设计辅助",
       "text": "创建与你的图层名称链接的标签。有点繁琐，这个可以用在演示上。",
       "text-en": "Create labels permanently linked with your layers' names.",
       "author": "Henrique Gusso"
@@ -257,7 +257,7 @@
       "title": "Axure",
       "link": "https://www.figma.com/community/plugin/837098402230990991/Axure",
       "image": "images/axure.png",
-      "tag": "Prototype",
+      "tag": "原型与协作",
       "text": "如果你有在使用 Axure，那么这个插件应该是你需要的。",
       "text-en": "Easily copy frames from Figma to Axure RP 9 or publish frames directly to Axure Cloud.",
       "author": "Axure"
@@ -266,7 +266,7 @@
       "title": "Blurhash",
       "link": "https://www.figma.com/community/plugin/836797623647083601/Blurhash",
       "image": "images/blurhash.png",
-      "tag": "Generate",
+      "tag": "创意生成",
       "text": "将选中的 Frame 变模糊，并且生成一个模糊的哈希值，这个值可以存储这个模糊，以便下次使用。",
       "text-en": "Make your frame blur, generate and translate blur hash code directly in your figma design",
       "author": "Sonny Lazuardi"
@@ -275,7 +275,7 @@
       "title": "Figchat",
       "link": "https://www.figma.com/community/plugin/836358953686653979/Figchat",
       "image": "images/figchat.png",
-      "tag": "Note",
+      "tag": "原型与协作",
       "text": "这个插件可以在frame旁边生成一个评论。可以当成注释使用。",
       "text-en": "Talk to your teammates directly inside a Figma frame. ",
       "author": "Seán Halpin"
@@ -284,7 +284,7 @@
       "title": "Scale",
       "link": "https://www.figma.com/community/plugin/836326694968364056/Scale",
       "image": "images/scale.png",
-      "tag": "Resize",
+      "tag": "设计辅助",
       "text": "通过输入数值来缩放元素，稍微弥补了 Figma 自带的缩放不能输入数值的缺点。",
       "text-en": "Scale any frame, it’s contents, and all effects to any defined width or height.",
       "author": "Max Di Capua"
@@ -293,7 +293,7 @@
       "title": "Colors → Code",
       "link": "https://www.figma.com/community/plugin/834722635660200680/Colors-%E2%86%92-Code",
       "image": "images/colors_to_code.png",
-      "tag": "Code",
+      "tag": "代码与交付",
       "text": "将你的颜色导出为各种格式的颜色表，比如 CSS、SCSS、XML 等等。",
       "text-en": "Export your color tokens directly into any given format to smoothly integrate them into your stack.",
       "author": "Sugarcode"
@@ -302,7 +302,7 @@
       "title": "Dark Mode Magic",
       "link": "https://www.figma.com/community/plugin/834062945643616879/Dark-Mode-Magic",
       "image": "images/dark_mode_magic.png",
-      "tag": "Dark Mode",
+      "tag": "设计辅助",
       "text": "将你的界面直接转为 Dark Mode，用起来很简单，不用再进行额外的设置。在前期用来预览一下还可以。",
       "text-en": "Transform your design into Dark mode",
       "author": "Руслан"
@@ -311,7 +311,7 @@
       "title": "Ultra Renamer 2",
       "link": "https://www.figma.com/community/plugin/833716037588204076/Ultra-Renamer-2",
       "image": "images/ultra_renamer.png",
-      "tag": "Automation",
+      "tag": "效率小工具",
       "text": "自带的批量命名非常好用，不过这个可以按照画布上的顺序帮你批量重新命名元素。",
       "text-en": "Enumerate your Frames with just one click. ",
       "author": "Igor"
@@ -320,7 +320,7 @@
       "title": "Linky",
       "link": "https://www.figma.com/community/plugin/833020696010433995/Linky",
       "image": "images/linky.png",
-      "tag": "Collaboration",
+      "tag": "原型与协作",
       "text": "很喜欢这个插件，生成 Figma 链接的短网址。网址还能自定义。",
       "text-en": "Shorten and copy your Figma share links.",
       "author": "Ismael Gonzalez"
@@ -329,7 +329,7 @@
       "title": "Spotlight",
       "link": "https://www.figma.com/community/plugin/831936468026040598/Spotlight",
       "image": "images/spotlight.png",
-      "tag": "Utility",
+      "tag": "效率小工具",
       "text": "在文件里快速导航，查找并跳转到任何页面、Frame、组件。支持搜索，如果你有良好的命名习惯，这个插件应该挺适合你。",
       "text-en": "Fast navigation in your project. Find and jump to any Page, Frame, Component, Layer. That's it!",
       "author": "Vlad Solomakha"
@@ -338,7 +338,7 @@
       "title": "Many Paster",
       "link": "https://www.figma.com/community/plugin/831936445397604629/Many-Paster",
       "image": "images/many_paster.png",
-      "tag": "Automation",
+      "tag": "内容填充",
       "text": "如果你有许多同类型的数据需要输入到 Figma，除了可以使用 Google Sheets Sync ，使用这个会非常简便，你不需要另外创建一个干净的表格。",
       "text-en": "Insert a list of data into selected text layers individually.",
       "author": "GoodGantt for Trello"
@@ -347,7 +347,7 @@
       "title": "Frames Tag",
       "link": "https://www.figma.com/community/plugin/829960894114212812/Frames-Tag",
       "image": "images/frames_tag.png",
-      "tag": "Export",
+      "tag": "代码与交付",
       "text": "将整个页面导出为一张大图片，Frame 上还给加上了标题。",
       "text-en": "Export the whole page as a large image, with tags on each frame.",
       "author": "王魏东（Peter Wang）"
@@ -356,7 +356,7 @@
       "title": "Pexels",
       "link": "https://www.figma.com/community/plugin/829802086526281657/Pexels",
       "image": "images/pexels.png",
-      "tag": "Images",
+      "tag": "内容填充",
       "text": "类似于 Unsplash，不过这个插件的图片来自于 Pexels。",
       "text-en": "Add images to your designs directly from Pexels.",
       "author": "Pexels"
@@ -365,7 +365,7 @@
       "title": "Bulk Property Randomizer",
       "link": "https://www.figma.com/community/plugin/829089184334973766/Bulk-Property-Randomizer",
       "image": "images/bulk_property_randomizer.png",
-      "tag": "Generator",
+      "tag": "创意生成",
       "text": "根据你选中的属性，来进行随机生成。还挺有意思的。",
       "text-en": "Randomize one or more properties of your selected elements.",
       "author": "Aaron Wright"
@@ -374,7 +374,7 @@
       "title": "Text Highlighter",
       "link": "https://www.figma.com/community/plugin/828962683537786673/Text-Highlighter",
       "image": "images/text_highlighter.png",
-      "tag": "Text",
+      "tag": "文本处理",
       "text": "高亮文本中的一些词，这些可以是：邮件、链接等等。",
       "text-en": "Text Highlighter takes a regex and changes the color of those pieces of data in your text layers that matches it. ",
       "author": "Alex Kipin"

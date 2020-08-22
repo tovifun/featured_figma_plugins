@@ -44,14 +44,14 @@ class Header extends React.Component{
             </Link>
           </div>
           <div className="HeaderButton">
-            <Link to="/">最新</Link>
+            {/* <Link to="/">最新</Link> */}
             <Link to="/#IdClassify">分类</Link>
-            <Link to="/#IdArchive">往期</Link>
+            <Link to="/#IdArchive">归档</Link>
             <Link to="/#IdAbout">关于</Link>
-            <Link to="/#IdSubscribe">关注</Link>
+            {/* <Link to="/#IdSubscribe">关注</Link> */}
             <select onInput={this.onChangeTheme.bind(this)}>
-              <option value="default">默认主题</option>
-              <option value="dark">黑色主题</option>
+              <option value="default">浅色</option>
+              <option value="dark">暗黑</option>
             </select>    
           </div>
         </div>

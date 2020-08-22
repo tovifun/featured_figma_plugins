@@ -4,7 +4,7 @@
         {
           "title": "TinyImage Compressor",
           "link": "https://www.figma.com/community/plugin/789009980664807964/TinyImage-Compressor",
-          "tag": "图片导出",
+          "tag": "代码与交付",
           "text": "导出图片的同时对图片进行压缩，TinyPng 这个工具应该很多人都知道，这个插件相当于节省了需要下载之后再压缩这一步",
           "author": "Figmatic",
           "image": "images/tinyimage_compressor.png"
@@ -12,7 +12,7 @@
         {
           "title": "LottieFiles",
           "link": "https://www.figma.com/community/plugin/809860933081065308/LottieFiles",
-          "tag": "素材导入",
+          "tag": "设计辅助",
           "text": "热门预定，功能还挺强大的，除了 LottieFile 网站的基本功能外，还可以将动画的某帧导入为SVG，还可以导入GIF",
           "author": "LottieFiles",
           "image": "images/lottiefiles.png"
@@ -20,7 +20,7 @@
         {
           "title": "Coolhue",
           "link": "https://www.figma.com/community/plugin/807561639084281386/CoolHue---Gradient-Palette",
-          "tag": "渐变生成",
+          "tag": "颜色和渐变",
           "text": "作者人工挑选的一些好看的渐变，在设计探索阶段可以使用一下",
           "author": "Nitish Khagwal",
           "image": "images/coolhue.png"
@@ -28,7 +28,7 @@
         {
           "title": "zebra",
           "link": "https://www.figma.com/community/plugin/806578669827234193/zebra",
-          "tag": "可用性",
+          "tag": "设计辅助",
           "text": "又一个对比度测试的插件，之前推荐过其他的，这个还挺轻量的，不过操作逻辑有些奇怪",
           "author": "Daniel Hollick",
           "image": "images/zebra.png"
@@ -36,7 +36,7 @@
         {
           "title": "Instance Swap",
           "link": "https://www.figma.com/community/plugin/803602060246520783/Instance-Swap",
-          "tag": "组件辅助",
+          "tag": "组件与样式",
           "text": "选中一个元素，然后在这个插件里搜索，可以直接替换成搜索结果的组件。可以提高效率",
           "author": "Romain Allemann",
           "image": "images/instance_swap.png"
@@ -44,7 +44,7 @@
         {
           "title": "Typestyles",
           "link": "https://www.figma.com/community/plugin/803311677045533625/Typestyles",
-          "tag": "Style 生成",
+          "tag": "组件与样式",
           "text": "可以帮助快速生成 字体样式，之前也推荐过别的类似插件，不过这个要好一些，可以自定义一些修饰语",
           "author": "Marvin Bruns",
           "image": "images/typestyles.png"
@@ -52,7 +52,7 @@
         {
           "title": "Design System Organizer",
           "link": "https://www.figma.com/community/plugin/802579985985331070/Design-System-Organizer",
-          "tag": "组件管理",
+          "tag": "组件与样式",
           "text": "✨超好用，强烈推荐。可以帮助你管理组件、样式。重命名和重组之类的都很方便。",
           "author": "Arthur",
           "image": "images/design_system_organizer.png"
@@ -60,7 +60,7 @@
         {
           "title": "Design Lint",
           "link": "https://www.figma.com/community/plugin/801195587640428208/Design-Lint",
-          "tag": "设计审查",
+          "tag": "代码与交付",
           "text": "近期热门，帮助你审查设计中不统一的地方",
           "author": "Discord",
           "image": "images/design_lint.png"
@@ -76,7 +76,7 @@
         {
           "title": "Movie Posters",
           "link": "https://www.figma.com/community/plugin/797471678566755597/Movie-Posters",
-          "tag": "图片下载",
+          "tag": "内容填充",
           "text": "下载热门的电影电视海报，还挺好玩的",
           "author": "Must Team",
           "image": "images/movie_posters.png"
