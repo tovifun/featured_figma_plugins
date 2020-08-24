@@ -15,7 +15,8 @@ const FooterGroup = styled.div`
 
 const FooterContent = styled.div`
     max-width:648px;
-    margin: 0 auto;
+    margin: 0px auto;
+    padding:48px 0; 
     display: -webkit-flex;
     display: -ms-flexbox;
     display: -moz-box;
@@ -59,25 +60,40 @@ const FooterTitleGroup = styled.div`
 text-align: center;
 `
 const FooterTitleImage = styled.img`
+    margin:8px;
+    height:96px;
+    @media (max-width:640px){
+        height:80px;
+    } 
 `
 const FooterTitle = styled.h2`
+    margin-bottom:16px;
 `
 const FooterContributorGroup = styled.div`
 display: flex;
 justify-content:center;
 `
 const FooterContributor = styled.div`
-padding:24px;
-display: flex;
-flex-direction: column;
-justify-content:center;
+    padding:16px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    @media (max-width:640px){
+        padding:10px;
+    } 
 `
 const FooterContributorAvatar = styled.img`
-display: inline-block;
+    display: inline-block;
+    margin:8px;
+    height:64px;
+    @media (max-width:640px){
+        height:48px;
+    } 
+
 `
 const FooterContributorName = styled.p`
-display: inline-block;
-text-align: center;
+    display: inline-block;
+    text-align: center;
 `
 
 
@@ -85,22 +101,24 @@ const Footer = () =>(
     <FooterGroup>
         <FooterContent>
         <FooterTitleGroup>
-            <FooterTitleImage src='https://media.giphy.com/media/dyAnngHb30dDdiaW3x/giphy.gif' width='96' alt="emo-bro"></FooterTitleImage>
-            {/* <FooterTitleImage src={require('../images/tovifun_avatar.png')} alt="tovi"></FooterTitleImage> */}
+            {/* <FooterTitleImage src='https://media.giphy.com/media/dyAnngHb30dDdiaW3x/giphy.gif' alt="emo-bro"></FooterTitleImage> */}
+            <FooterTitleImage src={require('../images/emo-bro.gif')} alt="emo-bro"></FooterTitleImage>
             <FooterTitle>项目参与者</FooterTitle>
         </FooterTitleGroup>
         <FooterContributorGroup>
+            <a href="/">
             <FooterContributor>
-                <FooterContributorAvatar src={require('../images/tovifun_avatar.png')} width='64' alt="tovi"></FooterContributorAvatar>
+                <FooterContributorAvatar src={require('../images/tovifun_avatar.png')} alt="tovi"></FooterContributorAvatar>
                 <FooterContributorName>Tovi</FooterContributorName>
             </FooterContributor>
+            </a>
             <FooterContributor>
-                <FooterContributorAvatar src={require('../images/tovifun_avatar.png')} width='64' alt="tovi"></FooterContributorAvatar>
-                <FooterContributorName>Tovi</FooterContributorName>
+                <FooterContributorAvatar src={require('../images/avatar_rudy.png')} alt="rudy"></FooterContributorAvatar>
+                <FooterContributorName>Rudy</FooterContributorName>
             </FooterContributor>
             <FooterContributor>
-                <FooterContributorAvatar src={require('../images/tovifun_avatar.png')} width='64' alt="tovi"></FooterContributorAvatar>
-                <FooterContributorName>Tovi</FooterContributorName>
+                <FooterContributorAvatar src={require('../images/jun_avatar.png')} alt="jun"></FooterContributorAvatar>
+                <FooterContributorName>Jun</FooterContributorName>
             </FooterContributor>
         </FooterContributorGroup>
         {/* <FooterText>
