@@ -56,37 +56,33 @@ const FooterContent = styled.div`
 // `
 
 const FooterTitleGroup = styled.div`
-display: flex;
-flex-direction:column;
-    justify-content:center;
-
+text-align: center;
 `
 const FooterTitleImage = styled.img`
-display: inline-block;
 `
 const FooterTitle = styled.h2`
-display: inline-block;
 `
 const FooterContributorGroup = styled.div`
 display: flex;
+justify-content:center;
 `
 const FooterContributor = styled.div`
 padding:24px;
 display: flex;
-flex-direction:column;
+flex-direction: column;
 justify-content:center;
-
 `
 const FooterContributorAvatar = styled.img`
 display: inline-block;
 `
 const FooterContributorName = styled.p`
 display: inline-block;
+text-align: center;
 `
 
 
 const Footer = () =>(
-        <FooterGroup>
+    <FooterGroup>
         <FooterContent>
         <FooterTitleGroup>
             <FooterTitleImage src='https://media.giphy.com/media/dyAnngHb30dDdiaW3x/giphy.gif' width='96' alt="emo-bro"></FooterTitleImage>
@@ -111,7 +107,7 @@ const Footer = () =>(
         Designed & Developed by <a href="https://www.figma.com/@tovi" target="_blank" rel="noreferrer" >Tovi</a>&<a href="https://juuun.io/" target="_blank" rel="noreferrer">Juuun</a>    
         </FooterText> */}
         </FooterContent>
-        </FooterGroup>
+    </FooterGroup>
 )
 
 export default Footer
