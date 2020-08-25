@@ -17,35 +17,50 @@ const AboutGroup = styled.div`
     }
 `
 
-const AboutAuthor = styled.div`
-    display:flex;
-    align-items:center;
-    justify-content:center; 
-    margin:48px; 
+// const AboutAuthor = styled.div`
+//     display:flex;
+//     align-items:center;
+//     justify-content:center; 
+//     margin:48px; 
 
+// `
+
+
+// const AboutAvatar = styled.img`
+//     margin:8px;
+//     height:64px;
+//     @media (max-width:640px){
+//         height:48px;
+//     } 
+
+// `
+// const AboutX = styled.img`
+//     margin:8px;
+//     height:16px;
+
+// `
+
+const AboutTitleGroup = styled.div`
+text-align: center;
 `
-
-const AboutAvatar = styled.img`
-    margin:8px;
-    height:64px;
+const AboutTitleImage = styled.img`
+    ${'' /* margin:8px; */}
+    height:96px;
     @media (max-width:640px){
-        height:48px;
+        height:80px;
     } 
-
 `
-const AboutX = styled.img`
-    margin:8px;
-    height:16px;
-
-`
-
 const AboutTitle = styled.h2`
+`
+
+
+const AboutHeadline = styled.h2`
     margin: 0;
     padding: 0;
     margin-top:32px;
     margin-bottom:8px;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 16px;
     color: ${COLORS.neutral_4};
     line-height:1.6em;
     @media (max-width:640px){
@@ -199,12 +214,16 @@ const AboutLikeTitle = styled.h3`
 
 const AboutAlt = ({data}) => (
     <AboutGroup>
-        <AboutAuthor>
+        <AboutTitleGroup>
+            <AboutTitleImage src={require('../images/emo-bro.gif')} alt="emo-bro"></AboutTitleImage>
+            <AboutTitle>关于</AboutTitle>
+        </AboutTitleGroup>
+        {/* <AboutAuthor>
         <AboutAvatar src={require('../images/tovifun_avatar.png')} alt="tovi"></AboutAvatar>
         <AboutX src={require('../images/tovifun_x.png')} alt="tovi"></AboutX>
         <AboutAvatar src={require('../images/jun_avatar.png')} alt="jun"></AboutAvatar>
-        </AboutAuthor>
-        <AboutTitle>关于这个项目</AboutTitle>
+        </AboutAuthor> */}
+        <AboutHeadline>关于这个项目</AboutHeadline>
         <AboutText>Figma 社区里，每天都会有许多插件更新，到今天，已经有快上千个插件了，未来肯定还会有更多的插件更新。</AboutText>
         <AboutText>官方的插件社区发现机制，目前只有 ‘Popular’ 这一项——即按照全部时间的热度排列。这虽然在最开始可以找到最优质的那部分插件，但是结果也导致了这些插件的长期 ‘霸榜’ ，新的优质插件，很难通过官方的社区来发掘。</AboutText>
         <AboutText>你会如何发掘优质插件？可能你会有一些群聊，里边的小伙伴会时常分享一些好的内容；或者你在社交账号也会浏览到一些插件推荐。</AboutText>
@@ -212,7 +231,7 @@ const AboutAlt = ({data}) => (
         <AboutText>不过你完全不需要这么做，因为我们已经体验过一遍了，并且精心挑选出了其中比较好的插件（就是这个网页中所展示的）。每个月挑选的数量也不会特别多，可能你花几分钟就浏览完了。</AboutText>
         <AboutText>每个月的最后一天，我们会进行更新，你可以在下方关注公众号获得更新提醒。如果你想进行评论、反馈，可以 <a href="https://mp.weixin.qq.com/s/SqMktXLMPU-BRsAMPn7XOQ" target="_blank" rel="noreferrer">在这篇公众号</a> 或者 <a href="https://twitter.com/tovizhong/status/1285012648661184512" target="_blank" rel="noreferrer">这条推</a> 下留言（留言专用帖<span role="img" aria-label="Face with Tears of Joy">😂</span>）。</AboutText>
 
-        <AboutTitle>赞赏</AboutTitle>
+        <AboutHeadline>赞赏</AboutHeadline>
         <AboutText>如果你喜欢这个网站，可以考虑给我们赞赏：</AboutText>
         <AboutUl>
             <AboutList>通过 <a href="images/tovi_sponsor_small.png" target="_blank" rel="noreferrer">微信或支付宝</a></AboutList>
@@ -241,7 +260,6 @@ const AboutAlt = ({data}) => (
             <AboutLikeList>泡面Online</AboutLikeList>
             <AboutLikeList>Sueway</AboutLikeList>
             <AboutLikeList><a href="images/tovi_sponsor_small.png" target="_blank" rel="noreferrer">You</a></AboutLikeList>
-
         </AboutLikeUser>
 
 

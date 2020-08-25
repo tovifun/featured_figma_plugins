@@ -15,8 +15,8 @@ const FooterGroup = styled.div`
 
 const FooterContent = styled.div`
     max-width:648px;
-    margin: 0px auto;
-    padding:48px 0; 
+    margin: 0px auto; 
+    padding-top:48px; 
     display: -webkit-flex;
     display: -ms-flexbox;
     display: -moz-box;
@@ -29,38 +29,39 @@ const FooterContent = styled.div`
 
 
 `
-// const FooterText = styled.div`
-//     line-height: 120px;
-//     height: 120px;
-//     text-align: center;
-//     font-size:16px;
-//     color:${COLORS.neutral_3};
-//     font-weith:normal;
-//     a{
-//         color:${COLORS.neutral_3};
-//         font-size:16px;
-//         padding:2px;
-//         transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
-//         text-decoration: underline;
-//     }
-//     a:hover{
-//         color:${COLORS.brand};
-//     }
-//     @media (max-width:640px){
-//         line-height: 80px;
-//         height: 80px;
-//         font-size:15px;
-//         a{
-//             font-size:15px;
-//         }
-//     }
-// `
+const FooterText = styled.div`
+    line-height: 120px;
+    height: 120px;
+    text-align: center;
+    font-size:16px;
+    color:${COLORS.neutral_3};
+    font-weith:normal;
+    margin-top:48px;
+    a{
+        color:${COLORS.neutral_3};
+        font-size:16px;
+        padding:2px;
+        transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+        text-decoration: underline;
+    }
+    a:hover{
+        color:${COLORS.brand};
+    }
+    @media (max-width:640px){
+        line-height: 80px;
+        height: 80px;
+        font-size:15px;
+        a{
+            font-size:15px;
+        }
+    }
+`
 
 const FooterTitleGroup = styled.div`
 text-align: center;
 `
 const FooterTitleImage = styled.img`
-    margin:8px;
+    ${'' /* margin:8px; */}
     height:96px;
     @media (max-width:640px){
         height:80px;
@@ -121,9 +122,9 @@ const Footer = () =>(
                 <FooterContributorName>Jun</FooterContributorName>
             </FooterContributor>
         </FooterContributorGroup>
-        {/* <FooterText>
-        Designed & Developed by <a href="https://www.figma.com/@tovi" target="_blank" rel="noreferrer" >Tovi</a>&<a href="https://juuun.io/" target="_blank" rel="noreferrer">Juuun</a>    
-        </FooterText> */}
+        <FooterText>
+        A <a href="https://www.figma.com/@tovi" target="_blank" rel="noreferrer" >Tovi</a> Project
+        </FooterText>
         </FooterContent>
     </FooterGroup>
 )
