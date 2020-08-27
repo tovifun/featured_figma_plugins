@@ -75,12 +75,12 @@ display: flex;
 justify-content:center;
 `
 const FooterContributor = styled.div`
-    padding:16px;
+    padding:12px;
     display: flex;
     flex-direction: column;
     justify-content:center;
     @media (max-width:640px){
-        padding:10px;
+        padding:8px;
     } 
 `
 const FooterContributorAvatar = styled.img`

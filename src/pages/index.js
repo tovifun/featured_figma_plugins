@@ -5,7 +5,6 @@ import Cell from '../components/Cell'
 import Classify from '../components/Classify'
 import Subscribe from '../components/Subscribe'
 import store from '../data'
-
 import { COLORS } from '../values/colors'
 import AboutAlt from '../components/AboutAlt'
 

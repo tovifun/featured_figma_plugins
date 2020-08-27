@@ -4,18 +4,7 @@ import { COLORS } from '../values/colors'
 
 
 
-const AboutGroup = styled.div`
-    max-width: 636px;
-    line-height: 1.5;
-    // padding: 2em 4em;
-    margin: 0 auto;
-    position: relative;
-    margin:0 auto;
-    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
-    a{
-        text-decoration:underline;
-    }
-`
+
 
 // const AboutAuthor = styled.div`
 //     display:flex;
@@ -40,8 +29,25 @@ const AboutGroup = styled.div`
 
 // `
 
+
+
+const AboutGroup = styled.div`
+    max-width: 636px;
+    line-height: 1.5;
+
+    margin: 0 auto;
+    position: relative;
+    margin:0 auto;
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+    a{
+        text-decoration:underline;
+        color:${COLORS.brand}
+    }
+`
+
 const AboutTitleGroup = styled.div`
-text-align: center;
+    text-align: center;
+    margin-bottom:48px;
 `
 const AboutTitleImage = styled.img`
     ${'' /* margin:8px; */}
@@ -215,15 +221,15 @@ const AboutLikeTitle = styled.h3`
 const AboutAlt = ({data}) => (
     <AboutGroup>
         <AboutTitleGroup>
-            <AboutTitleImage src={require('../images/emo-bro.gif')} alt="emo-bro"></AboutTitleImage>
-            <AboutTitle>关于</AboutTitle>
+            <AboutTitleImage src={require('../images/tovifun_signature.png')} alt="emo-bro"></AboutTitleImage>
+            <AboutTitle>关于项目</AboutTitle>
         </AboutTitleGroup>
         {/* <AboutAuthor>
         <AboutAvatar src={require('../images/tovifun_avatar.png')} alt="tovi"></AboutAvatar>
         <AboutX src={require('../images/tovifun_x.png')} alt="tovi"></AboutX>
         <AboutAvatar src={require('../images/jun_avatar.png')} alt="jun"></AboutAvatar>
         </AboutAuthor> */}
-        <AboutHeadline>关于这个项目</AboutHeadline>
+        {/* <AboutHeadline>关于这个项目</AboutHeadline> */}
         <AboutText>Figma 社区里，每天都会有许多插件更新，到今天，已经有快上千个插件了，未来肯定还会有更多的插件更新。</AboutText>
         <AboutText>官方的插件社区发现机制，目前只有 ‘Popular’ 这一项——即按照全部时间的热度排列。这虽然在最开始可以找到最优质的那部分插件，但是结果也导致了这些插件的长期 ‘霸榜’ ，新的优质插件，很难通过官方的社区来发掘。</AboutText>
         <AboutText>你会如何发掘优质插件？可能你会有一些群聊，里边的小伙伴会时常分享一些好的内容；或者你在社交账号也会浏览到一些插件推荐。</AboutText>
@@ -237,7 +243,7 @@ const AboutAlt = ({data}) => (
             <AboutList>通过 <a href="images/tovi_sponsor_small.png" target="_blank" rel="noreferrer">微信或支付宝</a></AboutList>
             <AboutList>或通过  <a href="https://www.buymeacoffee.com/tovi" target="_blank" rel="noreferrer">Buy me a coffee</a></AboutList>
         </AboutUl>
-        <AboutText>赞赏任意金额，并发送邮件至： hitovi@outlook.com ， 写下你的<strong>昵称和一个社交/个人网站链接</strong>，我们将在下方展示你的昵称和链接信息。（随机排列）</AboutText>
+        {/* <AboutText>赞赏任意金额，并发送邮件至： hitovi@outlook.com ， 写下你的<strong>昵称和一个社交/个人网站链接</strong>，我们将在下方展示你的昵称和链接信息。（随机排列）</AboutText> */}
         {/* <AboutText>注意：</AboutText>
         <AboutUl>
             <AboutFigure>
@@ -251,7 +257,7 @@ const AboutAlt = ({data}) => (
 
         <AboutText>邮箱地址： hitovi@outlook.com</AboutText> */}
 
-        <AboutLikeTitle> 感谢 5 位老铁赞赏<br /><span role="img" aria-label="heart"> ❤️ </span><span role="img" aria-label="heart"> ❤️ </span><span role="img" aria-label="heart"> ❤️ </span></AboutLikeTitle>
+        {/* <AboutLikeTitle> 感谢 5 位老铁赞赏<br /><span role="img" aria-label="heart"> ❤️ </span><span role="img" aria-label="heart"> ❤️ </span><span role="img" aria-label="heart"> ❤️ </span></AboutLikeTitle>
 
         <AboutLikeUser>
             <AboutLikeList><a href="https://dribbble.com/muchakucha" target="_blank" rel="noreferrer">Leo Lee</a></AboutLikeList>
@@ -260,7 +266,7 @@ const AboutAlt = ({data}) => (
             <AboutLikeList>泡面Online</AboutLikeList>
             <AboutLikeList>Sueway</AboutLikeList>
             <AboutLikeList><a href="images/tovi_sponsor_small.png" target="_blank" rel="noreferrer">You</a></AboutLikeList>
-        </AboutLikeUser>
+        </AboutLikeUser> */}
 
 
     </AboutGroup>
