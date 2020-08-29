@@ -8,7 +8,7 @@ const FooterGroup = styled.div`
 
 const SubscribeGroup= styled.div`
     position:relative;
-    padding:0px 48px 80px;
+    padding:96px 48px;
     background:${COLORS.bg_darker};
     ${'' /* border-top:1px solid ${COLORS.border_lighter}; */}
     @media (max-width:640px){

@@ -88,10 +88,10 @@ const SectionClassify = styled.div`
 `
 
 const SectionAbout = styled.div`
-  padding: 64px 50px 100px 50px;
+  padding: 64px 50px 20px 50px;
   background:#F7F3FA;
   @media (max-width:640px){
-      padding: 64px 24px 64px;
+      padding: 64px 24px 20px;
     }
 `
 
