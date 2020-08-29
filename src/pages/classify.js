@@ -73,7 +73,7 @@ export default () => {
     return (
     <Layout>
     <SectionBlank></SectionBlank>
-        <SectionTitle>筛选出来的标题</SectionTitle>
+        <SectionTitle>{tag}</SectionTitle>
         <SectionCellGroup>
             {
                 cells.map((cell, index) => (

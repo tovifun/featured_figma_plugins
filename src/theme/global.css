@@ -81,3 +81,30 @@
       transform: translateY(0px);
     }
   }
+
+
+.classify-title{
+  padding-top: 30px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+.classify-tags{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.classify-tag{
+  margin: .6em;
+  padding: .4em .8em; 
+  background: rgba(25, 13, 58, 0.06);
+  border: none; 
+  display: inline-block; 
+  border-radius: 2px;
+  color: rgba(4, 0, 20, 0.7);
+  border: 2px solid transparent;
+  transition: all .3s;
+}
+.classify-tag:hover{
+  border-color: rgba(184,0,249,1);
+  transform: scale(1.1);
+}

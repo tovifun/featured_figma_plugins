@@ -13,23 +13,15 @@ dates.sort((a, b) => {
 
 const dateLen = dates.length
 
-const tagStyle = {
-    margin: '.6em', 
-    padding: '.4em .8em', 
-    background:'rgba(25, 13, 58, 0.06)', 
-    border: 'none', 
-    display: 'inline-block', 
-    borderRadius: '2px', 
-    color:'rgba(4, 0, 20, 0.7)'
-}
-
 const Classify = () => (
     <div>
-
-        <h2 style={{paddingTop: '64px', marginBottom:'18px', textAlign:'center'}}>按分类查找</h2>
-        {tags.map(tag => (<Link to={`/classify#${tag}`} key={tag} style={tagStyle}>#{tag}</Link>))}
-
-        <h2 id="IdArchive" style={{paddingTop: '64px', marginBottom:'24px', textAlign:'center'}}>查看往期</h2>
+        <h2 className="classify-title">按分类查找</h2>
+        <div className="classify-tags">
+            {tags.map(tag => (<Link className="classify-tag" to={`/classify#${tag}`} key={tag}>
+                #{tag} <span>{store.tags[tag] && store.tags[tag].length}</span>
+            </Link>))}
+        </div>
+        <h2 id="IdArchive" className="classify-title">查看往期</h2>
         {dates.map((date, index) => (
             <Archive
             title={`Issue #${dateLen - index}`}
