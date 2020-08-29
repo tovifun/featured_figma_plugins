@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import { COLORS } from '../values/colors'
 
 const FooterGroup = styled.div`
-
     border-top:1px solid ${COLORS.border_lighter};
     background:${COLORS.bg_darker};
     z-index: 100;
@@ -11,8 +10,6 @@ const FooterGroup = styled.div`
         padding: 0 20px;
     }
 `
-
-
 const FooterContent = styled.div`
     max-width:648px;
     margin: 0px auto; 
@@ -79,22 +76,37 @@ const FooterContributor = styled.div`
     display: flex;
     flex-direction: column;
     justify-content:center;
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+    color:${COLORS.neutral_3};
     @media (max-width:640px){
         padding:8px;
     } 
+    &:hover{
+        transform:scale(1.1);
+        color:${COLORS.brand};
+    }
 `
 const FooterContributorAvatar = styled.img`
     display: inline-block;
     margin:8px;
     height:64px;
+    box-sizing: border-box;
+    border-radius:400px;
     @media (max-width:640px){
         height:48px;
     } 
+    &:hover{
+        border:2px solid ${COLORS.brand};
+    }
+    
 
 `
 const FooterContributorName = styled.p`
     display: inline-block;
     text-align: center;
+    
+    font-size:14px;
+    font-weight:500;
 `
 
 
@@ -102,25 +114,28 @@ const Footer = () =>(
     <FooterGroup>
         <FooterContent>
         <FooterTitleGroup>
-            {/* <FooterTitleImage src='https://media.giphy.com/media/dyAnngHb30dDdiaW3x/giphy.gif' alt="emo-bro"></FooterTitleImage> */}
             <FooterTitleImage src={require('../images/emo-bro.gif')} alt="emo-bro"></FooterTitleImage>
             <FooterTitle>项目参与者</FooterTitle>
         </FooterTitleGroup>
         <FooterContributorGroup>
-            <a href="/">
+            <a href="https://www.figma.com/@tovi" target="_blank" rel="noreferrer" >
             <FooterContributor>
                 <FooterContributorAvatar src={require('../images/tovifun_avatar.png')} alt="tovi"></FooterContributorAvatar>
                 <FooterContributorName>Tovi</FooterContributorName>
             </FooterContributor>
             </a>
+            <a href="http://github.com/rudyhub" target="_blank" rel="noreferrer" >
             <FooterContributor>
                 <FooterContributorAvatar src={require('../images/avatar_rudy.png')} alt="rudy"></FooterContributorAvatar>
                 <FooterContributorName>Rudy</FooterContributorName>
             </FooterContributor>
+            </a>
+            <a href="https://juuun.io" target="_blank" rel="noreferrer" >
             <FooterContributor>
                 <FooterContributorAvatar src={require('../images/jun_avatar.png')} alt="jun"></FooterContributorAvatar>
                 <FooterContributorName>Jun</FooterContributorName>
             </FooterContributor>
+            </a>
         </FooterContributorGroup>
         <FooterText>
         A <a href="https://www.figma.com/@tovi" target="_blank" rel="noreferrer" >Tovi</a> Project

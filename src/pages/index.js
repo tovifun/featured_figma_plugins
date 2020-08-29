@@ -45,10 +45,9 @@ const SectionCellGroup = styled.div`
   margin: 0 auto;
   padding: 20px 50px 10px 50px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 32px 56px;
   justify-items: center;
-  
 
   @media (max-width:1280px){
     grid-template-columns: repeat(3, 1fr);
@@ -76,7 +75,12 @@ const SectionCellGroup = styled.div`
 `
 
 const SectionClassify = styled.div`
+  margin:0 auto;
+  max-width: 636px;
   padding: 50px;
+  @media (max-width:640px){
+      padding: 50px 24px;
+    }
 `
 
 const SectionAbout = styled.div`
@@ -95,7 +99,7 @@ const IndexPage = () => {
     <div className={`Hero ${theme}-Hero`}>
       <div className="HeroGroup">
         <h1><span className={`GradientText ${theme}-GradientText`}>Featured</span><br />Figma<br />Plugins.</h1>
-        <p>每月的最后一天，给你推荐当月更新的、值得尝试的 Figma 插件。<br />下一次推送时间：8月31日。可以关注公众号获得更新提醒。</p>
+        <p>每月的最后一天，给你推荐当月更新的、值得尝试的 Figma 插件。<br />下一次推送时间：9月30日。可以关注公众号获得更新提醒。</p>
       </div>
     </div>
 
@@ -125,6 +129,7 @@ const IndexPage = () => {
     <SectionAbout id="IdAbout">
       <AboutAlt></AboutAlt>
     </SectionAbout>
+
     <SectionSubscribe id="IdSubscribe">
       <Subscribe></Subscribe>
     </SectionSubscribe>
