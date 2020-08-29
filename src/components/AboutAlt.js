@@ -155,65 +155,65 @@ const AboutList = styled.li`
 // `
 
 
-const AboutLikeTitle = styled.h3`
-    margin: 0;
-    padding: 0;
-    margin-top:56px;
-    margin-bottom:8px;
-    font-weight: 500;
-    font-size: 16px;
-    text-align:center;
-    color: ${COLORS.neutral_2};
-    clear:both;
-    line-height:1.6em;
-    span{
-        font-size:12px;
-    }
-    @media (max-width:640px){
-        font-size:15px;
-        line-height: 1.4em;
-    }
-`
-    const AboutLikeUser = styled.ul`
-    ${'' /* border: 2px solid ${COLORS.border_lighter}; */}
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: -moz-box;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-    justify-content:center;
-    margin: 0;
-    ${'' /* padding: 1em; */}
-    list-style: none;
+// const AboutLikeTitle = styled.h3`
+//     margin: 0;
+//     padding: 0;
+//     margin-top:56px;
+//     margin-bottom:8px;
+//     font-weight: 500;
+//     font-size: 16px;
+//     text-align:center;
+//     color: ${COLORS.neutral_2};
+//     clear:both;
+//     line-height:1.6em;
+//     span{
+//         font-size:12px;
+//     }
+//     @media (max-width:640px){
+//         font-size:15px;
+//         line-height: 1.4em;
+//     }
+// `
+    // const AboutLikeUser = styled.ul`
+    // ${'' /* border: 2px solid ${COLORS.border_lighter}; */}
+    // display: -webkit-flex;
+    // display: -ms-flexbox;
+    // display: -moz-box;
+    // display: flex;
+    // -webkit-flex-wrap: wrap;
+    //     -ms-flex-wrap: wrap;
+    //         flex-wrap: wrap;
+    // justify-content:center;
+    // margin: 0;
+    // ${'' /* padding: 1em; */}
+    // list-style: none;
 
-    a {
-        /* display: block; */
-        ${'' /* padding: 4px 12px; */}
-        ${'' /* background-color: ${COLORS.tag_bg}; */}
-        border-radius:50px;
-        line-height: 1.5;
-        text-decoration: underline;
-        color: ${COLORS.neutral_4};
-        position: relative;
-        text-align: center;
-        transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
-    }
-        a:hover{
-            color: ${COLORS.brand};
-        }
+    // a {
+    //     /* display: block; */
+    //     ${'' /* padding: 4px 12px; */}
+    //     ${'' /* background-color: ${COLORS.tag_bg}; */}
+    //     border-radius:50px;
+    //     line-height: 1.5;
+    //     text-decoration: underline;
+    //     color: ${COLORS.neutral_4};
+    //     position: relative;
+    //     text-align: center;
+    //     transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+    // }
+    //     a:hover{
+    //         color: ${COLORS.brand};
+    //     }
 
-    `
+    // `
 
-    const AboutLikeList = styled.li`
-        display: inline-block;
-        padding:6px 12px;
-        @media (max-width:640px){
-        padding:4px 8px;
-    }
+    // const AboutLikeList = styled.li`
+    //     display: inline-block;
+    //     padding:6px 12px;
+    //     @media (max-width:640px){
+    //     padding:4px 8px;
+    // }
 
-    `
+    // `
 
 
 
