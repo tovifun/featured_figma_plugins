@@ -9,14 +9,7 @@
           "author": "Andreslav Kozlov",
           "image": "images/select_same.jpg"
         },
-        {
-          "title": "LaTeX Complete",
-          "link": "https://www.figma.com/c/plugin/793023817364007801/LaTeX-Complete",
-          "tag": "设计辅助",
-          "text": "生成数学公式符号，应该需求比较小众",
-          "author": "Max Krieger",
-          "image": "images/latex_complete.png"
-        },
+
         {
           "title": "Icons8",
           "link": "https://www.figma.com/c/plugin/791103617505812222/Icons8",

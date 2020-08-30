@@ -32,7 +32,7 @@ import { COLORS } from '../values/colors'
 
 
 const AboutGroup = styled.div`
-    max-width: 636px;
+    max-width: 648px;
     line-height: 1.5;
 
     margin: 0 auto;

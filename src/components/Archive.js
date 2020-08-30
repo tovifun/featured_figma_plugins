@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 import { COLORS } from '../values/colors'
 
 const ArchiveGroup = styled.div`
-    max-width: 636px;
+    max-width: 638px;
     position: relative;
     border-top: 1px solid ${COLORS.border};
     margin:0 auto;

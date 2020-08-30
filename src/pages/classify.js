@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import Subscribe from '../components/Subscribe'
 
 const store = {}
-for(let i=1; i<=6; i++){
+for(let i=1; i<=7; i++){
     const issue = require(`../data/issue${i}.json`)
     for(let cell of issue.cells){
         if(!cell) continue
@@ -21,13 +21,13 @@ for(let i=1; i<=6; i++){
 }
 
 const SectionTitle = styled.h2`
-    margin-top:16px;
+    margin-top:24px;
     text-align:center;
-    margin-bottom:16px;
+    margin-bottom:24px;
 `
 
 const SectionBlank = styled.div`
-    height:92px;
+    height:104px;
 
 `
 

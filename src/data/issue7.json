@@ -1,0 +1,24 @@
+{
+  "date": "2020-08-30",
+  "cells": [
+  {
+    "title": "Reset Text Layer Name",
+    "link": "https://www.figma.com/community/plugin/855144415496096302/Context-Switch",
+    "image": "images/context_switch.png",
+    "tag": "文本处理",
+    "text": "这一期很喜欢的一个。当你需要进行多语言切换的应用时可以试试。不过操作起来稍微有点麻烦，需要像 Google Sheets Sync 一样做一些准备工作。",
+    "text-en": "Manage content writing across your team’s product with multiple state using Airtable.",
+    "author": "Lichin"
+  },
+  {
+    "title": "Design Sytem Manager",
+    "link": "https://ww.figma.com/community/plugin/862818788004280193/Toolabs-Design-System-Manager",
+    "image": "images/toolabs_design_system_manager.png",
+    "tag": "组件与样式",
+    "text": "很强大一个设计系统管理插件。功能很多，有点复杂，需要研究一下如何使用。",
+    "text-en": "Design Tokens, Theme Management and more...",
+    "author": "Toolabs"
+  }
+
+]
+}
