@@ -65,14 +65,13 @@ const SectionCellGroup = styled.div`
     width:100%;
     }
 `
-
-export default () => {
-    let tag = String(decodeURIComponent(window.location.hash.slice(1))).trim()
+export default ({location}) => {
+    let tag = String(decodeURIComponent(location.hash.slice(1))).trim()
     let cells = store[tag] || []
-    window.scrollTo(0, 0)
+    if(typeof(window) !== 'undefined') window.scrollTo(0, 0)
     return (
     <Layout>
-    <SectionBlank></SectionBlank>
+        <SectionBlank></SectionBlank>
         <SectionTitle>{tag}</SectionTitle>
         <SectionCellGroup>
             {
