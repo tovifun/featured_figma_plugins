@@ -18,7 +18,7 @@ const SectionCaption = styled.div`
   font-weight: 600;
   font-size: 16px;
   color: ${COLORS.neutral_4};
-  max-width: 636px;
+  max-width: 648px;
   padding: 58px 50px 10px;
   display: flex;
   -webkit-box-align: center;
@@ -80,8 +80,8 @@ const SectionCellGroup = styled.div`
 
 const SectionClassify = styled.div`
   margin:0 auto;
-  max-width: 636px;
-  padding: 50px;
+  max-width: 648px;
+  padding: 50px 50px 100px;
   @media (max-width:640px){
       padding: 50px 24px;
     }

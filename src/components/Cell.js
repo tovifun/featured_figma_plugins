@@ -16,7 +16,7 @@ const CellGroup = styled.div`
         h3{
         text-decoration:underline;
         color:${COLORS.brand};
-    }
+        }
     }
 `
 const CellInfo = styled.div`

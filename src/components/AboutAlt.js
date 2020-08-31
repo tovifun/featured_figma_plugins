@@ -32,7 +32,7 @@ import { COLORS } from '../values/colors'
 
 
 const AboutGroup = styled.div`
-    max-width: 636px;
+    max-width: 648px;
     line-height: 1.5;
 
     margin: 0 auto;
@@ -235,7 +235,11 @@ const AboutAlt = ({data}) => (
         <AboutText>你会如何发掘优质插件？可能你会有一些群聊，里边的小伙伴会时常分享一些好的内容；或者你在社交账号也会浏览到一些插件推荐。</AboutText>
         <AboutText>再或者，你也可以像我们一样，不想遗漏那些好的插件，使用非常笨的方法，每个月打开社区插件列表，把近期更新的插件都安装来玩一下。</AboutText>
         <AboutText>不过你完全不需要这么做，因为我们已经体验过一遍了，并且精心挑选出了其中比较好的插件（就是这个网页中所展示的）。每个月挑选的数量也不会特别多，可能你花几分钟就浏览完了。</AboutText>
+
+        <AboutHeadline>反馈</AboutHeadline>
+        <AboutText>你可以在 <a href="https://www.notion.so/tovi/Featured-Figma-Plugins-59a87058a19441a495b7005fb72d1977" target="_blank" rel="noreferrer">这个 Notion 页面</a> 查看这个网站的更新记录和接下来想做得一些功能。</AboutText>
         <AboutText>每个月的最后一天，我们会进行更新，你可以在下方关注公众号获得更新提醒。如果你想进行评论、反馈，可以 <a href="https://mp.weixin.qq.com/s/SqMktXLMPU-BRsAMPn7XOQ" target="_blank" rel="noreferrer">在这篇公众号</a> 或者 <a href="https://twitter.com/tovizhong/status/1285012648661184512" target="_blank" rel="noreferrer">这条推</a> 下留言（留言专用帖<span role="img" aria-label="Face with Tears of Joy">😂</span>）。</AboutText>
+        
 
         <AboutHeadline>赞赏</AboutHeadline>
         <AboutText>如果你喜欢这个网站，可以考虑给我们赞赏：</AboutText>

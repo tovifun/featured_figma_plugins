@@ -182,7 +182,7 @@
       "author": "Pablo Stanley"
     },
     {
-      "title": "Pitchdeck Presentation Studio",
+      "title": "Pitchdeck",
       "link": "https://www.figma.com/community/plugin/838925615018625519/Pitchdeck-Presentation-Studio",
       "image": "images/pitchdeck_presentation_studio.png",
       "tag": "创意生成 ",
@@ -292,7 +292,7 @@
     {
       "title": "Colors → Code",
       "link": "https://www.figma.com/community/plugin/834722635660200680/Colors-%E2%86%92-Code",
-      "image": "images/colors_to_code.png",
+      "image": "images/colors_to_code_alt.png",
       "tag": "代码与交付",
       "text": "将你的颜色导出为各种格式的颜色表，比如 CSS、SCSS、XML 等等。",
       "text-en": "Export your color tokens directly into any given format to smoothly integrate them into your stack.",

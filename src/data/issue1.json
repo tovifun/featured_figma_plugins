@@ -210,7 +210,7 @@
           "image": "images/feather_icons.png"
         },
         {
-          "title": "Figmaotion",
+          "title": "Figmotion",
           "link": "https://www.figma.com/c/plugin/733025261168520714/Figmotion",
           "tag": "设计辅助",
           "text": "在 Figma 里直接制作简易的动效，不过可维护性不佳，适合做那种做完就扔的展示动效，其他的还是老老实实用 Ae 吧。",

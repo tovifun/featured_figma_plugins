@@ -3,10 +3,14 @@ import styled from 'styled-components'
 import Link from 'gatsby-link'
 import { COLORS } from '../values/colors'
 
+
+
 const ArchiveGroup = styled.div`
-    max-width: 636px;
+    max-width: 638px;
     position: relative;
+    box-sizing:border-box;
     border-top: 1px solid ${COLORS.border};
+    border-bottom: 1px solid ${COLORS.white};
     margin:0 auto;
     padding: 24px 0;
     transition: 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -16,10 +20,17 @@ const ArchiveGroup = styled.div`
     -webkit-box-align: center;
     align-items: center;
     vertical-align: baseline;
+    color: ${COLORS.neutral_4};
     &:hover{
         background:-webkit-linear-gradient(0deg, #F9F8F9 0%, rgba(249, 248, 249, 0) 100%);
         cursor: pointer;
+        border-top: 1px solid ${COLORS.brand};
+        border-bottom: 1px solid ${COLORS.brand};
+        color:${COLORS.brand};
+        
     }
+
+
 `
 const ArchiveInfo = styled.div`
     display: flex;
@@ -27,15 +38,16 @@ const ArchiveInfo = styled.div`
     -webkit-box-align: center;
     align-items: center;
     vertical-align: baseline;
-
 `
-const ArchiveTitle = styled.div`
+
+const ArchiveTitle = styled.h3`
     margin: 0;
     padding: 0;
     font-weight: 600;
     font-size: 16px;
-    color: ${COLORS.neutral_4};
+    ${'' /* color: ${COLORS.neutral_4}; */}
 `
+
 const ArchiveTotal = styled.div`
     margin: 0;
     margin-left:8px;

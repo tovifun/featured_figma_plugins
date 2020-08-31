@@ -2,6 +2,25 @@
     "date": "2019-12-29",
     "cells": [
         {
+          "title": "Zeplin",
+          "link": "https://www.figma.com/community/plugin/745330164019088593/Zeplin",
+          "image": "images/zeplin.png",
+          "tag": "代码与交付",
+          "text": "Sketch 时代就很热门的一个工具，用 Sketch 的人都应该知道这个。将设计标注导入到 Zeplin 之后供他人浏览或查看标注。",
+          "text-en": "Zeplin is a connected workspace for product teams where you can share, organize and collaborate on designs—built with developers in mind.",
+          "author": "Zeplin"
+        },
+        {
+          "title": "Avocode",
+          "link": "https://www.figma.com/community/plugin/821674268995163810/Avocode",
+          "image": "images/avocode.png",
+          "tag": "代码与交付",
+          "text": "和 Zeplin 类似，知名的 Handoff 工具。很喜欢它的设计。",
+          "text-en": "Hand-off design versions to other stakeholders who need to work with them, while keeping your work in Figma intact.",
+          "author": "Avocode Team"
+        },
+
+        {
           "title": "Select Same",
           "link": "https://www.figma.com/c/plugin/792767780551514994/Select-Same",
           "tag": "效率小工具",
@@ -9,14 +28,7 @@
           "author": "Andreslav Kozlov",
           "image": "images/select_same.jpg"
         },
-        {
-          "title": "LaTeX Complete",
-          "link": "https://www.figma.com/c/plugin/793023817364007801/LaTeX-Complete",
-          "tag": "设计辅助",
-          "text": "生成数学公式符号，应该需求比较小众",
-          "author": "Max Krieger",
-          "image": "images/latex_complete.png"
-        },
+
         {
           "title": "Icons8",
           "link": "https://www.figma.com/c/plugin/791103617505812222/Icons8",

@@ -1,0 +1,203 @@
+{
+  "date": "2020-08-30",
+  "cells": [
+    {
+      "title": "Convertify",
+      "link": "https://www.figma.com/community/plugin/849159306117999028/Convertify-Figma-to-Sketch%2FXD",
+      "image": "images/convertify.png",
+      "tag": "代码与交付",
+      "text": "将 Figma 文件直接转换为 Sketch 和 XD 文件。试用了一下，效果还行。",
+      "text-en": "Convert and export your designs from Figma to Sketch or Adobe XD (BETA) with one click",
+      "author": "Figmatic"
+    },
+    {
+      "title": "Annotate it!",
+      "link": "https://www.figma.com/community/plugin/859894273811051899/Annotate-it!",
+      "image": "images/annotate_it.png",
+      "tag": "原型与协作",
+      "text": "这一期比较喜欢的一个，帮助你做设计说明，设计注释。不过目前不支持设置中文字体，所以如果用中文写的时候还是有显示问题的。",
+      "text-en": "Annotate it! is a plugin to help you automate the process of annotating your designs for a smooth and effective developer handoff.",
+      "author": "Fabian B."
+    },
+    {
+      "title": "Downsize",
+      "link": "https://www.figma.com/community/plugin/869495400795251845/Downsize",
+      "image": "images/downsize.png",
+      "tag": "图片处理",
+      "text": "直接在 Figma 中压缩图片的大小，这样也可以在一定程度上加快 Figma 的图片加载速度。感觉体验比之前介绍的那个 TinyImage 还要好一些。",
+      "text-en": "Compress images right on the canvas!",
+      "author": "Alex"
+    },
+    {
+      "title": "Bannerify",
+      "link": "https://www.figma.com/community/plugin/796124491692147799/Bannerify-Banner-Ad-Studio",
+      "image": "images/bannerify.png",
+      "tag": "代码与交付",
+      "text": "制作动态的 Banner 的一个插件，而且做完之后可以直接导出 HTML， Gif或 Video格式（这个团队做了好多 Figma 插件，而且每个插件的图标都设计得好有意思。",
+      "text-en": "Animate and export production ready banners from Figma to HTML, GIFs and Videos",
+      "author": "Figmatic"
+    },
+    {
+      "title": "Favvy Favicon Exporter",
+      "link": "https://www.figma.com/community/plugin/789010114208495133/Favvy-Favicon-Exporter",
+      "image": "images/favvvy.png",
+      "tag": "代码与交付",
+      "text": "选中 Figma 中你设计好的 Logo，然后用这个插件导出 favicon。",
+      "text-en": "Export production ready favicons for your website or PWA from Figma in seconds",
+      "author": "Figmatic"
+    },
+    {
+      "title": "Breakpoints",
+      "link": "https://www.figma.com/community/plugin/824289601590456356/Breakpoints",
+      "image": "images/breakpoints.png",
+      "tag": "设计辅助",
+      "text": "和上一次介绍的 Resposive 有点类似，直接在 Figma 预览你做好的响应式设计。当你拖动 Frame 宽度时，不同的设计会随着你设置好的断点展示出来。不过这个要好很多的是，在拖动的时候不需要打开插件窗口。",
+      "text-en": "Breakpoints are finally in Figma as a resizable instance #frame that works even without the opened plugin window. It means that for all collaborators in your team, the Breakpoints work correctly.",
+      "author": "Floweare"
+    },
+    {
+      "title": "Gifmock ",
+      "link": "https://www.figma.com/community/plugin/869265270145605728/Gifmock",
+      "image": "images/gifmock.png",
+      "tag": "设计辅助",
+      "text": "直接在 Figma 做逐帧动画。操作很简单，选中多个 Frame 然后直接导出。",
+      "text-en": "Gifmock is a tool that helps you create high-quality GIFs from static images and mockups.",
+      "author": "Steven Fabre"
+    },
+    {
+      "title": "✍️ Ditto",
+      "link": "https://www.figma.com/community/plugin/798826066406007173/%E2%9C%8D%EF%B8%8F-Ditto-%7C-collaborate-on-copy",
+      "image": "images/ditto.png",
+      "tag": "原型与协作",
+      "text": "非常喜欢这个插件。虽然也可以直接在 Figma 中编辑文本。不过这个插件可以集中管理所有的文案。如果你的产品设计多人协作，而且需要人负责界面中的文案可以试下这个。",
+      "text-en": "Manage the words across your team’s product with a central source of truth.",
+      "author": "Ditto "
+    },
+    {
+      "title": "UX copy management",
+      "link": "https://www.figma.com/community/plugin/809843676692807511/Frontitude-%E2%80%A2-UX-copy-management",
+      "image": "images/uxcopy_management.jpg",
+      "tag": "原型与协作",
+      "text": "和 Ditto 有点类似，感觉功能相差也不太大。如果有这个需求的，可以两个都是试下决定用哪个。",
+      "text-en": "a centralized workspace for product teams to create and collaborate on their product language, from design to production.",
+      "author": "Frontitude"
+    },
+    {
+      "title": "Color Theme Manager",
+      "link": "https://www.figma.com/community/plugin/877698871356754847/Color-Theme-Manager",
+      "image": "images/color_theme_manager.png",
+      "tag": "设计辅助",
+      "text": "一款非常清亮的主题切换插件。设置主题的逻辑比较简单，就是每次设置好主题色之后，用这个插件保存一次记录。然后要切换的时候，选择记录里的主题。",
+      "text-en": "Color Theme Manager is a light weight easy to use plugin for create and swap between different color themes. ",
+      "author": "Dewen Zhang"
+    },
+    {
+      "title": "Swapper ",
+      "link": "https://www.figma.com/community/plugin/833287008340340220/Swapper",
+      "image": "images/swapper.png",
+      "tag": "组件与样式",
+      "text": "又一款创建多主题切换设计的插件。相较于之前介绍过的 Themer，这款所需要做的准备工作没那么多，不过功能也会相对没那么多。",
+      "text-en": "Swapper allow you easy switch theme from many. It also has utils for faster create new themes.",
+      "author": "Evgenii Khromkov"
+    },
+    {
+      "title": "Connect",
+      "link": "https://www.figma.com/community/plugin/874515048823651494/Connect",
+      "image": "images/connect.png",
+      "tag": "设计辅助",
+      "text": "将一个文件的 Frame 映射到另一个文件。不需要用到 Component 的功能。可以用在设计图发给他人预览的时候。",
+      "text-en": "Mirror any screen to a any file and create global userflows without duplicating your content. Update them whenever you want.",
+      "author": "Santiago Moreno"
+    },
+    {
+      "title": "Bootstrap Icons",
+      "link": "https://www.figma.com/community/plugin/868341386266170307/Bootstrap-Icons",
+      "image": "images/bootstrap_icons.png",
+      "tag": "图标和插图",
+      "text": "在 Figma 中插入图标的另一个选择，这次是来自 Bootstrap 的图标库。这一套我还挺喜欢的。",
+      "text-en": "Add icons from Bootstrap icon library directly as SVG in your Figma projects. Find the appropriate icon in the list of more than 1300 icons.\n",
+      "author": "Ismael Martínez"
+    },
+    {
+      "title": "Translator",
+      "link": "https://www.figma.com/community/plugin/743218037112142643/Translator",
+      "image": "images/translator.png",
+      "tag": "设计辅助",
+      "text": "快速将文本翻译成别的语言的插件。速度非常快，而且可选语言很多。多语言插件非常多，觉得这款应该是体验比较好的那一个。",
+      "text-en": "Translator instantly translates the text in your Figma designs into other langauges. Backed by the engine that powers Google Translate, you can test your designs in up to 104 different languages.",
+      "author": "Dustin Mierau"
+    },
+    {
+      "title": "Wireframe",
+      "link": "https://www.figma.com/community/plugin/742764242781786818/Wireframe",
+      "image": "images/wireframe.png",
+      "tag": "原型与协作",
+      "text": "Figma 上比较热门和功能比较全的 Wireframe 插件了。画用户流程的时候可以试一下。",
+      "text-en": "Wireframe plugin is the best for creating beautiful user flow prototypes and basic structures in Figma so no other kits, files or skills required!",
+      "author": "Hexorial"
+    },
+    {
+      "title": "Print for Figma",
+      "link": "https://www.figma.com/community/plugin/874441781480244375/Print-for-Figma",
+      "image": "images/print_for_figma.png",
+      "tag": "设计辅助",
+      "text": "帮助在 Figma 中创建印刷尺寸的Frame。如果你需要在 Figma 中做需要印刷的设计，可以用下这个。",
+      "text-en": "Create Print Documents in Figma 🖨️ 📄 📝Easily setup frames that are sized properly for printing at specific DPIs.",
+      "author": "Ben K."
+    },
+    {
+      "title": "Reset Text Layer Name",
+      "link": "https://www.figma.com/community/plugin/768671547563304036/Reset-Text-Layer-Name",
+      "image": "images/reset_text_layer_name.jpg",
+      "tag": "文本处理",
+      "text": "如果需要复原单个文本图层的名字，你可以在图层中重命名的时候将名字清空。而这个插件可以帮助你批量复原文本图层的名字。",
+      "text-en": "Ever end up wanting to reset your layer names, so the name reflects your text content?",
+      "author": "Reony Tonneyck"
+    },
+    {
+      "title": "Stark",
+      "link": "https://www.figma.com/community/plugin/732603254453395948/Stark",
+      "image": "images/stark.png",
+      "tag": "设计辅助",
+      "text": "帮你测试文字和背景的对比度。类似的插件很多，比如叫 Contrast 的就有两个，而且感觉它们间的差距也不会非常大。有需要的时候选择一个来使用即可。",
+      "text-en": "Design products that are accessible, ethical, and inclusive with a contrast checker, colorblind simulator, education and more. All based on WCAG guidelines.",
+      "author": "Stark"
+    },
+    {
+      "title": "Clean Document",
+      "link": "https://www.figma.com/community/plugin/767379019764649932/Clean-Document",
+      "image": "images/clean_up.png",
+      "tag": "效率小工具",
+      "text": "帮助你“清洁”你的Figma文件——比如删除隐藏的图层，将元素像素对齐等等。另外，这个作者做了许多的插件，可以去他的个人页看看。",
+      "text-en": "Automagically organize and clean up your Figma document.",
+      "author": "Yuan Qing Lim"
+    },
+    {
+      "title": "Figma to Code",
+      "link": "https://www.figma.com/community/plugin/842128343887142055/Figma-to-Code-(Tailwind%2C-Flutter%2C-SwiftUI)",
+      "image": "images/figma_to_code.png",
+      "tag": "代码与交付",
+      "text": "选中 Figma 中的元素，然后运行插件后将它们转成 Taiwind 、Flutter 和 SwiftUI",
+      "text-en": "Convert Figma layouts into responsive webpages (in Tailwind) or mobile apps (in Flutter and SwiftUI).",
+      "author": "Bernardo Ferrari"
+    },
+    {
+      "title": "Master",
+      "link": "https://www.figma.com/community/plugin/767721682134156281/Master",
+      "image": "images/master.png",
+      "tag": "组件与样式",
+      "text": "将类似的 Frame 变成同一个 Component 的 instants。 或者将一些 Frame Link 到已经创建好的相似的 Component 下。",
+      "text-en": "Create, attach, clone and move components in a couple of clicks without losing overrides! 🔥 ",
+      "author": "Gleb"
+    },
+    {
+      "title": "Samponent",
+      "link": "https://www.figma.com/community/plugin/845497837694622588/SamPonent",
+      "image": "images/samponent.png",
+      "tag": "组件与样式",
+      "text": "将任何元素转换成已选的组件。插件的交互做得还挺有意思的。",
+      "text-en": "This is a simple Plugin that you can use to quickly change the element in your design.",
+      "author": "Sam Liu"
+    }
+]
+}
