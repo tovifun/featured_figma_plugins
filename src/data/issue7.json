@@ -2,6 +2,24 @@
   "date": "2020-08-30",
   "cells": [
     {
+      "title": "Convertify",
+      "link": "https://www.figma.com/community/plugin/849159306117999028/Convertify-Figma-to-Sketch%2FXD",
+      "image": "images/convertify.png",
+      "tag": "代码与交付",
+      "text": "将 Figma 文件直接转换为 Sketch 和 XD 文件。试用了一下，效果还行。",
+      "text-en": "Convert and export your designs from Figma to Sketch or Adobe XD (BETA) with one click",
+      "author": "Figmatic"
+    },
+    {
+      "title": "Annotate it!",
+      "link": "https://www.figma.com/community/plugin/859894273811051899/Annotate-it!",
+      "image": "images/annotate_it.png",
+      "tag": "原型与协作",
+      "text": "这一期比较喜欢的一个，帮助你做设计说明，设计注释。不过目前不支持设置中文字体，所以如果用中文写的时候还是有显示问题的。",
+      "text-en": "Annotate it! is a plugin to help you automate the process of annotating your designs for a smooth and effective developer handoff.",
+      "author": "Fabian B."
+    },
+    {
       "title": "Downsize",
       "link": "https://www.figma.com/community/plugin/869495400795251845/Downsize",
       "image": "images/downsize.png",
@@ -9,24 +27,6 @@
       "text": "直接在 Figma 中压缩图片的大小，这样也可以在一定程度上加快 Figma 的图片加载速度。感觉体验比之前介绍的那个 TinyImage 还要好一些。",
       "text-en": "Compress images right on the canvas!",
       "author": "Alex"
-    },
-    {
-      "title": "Annotate it!",
-      "link": "https://www.figma.com/community/plugin/859894273811051899/Annotate-it!",
-      "image": "images/annotate_it.png",
-      "tag": "原型与协作",
-      "text": "这一期比较喜欢的一个，帮助你做设计说明，设计注释。之前也介绍 Figchat 也是类似功能，不过这个功能和体验做得比较好。",
-      "text-en": "Annotate it! is a plugin to help you automate the process of annotating your designs for a smooth and effective developer handoff.",
-      "author": "Fabian B."
-    },
-    {
-      "title": "Convertify",
-      "link": "https://www.figma.com/community/plugin/849159306117999028/Convertify-Figma-to-Sketch%2FXD",
-      "image": "images/convertify.png",
-      "tag": "代码与交付",
-      "text": "将 Figma 文件直接转换为 Sketch 和 XD 文件。",
-      "text-en": "Convert and export your designs from Figma to Sketch or Adobe XD (BETA) with one click",
-      "author": "Figmatic"
     },
     {
       "title": "Bannerify",
@@ -65,13 +65,22 @@
       "author": "Steven Fabre"
     },
     {
-      "title": "Bootstrap Icons",
-      "link": "https://www.figma.com/community/plugin/868341386266170307/Bootstrap-Icons",
-      "image": "images/bootstrap_icons.png",
-      "tag": "图标和插图",
-      "text": "在 Figma 中插入图标的另一个选择，这次是来自 Bootstrap 的图标库。这一套我还挺喜欢的。",
-      "text-en": "Add icons from Bootstrap icon library directly as SVG in your Figma projects. Find the appropriate icon in the list of more than 1300 icons.\n",
-      "author": "Ismael Martínez"
+      "title": "✍️ Ditto",
+      "link": "https://www.figma.com/community/plugin/798826066406007173/%E2%9C%8D%EF%B8%8F-Ditto-%7C-collaborate-on-copy",
+      "image": "images/ditto.png",
+      "tag": "原型与协作",
+      "text": "非常喜欢这个插件。虽然也可以直接在 Figma 中编辑文本。不过这个插件可以集中管理所有的文案。如果你的产品设计多人协作，而且需要人负责界面中的文案可以试下这个。",
+      "text-en": "Manage the words across your team’s product with a central source of truth.",
+      "author": "Ditto "
+    },
+    {
+      "title": "UX copy management",
+      "link": "https://www.figma.com/community/plugin/809843676692807511/Frontitude-%E2%80%A2-UX-copy-management",
+      "image": "images/uxcopy_management.jpg",
+      "tag": "原型与协作",
+      "text": "和 Ditto 有点类似，感觉功能相差也不太大。如果有这个需求的，可以两个都是试下决定用哪个。",
+      "text-en": "a centralized workspace for product teams to create and collaborate on their product language, from design to production.",
+      "author": "Frontitude"
     },
     {
       "title": "Color Theme Manager",
@@ -101,6 +110,15 @@
       "author": "Santiago Moreno"
     },
     {
+      "title": "Bootstrap Icons",
+      "link": "https://www.figma.com/community/plugin/868341386266170307/Bootstrap-Icons",
+      "image": "images/bootstrap_icons.png",
+      "tag": "图标和插图",
+      "text": "在 Figma 中插入图标的另一个选择，这次是来自 Bootstrap 的图标库。这一套我还挺喜欢的。",
+      "text-en": "Add icons from Bootstrap icon library directly as SVG in your Figma projects. Find the appropriate icon in the list of more than 1300 icons.\n",
+      "author": "Ismael Martínez"
+    },
+    {
       "title": "Translator",
       "link": "https://www.figma.com/community/plugin/743218037112142643/Translator",
       "image": "images/translator.png",
@@ -110,22 +128,22 @@
       "author": "Dustin Mierau"
     },
     {
-      "title": "✍️ Ditto",
-      "link": "https://www.figma.com/community/plugin/798826066406007173/%E2%9C%8D%EF%B8%8F-Ditto-%7C-collaborate-on-copy",
-      "image": "images/ditto.png",
+      "title": "Wireframe",
+      "link": "https://www.figma.com/community/plugin/742764242781786818/Wireframe",
+      "image": "images/wireframe.png",
       "tag": "原型与协作",
-      "text": "非常喜欢这个插件。虽然也可以直接在 Figma 中编辑文本。不过这个插件可以集中管理所有的文案。如果你的产品设计多人协作，而且需要人负责界面中的文案可以试下这个。",
-      "text-en": "Manage the words across your team’s product with a central source of truth.",
-      "author": "Ditto "
+      "text": "Figma 上比较热门和功能比较全的 Wireframe 插件了。画用户流程的时候可以试一下。",
+      "text-en": "Wireframe plugin is the best for creating beautiful user flow prototypes and basic structures in Figma so no other kits, files or skills required!",
+      "author": "Hexorial"
     },
     {
-      "title": "UX copy management",
-      "link": "https://www.figma.com/community/plugin/809843676692807511/Frontitude-%E2%80%A2-UX-copy-management",
-      "image": "images/uxcopy_management.jpg",
-      "tag": "原型与协作",
-      "text": "和 Ditto 有点类似，感觉功能相差也不太大。如果有这个需求的，可以两个都是试下决定用哪个。",
-      "text-en": "a centralized workspace for product teams to create and collaborate on their product language, from design to production.",
-      "author": "Frontitude"
+      "title": "Print for Figma",
+      "link": "https://www.figma.com/community/plugin/874441781480244375/Print-for-Figma",
+      "image": "images/print_for_figma.png",
+      "tag": "设计辅助",
+      "text": "帮助在 Figma 中创建印刷尺寸的Frame。如果你需要在 Figma 中做需要印刷的设计，可以用下这个。",
+      "text-en": "Create Print Documents in Figma 🖨️ 📄 📝Easily setup frames that are sized properly for printing at specific DPIs.",
+      "author": "Ben K."
     },
     {
       "title": "Reset Text Layer Name",
@@ -137,15 +155,6 @@
       "author": "Reony Tonneyck"
     },
     {
-      "title": "Interplay",
-      "link": "https://www.figma.com/community/plugin/736368164448889527/Interplay",
-      "image": "images/interplay.png",
-      "tag": "代码与交付",
-      "text": "这个插件需要先注册，不好还在内测，我填了邮箱还在等待。",
-      "text-en": "Interplay imports your design system code repository and lets you design with code components in Figma.",
-      "author": "Michael Fitzgerald"
-    },
-    {
       "title": "Stark",
       "link": "https://www.figma.com/community/plugin/732603254453395948/Stark",
       "image": "images/stark.png",
@@ -153,15 +162,6 @@
       "text": "帮你测试文字和背景的对比度。类似的插件很多，比如叫 Contrast 的就有两个，而且感觉它们间的差距也不会非常大。有需要的时候选择一个来使用即可。",
       "text-en": "Design products that are accessible, ethical, and inclusive with a contrast checker, colorblind simulator, education and more. All based on WCAG guidelines.",
       "author": "Stark"
-    },
-    {
-      "title": "Print for Figma",
-      "link": "https://www.figma.com/community/plugin/874441781480244375/Print-for-Figma",
-      "image": "images/print_for_figma.png",
-      "tag": "设计辅助",
-      "text": "帮助在 Figma 中创建打印尺寸的Frame。如果你需要在 Figma 中做需要打印的设计，可以用下这个。",
-      "text-en": "Create Print Documents in Figma 🖨️ 📄 📝Easily setup frames that are sized properly for printing at specific DPIs.",
-      "author": "Ben K."
     },
     {
       "title": "Clean Document",
@@ -187,7 +187,7 @@
       "image": "images/master.png",
       "tag": "组件与样式",
       "text": "将类似的 Frame 变成同一个 Component 的 instants。 或者将一些 Frame Link 到已经创建好的相似的 Component 下。",
-      "text-en": "Create, attach, clone and move components in a couple of clicks without losing overrides! 🔥 \n\n",
+      "text-en": "Create, attach, clone and move components in a couple of clicks without losing overrides! 🔥 ",
       "author": "Gleb"
     },
     {
@@ -195,7 +195,7 @@
       "link": "https://www.figma.com/community/plugin/845497837694622588/SamPonent",
       "image": "images/samponent.png",
       "tag": "组件与样式",
-      "text": "将任何元素转换成已选的组件。",
+      "text": "将任何元素转换成已选的组件。插件的交互做得还挺有意思的。",
       "text-en": "This is a simple Plugin that you can use to quickly change the element in your design.",
       "author": "Sam Liu"
     }

@@ -57,6 +57,14 @@
       transition: all .5s;
   }
   
+  @media(max-width:1280px){
+    .Hero h1{
+      font-size:40px;
+    }
+  }
+
+
+
   @media(max-width:640px){
     .HeroGroup{
       padding: 108px 24px 0px;
@@ -85,7 +93,7 @@
 
 .classify-title{
   padding-top: 30px;
-  margin-bottom: 18px;
+  margin-bottom: 24px;
   text-align: center;
 }
 .classify-tags{
@@ -95,14 +103,14 @@
   margin-bottom: 48px;
 }
 .classify-tag{
-  margin: .6em;
+  margin: 0em 0.6em 1.2em 0.6em;
   padding: .35em .65em; 
   background: rgba(25, 13, 58, 0.05);
   box-sizing: border-box;
   display: inline-block; 
   border-radius: 2px;
   color: rgba(4, 0, 20, 0.8);
-  border: 1.5px solid transparent;
+  border: 2px solid transparent;
   transition: all .5s;
 }
 

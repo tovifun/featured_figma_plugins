@@ -81,7 +81,7 @@ const SectionCellGroup = styled.div`
 const SectionClassify = styled.div`
   margin:0 auto;
   max-width: 648px;
-  padding: 50px;
+  padding: 50px 50px 100px;
   @media (max-width:640px){
       padding: 50px 24px;
     }
