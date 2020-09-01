@@ -114,7 +114,7 @@ const Footer = () =>(
     <FooterGroup>
         <FooterContent>
         <FooterTitleGroup>
-            <FooterTitleImage src={require('../images/emo-bro.gif')} alt="emo-bro"></FooterTitleImage>
+            <FooterTitleImage src={require('../images/emo-bro.gif')} alt="Phone Call Sticker by jecamartinez -> http://www.instagram.com/jecamartinezart"></FooterTitleImage>
             <FooterTitle>项目参与者</FooterTitle>
         </FooterTitleGroup>
         <FooterContributorGroup>

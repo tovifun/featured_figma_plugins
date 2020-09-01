@@ -221,7 +221,7 @@ const AboutList = styled.li`
 const AboutAlt = ({data}) => (
     <AboutGroup>
         <AboutTitleGroup>
-            <AboutTitleImage src={require('../images/tovifun_signature.png')} alt="emo-bro"></AboutTitleImage>
+            <AboutTitleImage src={require('../images/tovifun_signature.gif')} alt="emo-bro"></AboutTitleImage>
             <AboutTitle>关于项目</AboutTitle>
         </AboutTitleGroup>
         {/* <AboutAuthor>
