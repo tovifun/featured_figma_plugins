@@ -52,6 +52,7 @@ const AboutTitleGroup = styled.div`
 const AboutTitleImage = styled.img`
     ${'' /* margin:8px; */}
     height:96px;
+    width:96px;
     @media (max-width:640px){
         height:80px;
     } 
@@ -237,7 +238,7 @@ const AboutAlt = ({data}) => (
         <AboutText>不过你完全不需要这么做，因为我们已经体验过一遍了，并且精心挑选出了其中比较好的插件（就是这个网页中所展示的）。每个月挑选的数量也不会特别多，可能你花几分钟就浏览完了。</AboutText>
 
         <AboutHeadline>反馈</AboutHeadline>
-        <AboutText>你可以在 <a href="https://www.notion.so/tovi/Featured-Figma-Plugins-59a87058a19441a495b7005fb72d1977" target="_blank" rel="noreferrer">这个 Notion 页面</a> 查看这个网站的更新记录和接下来想做得一些功能。</AboutText>
+        <AboutText>你可以在 <a href="https://www.notion.so/tovi/Featured-Figma-Plugins-59a87058a19441a495b7005fb72d1977" target="_blank" rel="noreferrer">这个 Notion 页面</a> 查看这个网站的更新记录和接下来想做的一些功能。</AboutText>
         <AboutText>每个月的最后一天，我们会进行更新，你可以在下方关注公众号获得更新提醒。如果你想进行评论、反馈，可以 <a href="https://mp.weixin.qq.com/s/SqMktXLMPU-BRsAMPn7XOQ" target="_blank" rel="noreferrer">在这篇公众号</a> 或者 <a href="https://twitter.com/tovizhong/status/1285012648661184512" target="_blank" rel="noreferrer">这条推</a> 下留言（留言专用帖<span role="img" aria-label="Face with Tears of Joy">😂</span>）。</AboutText>
         
 

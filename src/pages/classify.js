@@ -32,14 +32,17 @@ const SectionBlank = styled.div`
 `
 
 const SectionCellGroup = styled.div`
-    max-width: 1440px;
+    max-width: 1920px;
     margin: 0 auto;
     padding: 20px 50px 20px 50px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 32px 56px;
     justify-items: center;
 
+    @media(max-width:1640px){
+    grid-template-columns: repeat(4, 1fr);
+  }
 
     @media (max-width:1280px){
     grid-template-columns: repeat(3, 1fr);

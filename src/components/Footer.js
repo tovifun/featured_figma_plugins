@@ -59,7 +59,9 @@ text-align: center;
 `
 const FooterTitleImage = styled.img`
     ${'' /* margin:8px; */}
+    ${'' /* background-color:${COLORS.image_default}; */}
     height:96px;
+    width:96px;
     @media (max-width:640px){
         height:80px;
     } 
@@ -84,20 +86,26 @@ const FooterContributor = styled.div`
     &:hover{
         transform:scale(1.1);
         color:${COLORS.brand};
+
+        img{
+            border:2px solid ${COLORS.brand}; 
+        }
     }
 `
 const FooterContributorAvatar = styled.img`
     display: inline-block;
     margin:8px;
+    width:64px;
     height:64px;
     box-sizing: border-box;
     border-radius:400px;
+    background-color:${COLORS.image_default};
     @media (max-width:640px){
         height:48px;
     } 
-    &:hover{
+    ${'' /* &:hover{
         border:2px solid ${COLORS.brand};
-    }
+    } */}
     
 
 `

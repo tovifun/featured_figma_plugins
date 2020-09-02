@@ -22,6 +22,9 @@ const Stamp = styled.img`
   margin-left: auto;
   margin-right: auto;
   margin-bottom:24px;
+  border-radius:8px;
+  width:160px;
+  background-color:${COLORS.image_default};
   opacity: 0.9;
 `
 // const Title = styled.p`
@@ -60,7 +63,7 @@ const Subscribe = () =>(
         <FooterGroup>
         <SubscribeGroup>
             {/* <Stamp width='120' height='120' src={require('../images/tovifun_stamp.png')}></Stamp> */}
-            <Stamp width='160' src={require('../images/tovifun_qrcode.png')}></Stamp>
+            <Stamp src={require('../images/tovifun_qrcode.png')}></Stamp>
 
 
             <Text>↑<br />扫描上方二维码，关注 Tovi 的公众号<br />获取精选 Figma 插件更新提醒</Text>
