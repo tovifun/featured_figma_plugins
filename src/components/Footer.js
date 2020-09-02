@@ -64,6 +64,7 @@ const FooterTitleImage = styled.img`
     width:96px;
     @media (max-width:640px){
         height:80px;
+        width:80px;
     } 
 `
 const FooterTitle = styled.h2`
@@ -102,6 +103,7 @@ const FooterContributorAvatar = styled.img`
     background-color:${COLORS.image_default};
     @media (max-width:640px){
         height:48px;
+        width:48px;
     } 
     ${'' /* &:hover{
         border:2px solid ${COLORS.brand};
