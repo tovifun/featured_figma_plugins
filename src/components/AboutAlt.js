@@ -55,6 +55,7 @@ const AboutTitleImage = styled.img`
     width:96px;
     @media (max-width:640px){
         height:80px;
+        width:80px;
     } 
 `
 const AboutTitle = styled.h2`
