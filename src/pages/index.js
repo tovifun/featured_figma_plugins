@@ -88,14 +88,13 @@ const SectionClassify = styled.div`
 `
 
 const SectionAbout = styled.div`
-  padding: 64px 50px 20px 50px;
-  background:#F7F3FA;
-  @media (max-width:640px){
-      padding: 64px 24px 20px;
-    }
+    index:100;
+
 `
 
-const SectionSubscribe = styled.div``
+const SectionSubscribe = styled.div`
+  index:-1;
+`
 
 const IndexPage = () => {
   const [theme, setState] = useState('default')

@@ -3,17 +3,12 @@ import styled from 'styled-components'
 import { COLORS } from '../values/colors'
 
 
-
-
-
 // const AboutAuthor = styled.div`
 //     display:flex;
 //     align-items:center;
 //     justify-content:center; 
 //     margin:48px; 
-
 // `
-
 
 // const AboutAvatar = styled.img`
 //     margin:8px;
@@ -29,7 +24,13 @@ import { COLORS } from '../values/colors'
 
 // `
 
-
+const AboutSection = styled.div`
+  padding: 64px 50px 50px 50px;
+  background:${COLORS.bg_darker};
+  @media (max-width:640px){
+      padding: 64px 24px 20px;
+    }
+`
 
 const AboutGroup = styled.div`
     max-width: 648px;
@@ -41,7 +42,7 @@ const AboutGroup = styled.div`
     transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
     a{
         text-decoration:underline;
-        color:${COLORS.brand}
+        color:${COLORS.brand};
     }
 `
 
@@ -49,6 +50,7 @@ const AboutTitleGroup = styled.div`
     text-align: center;
     margin-bottom:48px;
 `
+
 const AboutTitleImage = styled.img`
     ${'' /* margin:8px; */}
     height:96px;
@@ -58,6 +60,7 @@ const AboutTitleImage = styled.img`
         width:80px;
     } 
 `
+
 const AboutTitle = styled.h2`
 `
 
@@ -91,70 +94,73 @@ const AboutText = styled.div`
     }
 `
 
-const AboutUl = styled.ul`
-    font-size: 16px;
-    color: ${COLORS.neutral_4};
-    line-height:1.7em;
-    margin:8px 0;
-    padding-left:28px;
-    margin-bottom:12px;
+// const AboutUl = styled.ul`
+//     font-size: 16px;
+//     color: ${COLORS.neutral_4};
+//     line-height:1.7em;
+//     margin:8px 0;
+//     padding-left:28px;
+//     margin-bottom:12px;
+//     @media (max-width:640px){
+//         font-size:15px;
+//         line-height: 1.85em;
+//     }
+// `
+
+// const AboutList = styled.li`
+//     list-style-type: square;
+//     margin:4px 0;
+// `
+
+const AboutFigure = styled.figure`
+    background-color: ${COLORS.image_default};
+    margin: 0;
+    padding: 4px;
+    float: right;
+    max-width: 240px;
+    position: relative;
+    right: -10em;
+    margin-left: -9em;
+    @media (max-width:880px){
+        right: -6em;
+        margin-left: -5em;
+        max-width: 220px;
+    }
+    @media (max-width:800px){
+        right: 0;
+        margin-left: 8px;
+        max-width: 200px;
+    }
     @media (max-width:640px){
-        font-size:15px;
-        line-height: 1.85em;
+        right: 0;
+        margin-left: 8px;
+        max-width: 180px;
+    }
+    @media (max-width:480px){
+        right: 0;
+        margin-left: 8px;
+        max-width: 120px;
     }
 `
-
-const AboutList = styled.li`
-    list-style-type: square;
-    margin:4px 0;
+const AboutImage = styled.img`
+    width: 100%;
+    display: block;
+    margin-bottom:.5em;
+    // @media (max-width:832px){
+    //     width:90%;
+    // }
+    // @media (max-width:640px){
+    //     width:75%;
+    // }
+`
+const FigureCap = styled.figcaption`
+    font-style: italic;
+    font-size: .7em;
 `
 
-// const AboutFigure = styled.figure`
-//     // background-color: ${COLORS.white};
-//     margin: 0;
-//     padding: 4px;
-//     float: right;
-//     max-width: 240px;
-//     position: relative;
-//     right: -8em;
-//     margin-left: -7em;
-//     @media (max-width:880px){
-//         right: -6em;
-//         margin-left: -5em;
-//         max-width: 220px;
-//     }
-//     @media (max-width:800px){
-//         right: 0;
-//         margin-left: 8px;
-//         max-width: 200px;
-//     }
-//     @media (max-width:640px){
-//         right: 0;
-//         margin-left: 8px;
-//         max-width: 180px;
-//     }
-//     @media (max-width:480px){
-//         right: 0;
-//         margin-left: 8px;
-//         max-width: 120px;
-//     }
-// `
-// const AboutImage = styled.img`
-//     width: 100%;
-//     display: block;
-//     margin-bottom: 1em;
-//     // @media (max-width:832px){
-//     //     width:90%;
-//     // }
-//     // @media (max-width:640px){
-//     //     width:75%;
-//     // }
-
-// `
-// const FigureCap = styled.figcaption`
-//     font-style: italic;
-//     font-size: .7em;
-// `
+const FigureClear = styled.div`
+clear:both;
+`
 
 
 // const AboutLikeTitle = styled.h3`
@@ -176,51 +182,50 @@ const AboutList = styled.li`
 //         line-height: 1.4em;
 //     }
 // `
-    // const AboutLikeUser = styled.ul`
-    // ${'' /* border: 2px solid ${COLORS.border_lighter}; */}
-    // display: -webkit-flex;
-    // display: -ms-flexbox;
-    // display: -moz-box;
-    // display: flex;
-    // -webkit-flex-wrap: wrap;
-    //     -ms-flex-wrap: wrap;
-    //         flex-wrap: wrap;
-    // justify-content:center;
-    // margin: 0;
-    // ${'' /* padding: 1em; */}
-    // list-style: none;
 
-    // a {
-    //     /* display: block; */
-    //     ${'' /* padding: 4px 12px; */}
-    //     ${'' /* background-color: ${COLORS.tag_bg}; */}
-    //     border-radius:50px;
-    //     line-height: 1.5;
-    //     text-decoration: underline;
-    //     color: ${COLORS.neutral_4};
-    //     position: relative;
-    //     text-align: center;
-    //     transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
-    // }
-    //     a:hover{
-    //         color: ${COLORS.brand};
-    //     }
+// const AboutLikeUser = styled.ul`
+// ${'' /* border: 2px solid ${COLORS.border_lighter}; */}
+// display: -webkit-flex;
+// display: -ms-flexbox;
+// display: -moz-box;
+// display: flex;
+// -webkit-flex-wrap: wrap;
+//     -ms-flex-wrap: wrap;
+//         flex-wrap: wrap;
+// justify-content:center;
+// margin: 0;
+// ${'' /* padding: 1em; */}
+// list-style: none;
+// a {
+//     /* display: block; */
+//     ${'' /* padding: 4px 12px; */}
+//     ${'' /* background-color: ${COLORS.tag_bg}; */}
+//     border-radius:50px;
+//     line-height: 1.5;
+//     text-decoration: underline;
+//     color: ${COLORS.neutral_4};
+//     position: relative;
+//     text-align: center;
+//     transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+// }
+//     a:hover{
+//         color: ${COLORS.brand};
+//     }
+// `
 
-    // `
-
-    // const AboutLikeList = styled.li`
-    //     display: inline-block;
-    //     padding:6px 12px;
-    //     @media (max-width:640px){
-    //     padding:4px 8px;
-    // }
-
-    // `
+// const AboutLikeList = styled.li`
+//     display: inline-block;
+//     padding:6px 12px;
+//     @media (max-width:640px){
+//     padding:4px 8px;
+// }
+// `
 
 
 
 
 const AboutAlt = ({data}) => (
+    <AboutSection>
     <AboutGroup>
         <AboutTitleGroup>
             <AboutTitleImage src={require('../images/tovifun_signature.gif')} alt="emo-bro"></AboutTitleImage>
@@ -244,27 +249,39 @@ const AboutAlt = ({data}) => (
         
 
         <AboutHeadline>赞赏</AboutHeadline>
-        <AboutText>如果你喜欢这个网站，可以考虑给我们赞赏：</AboutText>
-        <AboutUl>
+        <AboutFigure>
+            <AboutImage src="images/figma_craft.jpg" alt="Figma 手工针织胸针 ｜ 又一造物" />
+            <FigureCap>Figma 手工针织胸针   </FigureCap>
+        </AboutFigure>
+        
+        <AboutText>
+        如果你喜欢这个网站，请考虑给我<a href="images/tovi_sponsor_small.png" target="_blank" rel="noreferrer">赞赏</a>。
+        </AboutText>
+        <AboutText>
+        如果你赞赏了30元，我们将给你邮寄一个由又一造物，即 Tovi 的老妹，手工针织的 Figma 胸针。
+        </AboutText>
+
+        <AboutText>赞赏之后给我发邮件或微信，写下你的<strong>手机号和收件地址</strong>即可获得。邮箱： hitovi@outlook.com； 微信：twowei</AboutText>
+        <FigureClear></FigureClear>
+        
+        {/* <AboutUl>
             <AboutList>通过 <a href="images/tovi_sponsor_small.png" target="_blank" rel="noreferrer">微信或支付宝</a></AboutList>
             <AboutList>或通过  <a href="https://www.buymeacoffee.com/tovi" target="_blank" rel="noreferrer">Buy me a coffee</a></AboutList>
-        </AboutUl>
+        </AboutUl> */}
         {/* <AboutText>赞赏任意金额，并发送邮件至： hitovi@outlook.com ， 写下你的<strong>昵称和一个社交/个人网站链接</strong>，我们将在下方展示你的昵称和链接信息。（随机排列）</AboutText> */}
         {/* <AboutText>注意：</AboutText>
         <AboutUl>
             <AboutFigure>
                 <AboutImage src="images/figma_craft.jpg" alt="Figma 手工针织胸针 ｜ 又一造物" />
-
             </AboutFigure>
             <AboutList>赞赏任意金额，并发送邮件写下你的<strong>昵称和一个社交/个人网站链接</strong>，我们将在下方展示你的昵称和链接信息。（随机排列）</AboutList>
 
-            <AboutList>赞赏30元或5美金以上，并发送邮件写下你的<strong>手机号和收件地址</strong>，我们将给你邮寄一个由 又一造物（也就是 Tovi 的老妹） 手工针织的 Figma 胸针，在这个页面可以查看 Figma 胸针大图。（仅限国内）</AboutList>
-        </AboutUl>
+            <AboutList>赞赏30元，并发送邮件写下你的<strong>手机号和收件地址</strong>，我们将给你邮寄一个由 又一造物（也就是 Tovi 的老妹） 手工针织的 Figma 胸针，在这个页面可以查看 Figma 胸针大图。（仅限国内）</AboutList>
+        </AboutUl> */}
 
-        <AboutText>邮箱地址： hitovi@outlook.com</AboutText> */}
+
 
         {/* <AboutLikeTitle> 感谢 5 位老铁赞赏<br /><span role="img" aria-label="heart"> ❤️ </span><span role="img" aria-label="heart"> ❤️ </span><span role="img" aria-label="heart"> ❤️ </span></AboutLikeTitle>
-
         <AboutLikeUser>
             <AboutLikeList><a href="https://dribbble.com/muchakucha" target="_blank" rel="noreferrer">Leo Lee</a></AboutLikeList>
             <AboutLikeList><a href="https://twitter.com/rosu_h" target="_blank" rel="noreferrer">Rosu</a></AboutLikeList>
@@ -276,6 +293,7 @@ const AboutAlt = ({data}) => (
 
 
     </AboutGroup>
+    </AboutSection>
 )
 
 export default AboutAlt

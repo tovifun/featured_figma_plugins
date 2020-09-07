@@ -10,6 +10,7 @@ const SubscribeGroup= styled.div`
     position:relative;
     padding:96px 48px;
     background:${COLORS.bg_darker};
+    ${'' /* background:${COLORS.brand}; */}
     ${'' /* border-top:1px solid ${COLORS.border_lighter}; */}
     @media (max-width:640px){
         padding: 64px 48px 48px;
