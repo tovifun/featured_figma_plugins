@@ -69,6 +69,7 @@ const FooterTitleImage = styled.img`
 `
 const FooterTitle = styled.h2`
     margin-bottom:16px;
+    font-size: 24px;
 `
 const FooterContributorGroup = styled.div`
 display: flex;

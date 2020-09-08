@@ -62,20 +62,21 @@ const AboutTitleImage = styled.img`
 `
 
 const AboutTitle = styled.h2`
+    font-size: 24px;
 `
 
 
 const AboutHeadline = styled.h2`
     margin: 0;
     padding: 0;
-    margin-top:32px;
+    margin-top:36px;
     margin-bottom:8px;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     color: ${COLORS.neutral_4};
     line-height:1.6em;
     @media (max-width:640px){
-        font-size:15px;
+        font-size:18px;
         line-height: 1.4em;
     }
 `
@@ -94,51 +95,51 @@ const AboutText = styled.div`
     }
 `
 
-// const AboutUl = styled.ul`
-//     font-size: 16px;
-//     color: ${COLORS.neutral_4};
-//     line-height:1.7em;
-//     margin:8px 0;
-//     padding-left:28px;
-//     margin-bottom:12px;
-//     @media (max-width:640px){
-//         font-size:15px;
-//         line-height: 1.85em;
-//     }
-// `
+const AboutUl = styled.ul`
+    font-size: 16px;
+    color: ${COLORS.neutral_4};
+    line-height:1.7em;
+    margin:8px 0;
+    padding-left:28px;
+    margin-bottom:12px;
+    @media (max-width:640px){
+        font-size:15px;
+        line-height: 1.85em;
+    }
+`
 
-// const AboutList = styled.li`
-//     list-style-type: square;
-//     margin:4px 0;
-// `
+const AboutList = styled.li`
+    list-style-type: square;
+    margin:4px 0;
+`
 
 const AboutFigure = styled.figure`
-    background-color: ${COLORS.image_default};
+    background-color: ${COLORS.bg_darker};
     margin: 0;
     padding: 4px;
     float: right;
-    max-width: 240px;
+    max-width: 220px;
     position: relative;
-    right: -10em;
-    margin-left: -9em;
+    right: -8em;
+    margin-left: -7em;
     @media (max-width:880px){
         right: -6em;
         margin-left: -5em;
-        max-width: 220px;
+        max-width: 200px;
     }
-    @media (max-width:800px){
+    @media (max-width:820px){
         right: 0;
-        margin-left: 8px;
+        margin-left: 12px;
         max-width: 200px;
     }
     @media (max-width:640px){
         right: 0;
-        margin-left: 8px;
+        margin-left: 12px;
         max-width: 180px;
     }
     @media (max-width:480px){
         right: 0;
-        margin-left: 8px;
+        margin-left: 12px;
         max-width: 120px;
     }
 `
@@ -249,19 +250,31 @@ const AboutAlt = ({data}) => (
         
 
         <AboutHeadline>赞赏</AboutHeadline>
+
+        <AboutText>
+        如果你喜欢这个网站，请考虑给我赞赏。
+        </AboutText>
+
+        <AboutUl>
+            <AboutList>通过 <a href="images/tovi_sponsor_small.png" target="_blank" rel="noreferrer">微信或支付宝</a></AboutList>
+            <AboutList>或通过  <a href="https://www.buymeacoffee.com/tovi" target="_blank" rel="noreferrer">Buy me a coffee</a></AboutList>
+        </AboutUl>
+
+ 
+
+        <AboutHeadline>Figma 针织胸针</AboutHeadline>
+
         <AboutFigure>
             <AboutImage src="images/figma_craft.jpg" alt="Figma 手工针织胸针 ｜ 又一造物" />
-            <FigureCap>Figma 手工针织胸针   </FigureCap>
+            {/* <FigureCap>Figma 手工针织胸针   </FigureCap> */}
         </AboutFigure>
         
         <AboutText>
-        如果你喜欢这个网站，请考虑给我<a href="images/tovi_sponsor_small.png" target="_blank" rel="noreferrer">赞赏</a>。
+        如果你赞赏了30元，我们将给你邮寄一个由<strong>又一造物</strong>手工针织的 Figma 胸针。
         </AboutText>
-        <AboutText>
-        如果你赞赏了30元，我们将给你邮寄一个由又一造物，即 Tovi 的老妹，手工针织的 Figma 胸针。
-        </AboutText>
-
-        <AboutText>赞赏之后给我发邮件或微信，写下你的<strong>手机号和收件地址</strong>即可获得。邮箱： hitovi@outlook.com； 微信：twowei</AboutText>
+        <AboutText>发送你的<strong>手机号和收件地址</strong>即可获得。</AboutText>
+        <AboutText>可通过邮箱发送： hitovi@outlook.com，或者添加 Tovi 的微信号发送：twowei </AboutText>
+        <AboutText><a href="./brooch" rel="noreferrer">查看 Figma 针织胸针大图 →</a></AboutText>
         <FigureClear></FigureClear>
         
         {/* <AboutUl>
