@@ -45,8 +45,9 @@ class Header extends React.Component{
           </div>
           <div className="HeaderButton">
             {/* <Link to="/">最新</Link> */}
+            <Link to="/#brooch">Figma 胸针</Link>
             <Link to="/#IdClassify">分类</Link>
-            <Link to="/#IdArchive">归档</Link>
+            {/* <Link to="/#IdArchive">归档</Link> */}
             <Link to="/#IdAbout">关于</Link>
             <Link to="/#IdSubscribe">关注</Link>
             {/* <select onInput={this.onChangeTheme.bind(this)}>

@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { COLORS } from '../values/colors'
 
 
+
 // const AboutAuthor = styled.div`
 //     display:flex;
 //     align-items:center;
@@ -154,10 +155,10 @@ const AboutImage = styled.img`
     //     width:75%;
     // }
 `
-const FigureCap = styled.figcaption`
-    font-style: italic;
-    font-size: .7em;
-`
+// const FigureCap = styled.figcaption`
+//     font-style: italic;
+//     font-size: .7em;
+// `
 
 const FigureClear = styled.div`
 clear:both;
@@ -255,7 +256,7 @@ const AboutAlt = ({data}) => (
         如果你喜欢这个网站，请考虑给我赞赏。
         </AboutText>
 
-        <AboutUl>
+        <AboutUl id="brooch">
             <AboutList>通过 <a href="images/tovi_sponsor_small.png" target="_blank" rel="noreferrer">微信或支付宝</a></AboutList>
             <AboutList>或通过  <a href="https://www.buymeacoffee.com/tovi" target="_blank" rel="noreferrer">Buy me a coffee</a></AboutList>
         </AboutUl>
