@@ -6,3 +6,4 @@
 
  // You can delete this file if you're not using itimport React from "react"
 
+import './src/theme/global.scss'

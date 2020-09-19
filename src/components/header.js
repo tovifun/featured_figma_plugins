@@ -1,64 +1,44 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import './Header.css'
+import React,{useState} from 'react'
+import '../theme/header.scss'
 
-class Header extends React.Component{
-  constructor(props){
-    super(props)
-    this.state={
-      hasScrolled:false
-    }
-  }
+export default () => {
+    let [scrolled, setState] = useState(false)
+    console.log(scrolled, setState)
+    // componentDidMount() {
+    //     window.addEventListener('scroll', this.handleScroll)
+    // }
 
-  componentDidMount(){
-    window.addEventListener('scroll', this.handleScroll)
-  }
+    // componentWillUnmount() {
+    //     window.removeEventListener('scroll', this.handleScroll)
+    // }
 
-  componentWillUnmount(){
-    window.removeEventListener('scroll', this.handleScroll)
-  }
+    // handleScroll = () => {
+    //     const scrollTop = window.pageYOffset
 
-  handleScroll = (event) =>{
-    const scrollTop = window.pageYOffset
+    //     if (scrollTop > 50) {
+    //         this.setState({ hasScrolled: true })
 
-    if (scrollTop > 50){
-      this.setState({hasScrolled:true})
+    //     } else {
+    //         this.setState({ hasScrolled: false })
+    //     }
+    // }
 
-    } else {
-      this.setState({hasScrolled:false})
-    }
-  }
-
-  onChangeTheme(e){
-    if(typeof this.props.onChangeTheme === 'function') this.props.onChangeTheme(e.target.value)
-  }
-
-  render(){
-    return(
-      <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
-        <div className="HeaderGroup">
-          <div className="HeaderLogo">
-            <Link to="/">
-              <img height="28px" src={require('../images/tovifun_logo.png')} alt="logo"/>
-              <img height="28px" src={require('../images/tovixjun.gif')} alt="logo"/>
-            </Link>
-          </div>
-          <div className="HeaderButton">
-            {/* <Link to="/">最新</Link> */}
-            <Link to="/#brooch">Figma 胸针</Link>
-            <Link to="/#IdClassify">分类</Link>
-            {/* <Link to="/#IdArchive">归档</Link> */}
-            <Link to="/#IdAbout">关于</Link>
-            <Link to="/#IdSubscribe">关注</Link>
-            {/* <select onInput={this.onChangeTheme.bind(this)}>
-              <option value="default">浅色</option>
-              <option value="dark">暗黑</option>
-            </select>     */}
-          </div>
+    return <header className="header">
+        <div className="header-group">
+            <div className="header-logo">
+                <a href="/">
+                    <img height="28px" src={require('../images/tovifun_logo.png')} alt="logo" />
+                    <img height="28px" src={require('../images/tovixjun.gif')} alt="logo" />
+                </a>
+            </div>
+            <div className="header-nav">
+                {/* <Link to="/">最新</Link> */}
+                <a href="/#brooch">Figma 胸针</a>
+                <a href="/#IdClassify">分类</a>
+                {/* <Link to="/#IdArchive">归档</Link> */}
+                <a href="/#IdAbout">关于</a>
+                <a href="/#IdSubscribe">关注</a>
+            </div>
         </div>
-      </div>  
-    )
-  }
+    </header>
 }
-
-export default Header

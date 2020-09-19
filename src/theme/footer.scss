@@ -1,0 +1,109 @@
+.footer{
+    border-top: 1px solid #EAE7F3;
+    background: rgba(247, 243, 250, 1);
+    z-index: 100;
+    &-content{
+        max-width:648px;
+        margin: 0px auto; 
+        padding-top:48px; 
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: -moz-box;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        justify-content:center;
+        flex-direction: column;
+    }
+    &-title{
+        &-group{
+            text-align: center;
+        }
+        &-img{
+            height:96px;
+            width:96px;
+        }
+        &-txt{
+            margin-bottom:16px;
+            font-size: 24px;
+        }
+    }
+    &-contributor{
+        &-group{
+            display: flex;
+            justify-content: center;
+        }
+        padding: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+        color: rgba(4, 0, 20, 0.69);
+        &:hover{
+            transform:scale(1.1);
+            color: rgba(184, 0, 249, 1);
+            img{
+                border:2px solid rgba(184, 0, 249, 1); 
+            }
+        }
+        &-avatar{
+            display: inline-block;
+            margin:8px;
+            width:64px;
+            height:64px;
+            box-sizing: border-box;
+            border-radius:400px;
+            background-color:rgba(196, 196, 209, 1);
+        }
+        &-name{
+            display: inline-block;
+            text-align: center;
+            font-size:14px;
+            font-weight:500;
+        }
+    }
+    &-author{
+        line-height: 120px;
+        height: 120px;
+        text-align: center;
+        font-size:16px;
+        color:rgba(4, 0, 20, 0.69);
+        font-weight:normal;
+        margin-top:48px;
+        a{
+            color:rgba(4, 0, 20, 0.69);
+            font-size:16px;
+            padding:2px;
+            transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+            text-decoration: underline;
+        }
+        a:hover{
+            color:rgba(184, 0, 249, 1);
+        }
+    }
+}
+@media (max-width:640px){
+    .footer{
+        padding: 0 20px;
+        &-title-img{
+            height:80px;
+            width:80px;
+        }
+        &-contributor{
+            padding:8px;
+            &-avatar{
+                height:48px;
+                width:48px;
+            }
+        }
+        &-author{
+            line-height: 80px;
+            height: 80px;
+            font-size:15px;
+            a{
+                font-size:15px;
+            }
+        }
+    }
+}

@@ -5,6 +5,7 @@ module.exports = {
     keywords:'Tovi, React, Figma, Design, Artical, UI, designer, Blog, Persoanl Website'
   },
   plugins: [
+    'gatsby-plugin-sass',
     // `gatsby-transformer-json`,
     // {
     //     resolve:`gatsby-source-filesystem`,

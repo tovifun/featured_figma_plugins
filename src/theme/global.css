@@ -40,7 +40,7 @@
   .GradientText{
     color: #7c229c;
     background: -webkit-linear-gradient(191.62deg, #5f119b -12.61%, #91097c 113.05%);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   

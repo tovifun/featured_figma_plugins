@@ -1,3 +1,68 @@
+import React from 'react'
+import Layout from '../layouts'
+import store from '../data'
+import About from '../components/About'
+
+const dates = Object.keys(store.date)
+const tags = Object.keys(store.tags)
+dates.sort((a,b) => {
+  return new Date(b) - new Date(a)
+})
+const dateLen = dates.length
+
+export default () => {
+    return <Layout>
+        <div className="hero">
+            <div className="hero-group">
+                <h1><span className="hero-text">Featured</span><br />Figma<br />Plugins.</h1>
+                <p>每月的最后一天，给你推荐当月更新的、值得尝试的 Figma 插件。<br />下一次推送时间：9月30日。可以关注公众号获得更新提醒。</p>
+            </div>
+        </div>
+        <div className="caption">
+            <div className="caption-title">Issue #{dates.length}</div>
+            <div className="caption-date">{dates[0]}</div>
+        </div>
+        <div className="cell">
+            {store.date[dates[0]].map((cell, index) => (
+                <a className="cell-item" href={cell.link} width="100%" target="_blank" rel="noreferrer" key={index}>
+                    <div className="cell-info">
+                        <img className="cell-logo" src={cell.image} alt={cell.title}/>
+                        <h3 className="cell-title">{cell.title}</h3>
+                        <p className="cell-author">{cell.author}</p>
+                    </div>
+                    <p className="cell-text">{cell.text}</p>
+                    <p className="cell-tag">{cell.tag}</p>
+                </a>
+            ))}
+        </div>
+        <div className="classify">
+            <h2 className="classify-title">按分类查找</h2>
+            <div className="classify-tags">
+                {tags.map(tag => (<a className="classify-tag" href={`/classify#${tag}`} key={tag}>
+                    #{tag} <span>{store.tags[tag] && store.tags[tag].length}</span>
+                </a>))}
+            </div>
+            <h2 id="IdArchive" className="classify-title">查看往期</h2>
+            {dates.map((date, index) => (
+                <a className="classify-archive" href={`/classify#${date}`} key={index}>
+                    <div className="classify-archive-info">
+                        <h3 className="classify-archive-title">{`Issue #${dateLen - index}`}</h3>
+                        <div className="classify-archive-total">{store.date[date].length}</div>
+                    </div>
+                    <div className="classify-archive-date">{date}</div>
+                </a>
+            ))}
+        </div>
+        <About></About>
+    </Layout>
+}
+{/* <Archive
+title={`Issue #${dateLen - index}`}
+date={date}
+link={`/classify#${date}`}
+total={store.date[date].length}
+key={index}/> */}
+/*
 import React, { useState }from 'react'
 import Layout from '../layouts'
 import styled from 'styled-components'
@@ -140,3 +205,4 @@ const IndexPage = () => {
 }
 
 export default IndexPage
+*/

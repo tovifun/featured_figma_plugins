@@ -1,0 +1,26 @@
+.not-found{
+    max-width: 636px;
+    position: relative;
+    margin:0 auto;
+    padding:240px 0;
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+    a{
+        text-decoration:underline;
+    }
+    &-text{
+        margin: 0;
+        padding: 0;
+        font-weight: normal;
+        font-size: 16px;
+        color: rgba(4, 0, 20, 0.98);
+        line-height:1.7em;
+        margin-bottom:8px;
+        text-align: center;
+    }
+}
+@media (max-width:640px){
+    .not-found-text{
+        font-size: 15px;
+        line-height: 1.85em;
+    }
+}
