@@ -1,6 +1,7 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styled from 'styled-components'
 import { COLORS } from '../values/colors'
+import Slider from './Slider'
 
 
 
@@ -226,8 +227,12 @@ clear:both;
 
 
 
-const AboutAlt = ({data}) => (
-    <AboutSection>
+const AboutAlt = () => {
+    const [sliderShow, setState] = useState(false)
+    const slideHandler = flag => {
+        setState(flag)
+    }
+    return <AboutSection>
     <AboutGroup>
         <AboutTitleGroup>
             <AboutTitleImage src={require('../images/tovifun_signature.gif')} alt="emo-bro"></AboutTitleImage>
@@ -266,7 +271,7 @@ const AboutAlt = ({data}) => (
         <AboutHeadline>Figma 针织胸针</AboutHeadline>
 
         <AboutFigure>
-            <AboutImage src="images/figma_craft.jpg" alt="Figma 手工针织胸针 ｜ 又一造物" />
+            <AboutImage onClick={slideHandler.bind(null, true)} src="images/figma_craft.jpg" alt="Figma 手工针织胸针 ｜ 又一造物" />
             {/* <FigureCap>Figma 手工针织胸针   </FigureCap> */}
         </AboutFigure>
         
@@ -277,6 +282,7 @@ const AboutAlt = ({data}) => (
         <AboutText>可通过邮箱发送： hitovi@outlook.com，或者添加 Tovi 的微信号发送：twowei </AboutText>
         <AboutText><a href="./brooch" rel="noreferrer">查看 Figma 针织胸针大图 →</a></AboutText>
         <FigureClear></FigureClear>
+        <Slider show={sliderShow} hideSlide={slideHandler}></Slider>
         
         {/* <AboutUl>
             <AboutList>通过 <a href="images/tovi_sponsor_small.png" target="_blank" rel="noreferrer">微信或支付宝</a></AboutList>
@@ -305,9 +311,8 @@ const AboutAlt = ({data}) => (
             <AboutLikeList><a href="images/tovi_sponsor_small.png" target="_blank" rel="noreferrer">You</a></AboutLikeList>
         </AboutLikeUser> */}
 
-
     </AboutGroup>
     </AboutSection>
-)
+}
 
 export default AboutAlt
