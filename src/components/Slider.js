@@ -31,18 +31,18 @@ export default ({show, hideSlide}) => {
             </div>
             <div className="slider-footer">
                 <svg onClick={onClose} className="slider-close" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="40" height="40" fill="white" fillOpacity="0.15"/>
+                    <rect width="40" height="40" fill="white" className="slider-button-bg"/>
                     <path d="M26 14L14 26" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     <path d="M14 14L26 26" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
                 <div className="slider-num">{state.active+1}/{total}</div>
                 <div className="slider-btns">
                     <svg onClick={prevHandler} className="slider-prev" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="40" height="40" fill="white" fillOpacity="0.15"/>
+                        <rect width="40" height="40" fill="white" className="slider-button-bg"/>
                         <path d="M23 26L17 20L23 14" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                     <svg onClick={nextHandler} className="slider-next" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="40" height="40" fill="white" fillOpacity="0.15"/>
+                        <rect width="40" height="40" fill="white" className="slider-button-bg"/>
                         <path d="M17 26L23 20L17 14" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                 </div>

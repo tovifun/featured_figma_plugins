@@ -42,9 +42,25 @@ const AboutGroup = styled.div`
     position: relative;
     margin:0 auto;
     transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+    .AboutSlideText{
+        cursor:pointer;
+        text-decoration:underline;
+        color:${COLORS.brand};
+        font-weight:500;
+        &:hover{
+            opacity:.7;
+        }
+    }
+
     a{
         text-decoration:underline;
         color:${COLORS.brand};
+    }
+
+    a:hover{
+        text-decoration:underline;
+        color:${COLORS.brand};
+        opacity:.7;
     }
 `
 
@@ -120,41 +136,48 @@ const AboutFigure = styled.figure`
     margin: 0;
     padding: 4px;
     float: right;
-    max-width: 220px;
+    max-width: 280px;
     position: relative;
     right: -8em;
     margin-left: -7em;
     @media (max-width:880px){
         right: -6em;
         margin-left: -5em;
-        max-width: 200px;
+        max-width: 240px;
     }
     @media (max-width:820px){
         right: 0;
         margin-left: 12px;
-        max-width: 200px;
+        max-width: 220px;
     }
     @media (max-width:640px){
         right: 0;
         margin-left: 12px;
-        max-width: 180px;
+        max-width: 200px;
     }
     @media (max-width:480px){
         right: 0;
         margin-left: 12px;
-        max-width: 120px;
+        max-width: 140px;
     }
 `
 const AboutImage = styled.img`
     width: 100%;
     display: block;
+    box-sizing:border-box;
     margin-bottom:.5em;
-    // @media (max-width:832px){
-    //     width:90%;
-    // }
-    // @media (max-width:640px){
-    //     width:75%;
-    // }
+    cursor: pointer;
+    border:2px solid ${COLORS.bg_darker};
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+    @media (max-width:820px){
+        width:100%;
+    }
+    @media (max-width:640px){
+        width:100%;
+    }
+    &:hover{
+        border:2px solid ${COLORS.brand};
+        transform:scale(1.05);
 `
 // const FigureCap = styled.figcaption`
 //     font-style: italic;
@@ -252,7 +275,7 @@ const AboutAlt = () => {
 
         <AboutHeadline>反馈</AboutHeadline>
         <AboutText>你可以在 <a href="https://www.notion.so/tovi/Featured-Figma-Plugins-59a87058a19441a495b7005fb72d1977" target="_blank" rel="noreferrer">这个 Notion 页面</a> 查看这个网站的更新记录和接下来想做的一些功能。</AboutText>
-        <AboutText>每个月的最后一天，我们会进行更新，你可以在下方关注公众号获得更新提醒。如果你想进行评论、反馈，可以 <a href="https://mp.weixin.qq.com/s/SqMktXLMPU-BRsAMPn7XOQ" target="_blank" rel="noreferrer">在这篇公众号</a> 或者 <a href="https://twitter.com/tovizhong/status/1285012648661184512" target="_blank" rel="noreferrer">这条推</a> 下留言（留言专用帖<span role="img" aria-label="Face with Tears of Joy">😂</span>）。</AboutText>
+        <AboutText id="brooch">每个月的最后一天，我们会进行更新，你可以在下方关注公众号获得更新提醒。如果你想进行评论、反馈，可以 <a href="https://mp.weixin.qq.com/s/SqMktXLMPU-BRsAMPn7XOQ" target="_blank" rel="noreferrer">在这篇公众号</a> 或者 <a href="https://twitter.com/tovizhong/status/1285012648661184512" target="_blank" rel="noreferrer">这条推</a> 下留言（留言专用帖<span role="img" aria-label="Face with Tears of Joy">😂</span>）。</AboutText>
         
 
         <AboutHeadline>赞赏</AboutHeadline>
@@ -261,7 +284,7 @@ const AboutAlt = () => {
         如果你喜欢这个网站，请考虑给我赞赏。
         </AboutText>
 
-        <AboutUl id="brooch">
+        <AboutUl>
             <AboutList>通过 <a href="images/tovi_sponsor_small.png" target="_blank" rel="noreferrer">微信或支付宝</a></AboutList>
             <AboutList>或通过  <a href="https://www.buymeacoffee.com/tovi" target="_blank" rel="noreferrer">Buy me a coffee</a></AboutList>
         </AboutUl>
@@ -276,11 +299,11 @@ const AboutAlt = () => {
         </AboutFigure>
         
         <AboutText>
-        如果你赞赏了30元，我们将给你邮寄一个由<strong>又一造物</strong>手工针织的 Figma 胸针。
+        如果你赞赏了<strong>30元</strong>，我们将给你邮寄一个由<strong>又一造物</strong>手工针织的 Figma 胸针。发送你的<strong>手机号和收件地址</strong>即可获得。
         </AboutText>
-        <AboutText>发送你的<strong>手机号和收件地址</strong>即可获得。</AboutText>
         <AboutText>可通过邮箱发送： hitovi@outlook.com，或者添加 Tovi 的微信号发送：twowei </AboutText>
-        <AboutText><a href="./brooch" rel="noreferrer">查看 Figma 针织胸针大图 →</a></AboutText>
+        <AboutText onClick={slideHandler.bind(null, true)} className="AboutSlideText">查看 Figma 针织胸针大图 →</AboutText>
+        {/* <AboutText><a href="./brooch" rel="noreferrer">查看 Figma 针织胸针大图 →</a></AboutText> */}
         <FigureClear></FigureClear>
         <Slider show={sliderShow} hideSlide={slideHandler}></Slider>
         
