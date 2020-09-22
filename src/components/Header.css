@@ -77,11 +77,11 @@
     }
 
     .HeaderButton{
-        margin-right: -16px;
+        margin-right: -12px;
     }
 
     .HeaderButton a{
-        padding: 16px;
+        padding: 12px;
         font-size: 15px;
     }
 
