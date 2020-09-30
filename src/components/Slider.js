@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import './Slider.css'
 
 //动态获取幻灯片
-const list = [1,2,3,4,5,6]
+const list = [1,2,3,4,5,6,7,8]
 const total = list.length
 
 export default ({show, hideSlide}) => {

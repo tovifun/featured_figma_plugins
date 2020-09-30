@@ -45,7 +45,7 @@ class Header extends React.Component{
           </div>
           <div className="HeaderButton">
             {/* <Link to="/">最新</Link> */}
-            <Link to="/#brooch">Figma 胸针</Link>
+            <Link to="/#brooch" className='em-text'>Figma 胸针</Link>
             <Link to="/#IdClassify">分类</Link>
             {/* <Link to="/#IdArchive">归档</Link> */}
             <Link to="/#IdAbout">关于</Link>

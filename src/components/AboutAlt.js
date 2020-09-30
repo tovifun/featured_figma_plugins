@@ -179,10 +179,10 @@ const AboutImage = styled.img`
         border:2px solid ${COLORS.brand};
         transform:scale(1.05);
 `
-// const FigureCap = styled.figcaption`
-//     font-style: italic;
-//     font-size: .7em;
-// `
+const FigureCap = styled.figcaption`
+    font-style: italic;
+    font-size: .9em;
+`
 
 const FigureClear = styled.div`
 clear:both;
@@ -292,16 +292,19 @@ const AboutAlt = () => {
  
 
         <AboutHeadline>Figma 针织胸针</AboutHeadline>
-
         <AboutFigure>
             <AboutImage onClick={slideHandler.bind(null, true)} src="images/figma_craft.jpg" alt="Figma 手工针织胸针 ｜ 又一造物" />
-            {/* <FigureCap>Figma 手工针织胸针   </FigureCap> */}
+            <FigureCap>将设计，拿在手，别在胸。</FigureCap>
         </AboutFigure>
+        {'' /* <AboutText>将设计，拿在手，别在胸。</AboutText> */}
+        <AboutText>「又一造物」手工针织的 Figma 胸针，经常出没于外套，背包，帽子，或者任何有艺术气息的地方。</AboutText>
+
+
         
         <AboutText>
-        如果你赞赏了<strong>30元</strong>，我们将给你邮寄一个由<strong>又一造物</strong>手工针织的 Figma 胸针。发送你的<strong>手机号和收件地址</strong>即可获得。
+        如果你赞赏了<strong>30元</strong>，我们将给你邮寄胸针。发送你的<strong>手机号和收件地址</strong>即可获得。
         </AboutText>
-        <AboutText>可通过邮箱发送： hitovi@outlook.com，或者添加 Tovi 的微信号发送：twowei </AboutText>
+        <AboutText>手机和地址可通过邮箱发送： hitovi@outlook.com，或者添加 Tovi 的微信号发送：twowei </AboutText>
         <AboutText onClick={slideHandler.bind(null, true)} className="AboutSlideText">查看 Figma 针织胸针大图 →</AboutText>
         {/* <AboutText><a href="./brooch" rel="noreferrer">查看 Figma 针织胸针大图 →</a></AboutText> */}
         <FigureClear></FigureClear>

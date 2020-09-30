@@ -1,0 +1,114 @@
+{
+  "date": "2020-09-29",
+  "cells": [
+    {
+          "title": "Contrast",
+          "link": "https://www.figma.com/community/plugin/872488431206658813/Contrast",
+          "image": "images/contrast.png",
+          "tag": "代码与交付",
+          "text": "又一个 Handoff 工具，类似的还有 Juuust Handoff, Zeplin, Avocode 等等，有这个需求的时候可以对比一下。",
+          "text-en": "Contrast is the new way to inspect, collaborate, and build components from Figma designs. It's specifically built for teams like yours—remote, component-driven, and obsessed with speed.",
+          "author": "Contrast"
+        },
+        {
+          "title": "Simple Copy",
+          "link": "https://www.figma.com/community/plugin/889077977319860576/Simple-Copy",
+          "image": "images/simple_copy.png",
+          "tag": "文本处理",
+          "text": "非常好用的插件。之前介绍过 Retextifier 等插件都不如这个好用（如果你的 Frame 不是特别多的话，如果作者有看到，希望能增加对选中的 Frame 进行编辑的支持）",
+          "text-en": "Decouple text input from design. Easily find, update and retrieve text via a dedicated window.",
+          "author": "Richard Liu"
+        },
+        {
+          "title": "Hosted Export",
+          "link": "https://www.figma.com/community/plugin/886688414738743606/Hosted-Export",
+          "image": "images/hosted_export.png",
+          "tag": "代码与交付",
+          "text": "著名的 Feather Icons 的作者的插件。这个插件的作用是将 Frame 导出图片同时生成一个图片的链接。很实用的一个插件。",
+          "text-en": "Hosted Export allows you to copy hosted image URLs for any frame inside Figma.",
+          "author": "Cole Bemis"
+        },
+        {
+          "title": "Autoflow",
+          "link": "https://www.figma.com/community/plugin/733902567457592893/Autoflow",
+          "image": "images/autoflow.png",
+          "tag": "原型与协作",
+          "text": "快速地在两个元素间创建箭头连线。 Figma 上比较好用的连线插件，而且创建的连线还可以根据元素的移动而改变。",
+          "text-en": "Autoflow makes it easy to draw flows. Simply select 2 objects and a line will be magically drawn between them.\n\n",
+          "author": "David Zhao & Yitong Zhang"
+        },
+        {
+          "title": "Marka Email Generator",
+          "link": "https://www.figma.com/community/plugin/751436700152214815/Marka-Email-Generator",
+          "image": "images/marka_email_generator.png",
+          "tag": "效率小工具",
+          "text": "这个插件可以用来生成 HTML 邮件模板。很实用的一个插件，作者还做了一些模板来作为案例。使用起来也很简单。",
+          "text-en": "This plugin generates HTML email template from a frame",
+          "author": "Grigoriy Mashkovtsev"
+        },
+        {
+          "title": "Overflow",
+          "link": "https://www.figma.com/community/plugin/880782315986192393/Overflow",
+          "image": "images/overflow.png",
+          "tag": "原型与协作",
+          "text": "Overflow 是一个创建交互式的用户流程图的应用，这个插件用来将 Figma 中的设计同步到 Overflow 中。",
+          "text-en": "create interactive user flow diagrams that tell a story",
+          "author": "Overflow"
+        },
+        {
+          "title": "Measure Tools",
+          "link": "https://www.figma.com/community/plugin/822781486072277843",
+          "image": "images/measure_tools.png",
+          "tag": "代码与交付",
+          "text": "和 Redlines 有类似功能的手动标注的插件，两者功能有细微差别。有需要的可以对比选择使用。",
+          "text-en": "A plugin use for design team to solve measure line and add key-values or style id case.",
+          "author": "Habo Chen"
+        },
+        {
+          "title": "Figma Tokens",
+          "link": "https://www.figma.com/community/plugin/843461159747178978/Figma-Tokens",
+          "image": "images/figma_tokens.png",
+          "tag": "组件与样式",
+          "text": "看名字就知道这是一个很强大的插件。作者之前发布的一篇关于 Figma Token 的文章非常的火，这个插件算是将文章中所讲的部分功能实现了出来。",
+          "text-en": "Making design tokens a single source of truth for designers and developers using Figma.",
+          "author": "Jan Six"
+        },
+        {
+          "title": "eezin",
+          "link": "https://www.figma.com/community/plugin/888982951322498361/eezin",
+          "image": "images/eezin.png",
+          "tag": "效率小工具",
+          "text": "在使用 smart animate 的时候，如果你需要自定义的缓动曲线，可以使用这个辅助。不过有许多类似功能的网站。",
+          "text-en": "Preview, compare, use and learn about standard easing functions for your custom prototype easings.",
+          "author": "Santiago Moreno"
+        },
+        {
+          "title": "Quest AI",
+          "link": "https://www.figma.com/community/plugin/862039267149408972/Quest-AI",
+          "image": "images/quest_ai.png",
+          "tag": "代码与交付",
+          "text": "将你的设计直接导出成一个网页。而且还支持导出多个 Frame 然后做成响应式。体验了一下，完成度还挺高的。",
+          "text-en": "Convert your Figma designs to live websites instantly. Export frames of different sizes and Quest automatically creates responsive pages.",
+          "author": "Quest AI"
+        },
+        {
+          "title": "中文数据填充助手",
+          "link": "https://www.figma.com/community/plugin/882853640594594542/Chinese-Content-Filling-Assistant",
+          "image": "images/c_c_f_assistant.png",
+          "tag": "内容填充",
+          "text": "又一款快速的填充中文的文字数据的插件，类型还挺全的。",
+          "text-en": "-",
+          "author": "www.pslkzs.com"
+        },
+        {
+          "title": "Palettes",
+          "link": "https://www.figma.com/community/plugin/847120744711293046/Palettes",
+          "image": "images/palettes.png",
+          "tag": "颜色和渐变",
+          "text": "生成类似 Mateiral 色板的颜色样式，这个在编辑的时候 Figma 的颜色样式即时同步的感觉太爽了。",
+          "text-en": "Generate and manage color styles based on perceptually uniform palettes.",
+          "author": "Henrique Gusso"
+        }
+      
+]
+}

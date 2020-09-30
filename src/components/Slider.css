@@ -48,6 +48,10 @@
     font-size: 14px;
     width:64px;
 }
+.slider-button-bg{
+    opacity:0.05;
+}
+
 .slider-close,
 .slider-prev,
 .slider-next{
@@ -55,14 +59,19 @@
     /* box-shadow: rgba(0, 0, 0, .8) 0 0 3px; */
     border-radius: 2px;
 }
+
+.slider-close:hover .slider-button-bg, 
+.slider-prev:hover .slider-button-bg, 
+.slider-next:hover .slider-button-bg{
+    opacity:0.10;
+}
+
 .slider-next{
     margin-left: 16px;
 }
 
-.slider-button-bg{
-    opacity:0.05;
-}
 
-.slider-button-bg:hover{
+
+/* .slider-button-bg:hover{
     opacity:0.10;
-}
+} */
