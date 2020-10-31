@@ -285,11 +285,10 @@ const AboutAlt = () => {
         </AboutText>
 
         <AboutUl>
-            <AboutList>通过 <a href="images/tovi_sponsor_small.png" target="_blank" rel="noreferrer">微信或支付宝</a></AboutList>
-            <AboutList>或通过  <a href="https://www.buymeacoffee.com/tovi" target="_blank" rel="noreferrer">Buy me a coffee</a></AboutList>
+            <AboutList>通过 <a href="images/tovi_sponsor_wechat.jpg" target="_blank" rel="noreferrer">微信</a> 赞赏</AboutList>
+            <AboutList>通过 <a href="images/tovi_sponsor_alipay.jpg" target="_blank" rel="noreferrer">支付宝</a> 赞赏</AboutList>
+            {/*<AboutList>或通过  <a href="https://www.buymeacoffee.com/tovi" target="_blank" rel="noreferrer">Buy me a coffee</a></AboutList>*/}
         </AboutUl>
-
- 
 
         <AboutHeadline>Figma 针织胸针</AboutHeadline>
         <AboutFigure>
@@ -297,16 +296,23 @@ const AboutAlt = () => {
             <FigureCap>将设计，拿在手，别在胸。</FigureCap>
         </AboutFigure>
         {'' /* <AboutText>将设计，拿在手，别在胸。</AboutText> */}
-        <AboutText>「又一造物」手工针织的 Figma 胸针，经常出没于外套，背包，帽子，或者任何有艺术气息的地方。</AboutText>
-
-
-        
-        <AboutText>
-        如果你赞赏了<strong>30元</strong>，我们将给你邮寄胸针。发送你的<strong>手机号和收件地址</strong>即可获得。
-        </AboutText>
-        <AboutText>手机和地址可通过邮箱发送： hitovi@outlook.com，或者添加 Tovi 的微信号发送：twowei </AboutText>
+        <AboutText>这款由又一造物手工针织的 Figma 胸针，你可以将它别在你的外套，背包，帽子，牛仔裤，或者任何别的地方。</AboutText>
         <AboutText onClick={slideHandler.bind(null, true)} className="AboutSlideText">查看 Figma 针织胸针大图 →</AboutText>
-        {/* <AboutText><a href="./brooch" rel="noreferrer">查看 Figma 针织胸针大图 →</a></AboutText> */}
+        
+        <AboutUl>
+        <AboutList><strong><span role="img" aria-label=" ">🎁</span> 获得方式：</strong>如果你赞赏了 30 元，我们将给你邮寄胸针作为礼物。</AboutList>
+        <AboutList><strong><span role="img" aria-label=" ">📅</span> 邮寄时间：</strong>每一个胸针都是手工钩编，我们一般是收到地址后的 <strong>7日内</strong> 制作和邮寄。（仅限国内）</AboutList>
+        <AboutList><strong><span role="img" aria-label=" ">🏠</span> 收获信息：</strong>发送你的手机号和收件地址，至邮箱： hitovi@outlook.com；或者添加 Tovi 的微信号发送：twowei </AboutList>
+        <AboutList><strong><span role="img" aria-label=" ">💌</span> 说明一下：</strong>手工制作难免有瑕疵，完美主义者请慎拍。</AboutList>
+        </AboutUl>
+        
+        <AboutText><a href="https://www.notion.so/tovi/Figma-FAQ-ab99b69b82a247f89710a30a7fb021b8" target="_blank" rel="noreferrer">FAQ→</a></AboutText>
+        {/*
+        <AboutText>如果你赞赏了30元，我们将给你邮寄胸针作为礼物。</AboutText>
+        <AboutText>因为胸针是手工钩编的，所以一般是在我们收到地址后的 <strong>7日内</strong> 制作和邮寄。</AboutText>
+        <AboutText>发送你的手机号和收件地址即可获得。手机和地址可通过邮箱发送： hitovi@outlook.com，或者添加 Tovi 的微信号发送：twowei </AboutText>
+        
+        */}
         <FigureClear></FigureClear>
         <Slider show={sliderShow} hideSlide={slideHandler}></Slider>
         
