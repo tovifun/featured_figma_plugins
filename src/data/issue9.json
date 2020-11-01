@@ -1,0 +1,104 @@
+{
+  "date": "2020-10-31",
+  "cells": [
+    {
+      "title": "Filter",
+      "link": "https://www.figma.com/community/plugin/792025380269016893/Filter",
+      "image": "images/filter.jpg",
+      "tag": "图片处理",
+      "text": "非常强大的一个插件，里边有非常多好看的滤镜。可以 duplicate 作者在社区里的一个文件体验一下。",
+      "text-en": "A powerful Filter breaks into your workflow!",
+      "author": "Andreslav Kozlov"
+    },
+    {
+      "title": "Phosphor Icons",
+      "link": "https://www.figma.com/community/plugin/898620911119764089/Phosphor-Icons",
+      "image": "images/phospher_icons.png",
+      "tag": "图标和插图",
+      "text": "一套质量不错的图标，类似 Feather Icons，不过数量要多一些。",
+      "text-en": "Phosphor is a flexible icon family for interfaces, diagrams, presentations — whatever, really.",
+      "author": "Phosphor Icons"
+    },
+    {
+      "title": "Blue Pencil",
+      "link": "https://www.figma.com/community/plugin/898042518253103388/Blue-Pencil",
+      "image": "images/bluepencil.png",
+      "tag": "设计辅助",
+      "text": "Figma 的 Tidy Up 本身就很好用的。这个插件有类似的功能，不过在排列 Frame 之外，还可以将图层顺序也按照排列顺序整理好。",
+      "text-en": "Maintain formal design specs with frame tidying, numbering, and table of contents.",
+      "author": "Riley"
+    },
+    {
+      "title": "Brandfetch",
+      "link": "https://www.figma.com/community/plugin/733590967040604714/Brandfetch",
+      "image": "images/brandfetch.png",
+      "tag": "图标和插图",
+      "text": "搜索知名公司，然后可以搜索到他们的 Logo 和品牌色。和之前有介绍过 Vector Logo 有点类似。",
+      "text-en": "Instant access to any company’s brand assets. Search from millions of logos, colors, fonts, and more.",
+      "author": "Brandfetch"
+    },
+    {
+      "title": "Offgrid",
+      "link": "https://www.figma.com/community/plugin/768105866232801306/Offgrid",
+      "image": "images/offgrid.png",
+      "tag": "创意生成",
+      "text": "可以选中某个元素，然后以这个元素为图案创建 grid，这个插件的亮点在于可以间隔行缩进。",
+      "text-en": "This plugin helps you create grids where every other row or column needs to be offset e.g. hexagonal grids or brick patterns.",
+      "author": "Jens"
+    },
+    {
+      "title": "FrameAll",
+      "link": "https://www.figma.com/community/plugin/891195693567112423/FrameAll",
+      "image": "images/frameall.png",
+      "tag": "设计辅助",
+      "text": "Figma Cool 的又一个插件！给所有选中的元素添加 Frame。",
+      "text-en": "Add frame to all selected layers.",
+      "author": "figma.cool"
+    },
+    {
+      "title": "Motion",
+      "link": "https://www.figma.com/community/plugin/889777319208467032/Motion",
+      "image": "images/motion.png",
+      "tag": "设计辅助",
+      "text": "和之前介绍的 Figmotion 非常类似。同样的，适合做演示性的东西，不能用作生产。",
+      "text-en": "Make keyframe animations. Export GIF, Sprites or Frames in 24/60 fps. Motion is an animation tool which helps you to bring your design to life. You can animate whatever you want. There is no need to switch to another motion tool such as Principle, Haiku or After Effect. Just try :)",
+      "author": "Pavel Babkin"
+    },
+    {
+      "title": "ColorBox",
+      "link": "https://www.figma.com/community/plugin/892985458731250677/ColorBox",
+      "image": "images/colorbox.png",
+      "tag": "颜色和渐变",
+      "text": "通过 colorbox 网站生成一系列类似于 Material 颜色的颜色组。插件的体验还挺好的。",
+      "text-en": "Bring the color sets you generate in ColorBox and quickly bring them into Figma.",
+      "author": "Kevyn Arnott"
+    },
+    {
+      "title": "Bridged",
+      "link": "https://www.figma.com/community/plugin/896445082033423994/Bridged-(design-to-flutter)",
+      "image": "images/bridge.png",
+      "tag": "代码与交付",
+      "text": "生成可用易读的 Flutter 代码。只需要选中你想要转为代码的 Frame，代码即时生成。",
+      "text-en": "Bridged's assistant plugin that generates usable & readable flutter code for production. Run this plugin, Select any design of yours, It will generate ready-to-use formatted native flutter code for you.",
+      "author": "Bridged"
+    },
+    {
+      "title": "Frontify",
+      "link": "https://www.figma.com/community/plugin/893898815372491269/Frontify",
+      "image": "images/frontify.png",
+      "tag": "原型与协作",
+      "text": "一个协同管理设计资源，如徽标、图片、颜色的插件，记得这个很久之前有出国 Sketch 插件。",
+      "text-en": "Frontify delivers a centralized place to manage, create, and share digital assets, guidelines, templates, and increase your visual collaboration – helping you build stronger brand experiences across the board.",
+      "author": "Frontify"
+    },
+    {
+      "title": "Multipaste",
+      "link": "https://www.figma.com/community/plugin/893914045094807058/Multipaste",
+      "image": "images/multipaste.png",
+      "tag": "设计辅助",
+      "text": "将复制的元素一次性粘贴到多个 Frame 里边。",
+      "text-en": "Multipaste is a Figma plugin that allows for copy and pasting elements to many frames at once. No more pasting frame-by-frame! Use this plugin to boost your workflow.",
+      "author": "Marcelo Brasileiro"
+    }
+  ]
+}
