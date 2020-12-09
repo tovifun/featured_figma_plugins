@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import Subscribe from '../components/Subscribe'
 
 const store = {}
-for(let i=1; i<=9; i++){
+for(let i=1; i<=10; i++){
     const issue = require(`../data/issue${i}.json`)
     for(let cell of issue.cells){
         if(!cell) continue

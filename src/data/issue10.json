@@ -1,0 +1,194 @@
+{
+  "date": "2020-12-08",
+  "cells": [
+    {
+      "title": "ProtoPie",
+      "link": "https://www.figma.com/community/plugin/908870217222043020/ProtoPie",
+      "image": "images/protopie.png",
+      "tag": "原型与协作",
+      "text": "ProtoPie 今天发布了一个全新的导入插件，可以更高效地将素材导入了。虽然 Figma 自带 Prototype 的已经能满足大部分的需求，不过如果想实现更精细，有更多交互的原型时，可以试下 ProtoPie。",
+      "text-en": "Import your designs from Figma into ProtoPie and turn them into highly interactive prototypes.",
+      "author": "ProtoPie"
+    },
+    {
+      "title": "Oblique",
+      "link": "https://www.figma.com/community/plugin/876352455198080607/oblique",
+      "image": "images/oblique.png",
+      "tag": "创意生成",
+      "text": "超强插件，给任意的形状和文字，创建斜面的投影。如果你想创建2.5D，或者透视，可以试下。作者还推荐了另一个类似的插件：Roto。",
+      "text-en": "create oblique projections of any shape. useful for creating shadows, 3d depth, visual perspective, and more!",
+      "author": "torcado"
+    },
+    {
+      "title": "Vector Field Generator",
+      "link": "https://www.figma.com/community/plugin/901275602012692311/Vector-Field-Generator",
+      "image": "images/vector_field_generator.png",
+      "tag": "创意生成",
+      "text": "通过改变各种参数，来生成随机或者定制的向量场。还挺好玩的，不过不知道有什么用，或许可以用来设计背景图案",
+      "text-en": "Create totally customizable vector fields by changing more than ten different parameters.",
+      "author": "ADaDDS"
+    },
+    {
+      "title": "Chikin Icons",
+      "link": "https://www.figma.com/community/plugin/910824263334396226/Chikin-Icons-For-Everything",
+      "image": "images/chikin_icons.jpg",
+      "tag": "图标和插图",
+      "text": "这套图标也太可爱了！爱了。图标数量有一千多个，手绘风格，日常生活中的常见物品图标。",
+      "text-en": "Chikin Icons For Everything is a unique handcrafted icon set for everything: heart eyes skull — check, alien ice cream — no problem, Freddy Krueger — you got it. First available in Figma and exclusively in our plugin.",
+      "author": "Chikin Icons"
+    },
+    {
+      "title": "📲 represent",
+      "link": "https://www.figma.com/community/plugin/902878970384139797/%F0%9F%93%B2-represent",
+      "image": "images/represent.png",
+      "tag": "原型与协作",
+      "text": "可以将选中的 Frame 生成一个预览码，然后在你的手机上或者桌面浏览器上预览这个 Frame。有点类似于官方的 Mirror，不过这个插件没有即时刷新，也没有手动刷新按钮，体验还是有点差，而且收费还不便宜。不过还是挺喜欢这个插件的思路的，像是 Hosted Export 的升级版。",
+      "text-en": "Bring your Design seamlessly to Smartphones and Desktops.",
+      "author": "Swipe Circus"
+    },
+    {
+      "title": "Rough",
+      "link": "https://www.figma.com/community/plugin/908327335402084440/Rough",
+      "image": "images/rough.png",
+      "tag": "创意生成",
+      "text": "将任何形状的图形转化为手绘的草图风格。非常好玩。",
+      "text-en": "Rough is a plugin for Figma that lets you to convert any objects to sketchy, hand-drawn-like, style.",
+      "author": "Andrey Gershun"
+    },
+    {
+      "title": "Pack",
+      "link": "https://www.figma.com/community/plugin/904007992809854059/Pack",
+      "image": "images/pack.png",
+      "tag": "创意生成",
+      "text": "看到它的密集恐惧图标就知道这个插件是做什么的了。在选中的 Frame 里生成圆填充（Circle Packing），也可以选择方填充。",
+      "text-en": "Pack allows you to generate a circle packing pattern withing a frame.",
+      "author": "Varun Vachhar"
+    },
+    {
+      "title": "Jali",
+      "link": "https://www.figma.com/community/plugin/830523897419272248/Jali",
+      "image": "images/jali.png",
+      "tag": "创意生成",
+      "text": "Pack 作者的另一款生成类插件。这款插件可以生成风格特别的镂空图案，可以在它的介绍页里查看详细的介绍。感觉我对这类生成类的插件有特别的偏爱。",
+      "text-en": "Generative truchet tiles.",
+      "author": "Varun Vachhar"
+    },
+    {
+      "title": "Mockplus",
+      "link": "https://www.figma.com/community/plugin/906006256595978208/Mockplus",
+      "image": "images/mockplus.png",
+      "tag": "代码与交付",
+      "text": "摹客出的 Figma 标注导出插件。",
+      "text-en": "Mockplus Cloud makes product design collaboration faster and easier. Its features include generating specs smartly, cutting Slices in one click, various note styles, fast interaction, full-view dashboard and team management. Connect entire product design workflow with only one document!",
+      "author": "Mockplus"
+    },
+    {
+      "title": "Artboard Studio Mockups",
+      "link": "https://www.figma.com/community/plugin/750673765607708804/Artboard-Studio-Mockups",
+      "image": "images/artboard_studio_mockups.png",
+      "tag": "创意生成",
+      "text": "里边大量的 Mockups， 并且还在不断增加中。使用起来还挺方便的。",
+      "text-en": "Create mockups in Figma easily by getting access to thousands of world-class quality Artboard Studio mockup items right inside your Figma files. Easily render Figma frames into real-life product mockups with a click of a button. More items are added to our ever-growing library every day.",
+      "author": "Artboard Studio"
+    },
+    {
+      "title": "Abstract",
+      "link": "https://www.figma.com/community/plugin/900484667691435460/Abstract",
+      "image": "images/abstract.png",
+      "tag": "原型与协作",
+      "text": "在 Sketch 时代就知名，并且有很多团队使用的设计版本管理协作工具。现在上了 Figma 插件社区，不过还在内测阶段，可以期待一下他们最终会做成什么形式的。",
+      "text-en": "Abstract is a design delivery platform that empowers teams to move from influence to impact.",
+      "author": "Abstract"
+    },
+    {
+      "title": "Sleuth",
+      "link": "https://www.figma.com/community/plugin/897573542579499089/Sleuth",
+      "image": "images/sleuth.png",
+      "tag": "设计辅助",
+      "text": "扫描你的 Figma 文件，帮你计算出外面组件的使用率。而且可以找出所有没有使用字体和颜色样式的图层，帮你定位问题。非常实用的一个插件。",
+      "text-en": "Sleuth helps you follow best practices by reportinng on external library usage and identifying problem layers in your files.",
+      "author": "Keap"
+    },
+    {
+      "title": "Find & Replace",
+      "link": "https://www.figma.com/community/plugin/905964570877397972/Find-%26-Replace",
+      "image": "images/find_and_replace.png",
+      "tag": "设计辅助",
+      "text": "查找设计稿中的文本并替换成你想要的文字。类似于文档中的查找与替换。",
+      "text-en": "I couldn't find a plugin that let me find and replace text using regular expressions, so I threw this together. Maybe you'll find it handy, too.",
+      "author": "Aaron Wright"
+    },
+    {
+      "title": "Random Shapes",
+      "link": "https://www.figma.com/community/plugin/906699089250587979/Random-Shapes",
+      "image": "images/random_shapes.png",
+      "tag": "创意生成",
+      "text": "生成各种抽象的图形。比如 Blob，如果想做一些背景图案，或者形状装饰，可以试一下。",
+      "text-en": "Abstract random shapes generator",
+      "author": "Anton Evstigneev"
+    },
+    {
+      "title": "Figma Manager",
+      "link": "https://www.figma.com/community/plugin/900779105193089625/Figma-Manager",
+      "image": "images/figma_manager.jpg",
+      "tag": "组件与样式",
+      "text": "和 Design System Organizer 类似的组件与样式整理插件，方便整理组件与样式的名字，而且感觉用起来要更便捷。经常处理组件库的人会很实用。",
+      "text-en": "A fast and easy way to organize your Figma documents. No more hassle with long and complex symbols name, or renaming tons of components and layer styles because you misspelled a folder name.",
+      "author": "Jaer Pollux"
+    },
+    {
+      "title": "Instant Website",
+      "link": "https://www.figma.com/community/plugin/902526218387855663/Instant-Website-Beta",
+      "image": "images/instant_website.png",
+      "tag": "原型与协作",
+      "text": "将你的 Figma 原型直接生成一个可以点击的网页，简单体验了一下，速度还可以，而且保留了 Figma Prototype 中的跳转。不过还没深度体验，不知道能不能支持其他的 Figma Prototype 中的功能。",
+      "text-en": "turning your Figma designs into real websites you can share, no login required!",
+      "author": "Instant Website"
+    },
+    {
+      "title": "Slazzer",
+      "link": "https://www.figma.com/community/plugin/908415905821759633/Slazzer",
+      "image": "images/slazzer.png",
+      "tag": "图片处理",
+      "text": "和 Remove bg 差不多的一个插件。直接选中想要抠图的图片，然后运行插件就可以。",
+      "text-en": "Slazzer auto background removal platform will quickly remove any image background in just a few seconds.",
+      "author": "David J Turner"
+    },
+    {
+      "title": "Coda for Figma",
+      "link": "https://www.figma.com/community/plugin/738264841927149297/Coda-for-Figma",
+      "image": "images/coda_for_figma.png",
+      "tag": "内容填充",
+      "text": "类似于 Google Sheets Sync 的内容填充插件。不过这个文档是创建在 Coda 的，可以对比使用一下。",
+      "text-en": "Design with data from apps like Spotify, Wikipedia or your own custom data with this plugin. This plugin works with Coda, a tool for making documents. Simply create a table in Coda, and use the plugin to fill your designs with content from the tables.",
+      "author": "Carlo Jörges"
+    },
+    {
+      "title": "Custom Graph",
+      "link": "https://www.figma.com/community/plugin/907304045650716211/Custom-Graph",
+      "image": "images/custom_graph.png",
+      "tag": "设计辅助",
+      "text": "可以根据你设计的元素，来生成柱状图等等。可以自己填数值。",
+      "text-en": "Custom Graph lets you build line, bar and cumulative graphs based on your design elements.",
+      "author": "GoodGantt for Trello"
+    },
+    {
+      "title": "Color Luminance",
+      "link": "https://www.figma.com/community/plugin/872423614371258087/Color-Luminance",
+      "image": "images/color_luminance.png",
+      "tag": "颜色和渐变",
+      "text": "一个多功能的颜色对比度检测插件，还挺实用的。",
+      "text-en": "Display the relative luminance (how bright color appear to our eyes) of the selected colors.",
+      "author": "Tommy Johansen"
+    },
+    {
+      "title": "Multilingual Font Mixer",
+      "link": "https://www.figma.com/community/plugin/910385004596112467/Multilingual-Font-Mixer-%E5%A4%9A%E8%AF%AD%E8%A8%80%E5%AD%97%E4%BD%93%E6%B7%B7%E6%8E%92",
+      "image": "images/multilingual_font_mixer.png",
+      "tag": "文本处理",
+      "text": "给一段多语言混排的文本里，给不同语言设置不同的字体和样式。",
+      "text-en": "Now you can mix multilingual text, styled with the fonts of your choice, with one click!",
+      "author": "Digital Creative"
+    }
+  ]
+}
