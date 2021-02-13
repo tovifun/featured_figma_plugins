@@ -3,7 +3,7 @@ const store = {
     tags: {},
     date: {}
 }
-for(let i=1; i<=10; i++){
+for(let i=1; i<=11; i++){
     const issue = require(`./issue${i}.json`)
     for(let cell of issue.cells){
         if(!cell) continue

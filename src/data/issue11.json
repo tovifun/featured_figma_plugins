@@ -1,0 +1,248 @@
+{
+  "date": "2021-02-13",
+  "cells": [
+    {
+      "title": "Image Editor",
+      "link": "https://www.figma.com/community/plugin/914972720109480252/Image-Editor",
+      "image": "images/image_editor.png",
+      "tag": "图片处理",
+      "text": "非常实用的一个图片处理插件。是 Figma 自带的图片处理的升级版。",
+      "text-en": "Manipulate an image with many different color adjustments and filters",
+      "author": "Pavel Laptev"
+    },
+    {
+      "title": "Organiser",
+      "link": "https://www.figma.com/community/plugin/918926326416353608/Organiser",
+      "image": "images/organizer.png",
+      "tag": "设计辅助",
+      "text": "非常实用的一个小插件，之前也介绍过类似的，将选中的元素按照相同的间距排整齐。",
+      "text-en": "Select some layers, run the plugin, set your spacing, hit organise.",
+      "author": "Luis Ouriach"
+    },
+    {
+      "title": "Morph",
+      "link": "https://www.figma.com/community/plugin/906950256777348534/Morph",
+      "image": "images/morph.png",
+      "tag": "创意生成",
+      "text": "快速创建霓虹、Glitch、玻璃等效果。相当于Photoshop 里的预设样式。",
+      "text-en": "Create awesome effects like Skeuomorph, Neon, Glitch, Reflection, Glass, etc. right in Figma!",
+      "author": "Milan Maheshwari"
+    },
+    {
+      "title": "Layer Styles",
+      "link": "https://www.figma.com/community/plugin/908303483495091267/Layer-Styles",
+      "image": "images/layer_styles.png",
+      "tag": "设计辅助",
+      "text": "和 Morph 有一点点类似，不过思路不一样。这个插件是将用户的样式储存起来，方便后续复用。",
+      "text-en": "Save and apply style presets, including strokes, fills, corner radius, effects, padding, layout grids, layer opacity and blend modes.",
+      "author": "Gavin McFarland"
+    },
+    {
+      "title": "Export Presets",
+      "link": "https://www.figma.com/community/plugin/933557553455124671/Export-Presets",
+      "image": "images/export_presets.jpg",
+      "tag": "代码与交付",
+      "text": "很实用，一些导出的预设，也可以创建一组导出设置，然后存起来以后用。",
+      "text-en": "Create and automatically apply custom Export Settings. Share them across your files and projects. Including default presets for the most popular platforms.",
+      "author": "Mirko Santangelo"
+    },
+    {
+      "title": "Easing Gradients",
+      "link": "https://www.figma.com/community/plugin/907899097995668330/Easing-Gradients",
+      "image": "images/easing_gradients.png",
+      "tag": "颜色和渐变",
+      "text": "通过可视化地调整 Bezier 曲线，来帮助创建更平滑的渐变。",
+      "text-en": "Allows smoothing of gradient fills in Figma using custom cubic-bézier or step easing functions (think of transition easing). This is especially useful when dealing with transparent gradients but also allows for creative exploration.",
+      "author": "Alexander Widua"
+    },
+    {
+      "title": "Crafttor",
+      "link": "https://www.figma.com/community/plugin/902086023682633830/Crafttor",
+      "image": "images/crafttor.jpg",
+      "tag": "图标和插图",
+      "text": "和 Blush 类似的插图平台插件，目前只有五套。",
+      "text-en": "Crafttor's sole purpose is to give digital craftsmen a better tool to create awesome products. We want every creator of the world, create anything without any blocker to their creative thoughts.",
+      "author": "Plugin Crafttor"
+    },
+    {
+      "title": "The good line-height",
+      "link": "https://www.figma.com/community/plugin/899947649686629470/The-good-line-height",
+      "image": "images/the_good_line-height.png",
+      "tag": "文本处理",
+      "text": "如果你想要将文字的 type scale 刚好在以4或者任何其他倍数的基线网格上，那么这个插件可以试一下，它可以帮你按照这个倍数确定行高。",
+      "text-en": "Have you ever needed to create a type scale following an 8 point baseline grid, or really any grid, and had to spend extra time figuring out what should be the right line-height for every text size in the scale?",
+      "author": "Fran Perez"
+    },
+    {
+      "title": "Viewst",
+      "link": "https://www.figma.com/community/plugin/908296269862423611/Viewst-%E2%80%93-create-animated-ads",
+      "image": "images/viewst.png",
+      "tag": "设计辅助",
+      "text": "一个在线的动态广告 baner 设计工具，这个插件就是将素材导到本地，然后上传到它们的工具中使用。",
+      "text-en": "Design banners and other creative ads with a smart online app",
+      "author": "Viewst"
+    },
+    {
+      "title": "Batch Image Editor",
+      "link": "https://www.figma.com/community/plugin/917356074044269025/Batch-Image-Editor",
+      "image": "images/batch_image_editor.png",
+      "tag": "图片处理",
+      "text": "批量处理导入的图片的滤镜。",
+      "text-en": "Allows you to batch edit image filters. Pick a selection of images and adjust their exposure, contrast, or saturation in one step.",
+      "author": "Andrej Bilec"
+    },
+    {
+      "title": "StyleList",
+      "link": "https://www.figma.com/community/plugin/927255248672920500/StyleList-%E2%80%93-text-and-color-styles",
+      "image": "images/stylelist.png",
+      "tag": "组件与样式",
+      "text": "快速创建初始文字样式和颜色样式，还挺方便的。",
+      "text-en": "Generate text and color styles quicker and easier way for your projects.",
+      "author": "Ivan Bannikov"
+    },
+    {
+      "title": "CoDesign",
+      "link": "https://www.figma.com/community/plugin/936456730265868414/CoDesign",
+      "image": "images/codesign.png",
+      "tag": "原型与协作",
+      "text": "腾讯出的类似 Zeplin 的标注协作插件。类似的插件已经好多了，但是在体验上没有哪个能比得上直接在 Figma 上直接查看标注的。",
+      "text-en": "由腾讯自研的Figma插件，支持在线导入预览设计稿、自动生成设计标注，批量下载切图素材、灵活调用图标库、素材库。",
+      "author": "Sa"
+    },
+    {
+      "title": "Auto Arrange Frames",
+      "link": "https://www.figma.com/community/plugin/927024100326339423/Auto-Arrange-Frames",
+      "image": "images/auto_arrange_frames.png",
+      "tag": "设计辅助",
+      "text": "将多个 Frame 根据它们在画布上的 x 和 y 的位置，来在图层面板上重新按顺序排布。简单而实用的一个小功能。",
+      "text-en": "Automatically arrange your frames in the left side layer-list based on their position (x, y) on the canvas.",
+      "author": "Saurabh Singh"
+    },
+    {
+      "title": "Export Image for Native",
+      "link": "https://www.figma.com/community/plugin/818009596569137328/Export-Image-for-Native",
+      "image": "images/export_image_native.png",
+      "tag": "代码与交付",
+      "text": "将图片导出为 Android 或 iOS 需要的预设格式",
+      "text-en": "Easily Export images of png/jpg/pdf/svg format for Android/iOS.",
+      "author": "roana0229"
+    },
+    {
+      "title": "Name Lint",
+      "link": "https://www.figma.com/community/plugin/932386331483688460/Name-Lint",
+      "image": "images/name_lint.png",
+      "tag": "原型与协作",
+      "text": "将文件里的所有未重命名的图层整理出来，然后方便去重新命名。",
+      "text-en": "An easy way to find and rename all default-named elements in the current page.",
+      "author": "Richard Guerre"
+    },
+    {
+      "title": "Ruri Ruri",
+      "link": "https://www.figma.com/community/plugin/912763956481263896/Ruri-Ruri-%E2%80%93-Artwork-Generator",
+      "image": "images/ruriruri.jpg",
+      "tag": "创意生成",
+      "text": "又一个创意生成类的插件。可以根据选定的尺寸，颜色等参数来生成。",
+      "text-en": "Ruri Ruri is an single click artwork generator",
+      "author": "Klāvs Bušs"
+    },
+    {
+      "title": "Sort on Canvas by Name",
+      "link": "https://www.figma.com/community/plugin/923916009300611791/Sort-on-Canvas-by-Name",
+      "image": "images/sort_on_canvas_by_name.png",
+      "tag": "设计辅助",
+      "text": "根据 Frame 的命名来按顺序排布。",
+      "text-en": "Changes positions of frames, components or other objects on canvas by name.",
+      "author": "Gleb"
+    },
+    {
+      "title": "CSSGen",
+      "link": "https://www.figma.com/community/plugin/742750636238601912/CSSGen",
+      "image": "images/cssgen.png",
+      "tag": "代码与交付",
+      "text": "根据你的本地颜色样式，生成 SASS/LESS。",
+      "text-en": "Generate CSS Preprocessors SASS/LESS from your local Figma styles",
+      "author": "Microsoft"
+    },
+    {
+      "title": "Subtle Patterns",
+      "link": "https://www.figma.com/community/plugin/933385882108162159/Subtle-Patterns",
+      "image": "images/subtle_patterns.png",
+      "tag": "图标和插图",
+      "text": "获取来自 Subtle Patterns 网站上的图案素材。",
+      "text-en": "Get patterns images from Subtle Patterns",
+      "author": "Colir"
+    },
+    {
+      "title": "Table paste",
+      "link": "https://www.figma.com/community/plugin/781208362060364436/Table-Paste",
+      "image": "images/table_paste.png",
+      "tag": "内容填充",
+      "text": "将表格里的舒服快速复制粘贴到 Figma 中创建好的表格里。",
+      "text-en": "Paste data from a spreadsheet into styled Figma table rows.",
+      "author": "Liquidnet Holdings"
+    },
+    {
+      "title": "Auto Layout Presets",
+      "link": "https://www.figma.com/community/plugin/934512914792764003/Auto-Layout-Presets",
+      "image": "images/autolayout_presets.png",
+      "tag": "设计辅助",
+      "text": "Auto Layout 是 Figma 里非常好用的功能，不过对于刚开始用的人来说，可能会有点烧脑。这个插件提供一些常用的 Auto Layout 预设，帮助你快速用上。",
+      "text-en": "Apply popular auto-layout presets with a single click.",
+      "author": "Alex"
+    },
+    {
+      "title": "JSON → Content",
+      "link": "https://www.figma.com/community/plugin/797778700190966062/JSON-%E2%86%92-Content",
+      "image": "images/json_to_content.png",
+      "tag": "内容填充",
+      "text": "将 Json 数据填充到设计稿里，如果你想演示你自己项目里的真实数据的时候，这个插件应该用得上。",
+      "text-en": "Easily map your data and layers together by using the same name. Either select specific entries from your overview or shuffle through them for a randomised dataset",
+      "author": "Lucas Dietrich"
+    },
+    {
+      "title": "Appearance",
+      "link": "https://www.figma.com/community/plugin/760927481606931799/Appearance",
+      "image": "images/appearence.png",
+      "tag": "设计辅助",
+      "text": "又一款切换深浅主题的插件。和之前介绍的其他类似插件相比，算是比较轻量级的。",
+      "text-en": "This plugin generates a dark/light theme from your selection",
+      "author": "Alex Dyakov"
+    },
+    {
+      "title": "Icon Scaling Tool",
+      "link": "https://www.figma.com/community/plugin/875501505522624941/Icon-Scaling-Tool",
+      "image": "images/icon_scaling.png",
+      "tag": "设计辅助",
+      "text": "又一个来自 Microsoft 的插件。创建多尺寸的图标。",
+      "text-en": "Creating multiple sizes of icons is easy with the Microsoft Design Icon Scaling tool",
+      "author": "Microsoft"
+    },
+    {
+      "title": "Curvature",
+      "link": "https://www.figma.com/community/plugin/932729267119671976/Curvature",
+      "image": "images/curvature.png",
+      "tag": "效率小工具",
+      "text": "显示你所画曲线的曲率，可以帮助你画出流畅的曲线。",
+      "text-en": "Draw the curvature of your vectors.",
+      "author": "Philip Grefe"
+    },
+    {
+      "title": "Squircle",
+      "link": "https://www.figma.com/community/plugin/930173909910797614/Squircle",
+      "image": "images/squircle.png",
+      "tag": "创意生成",
+      "text": "帮助你快速画出 ‘方圆形’——一种介于圆形和方形之间的形状。",
+      "text-en": "A squircle is an intermediate shape between a square and a circle. This open source plugin allows you to create and edit squircles and superellipses.",
+      "author": "Scott Dodge"
+    },
+    {
+      "title": "Emailify",
+      "link": "https://www.figma.com/community/plugin/910671699871076601/Emailify-HTML-Email-Builder",
+      "image": "images/emailify.png",
+      "tag": "效率小工具",
+      "text": "设计和导出响应式 HTML Email 文件，和之前介绍的 Marka 有点类似。",
+      "text-en": "Design and export responsive, production ready HTML emails from Figma.",
+      "author": "Figmatic"
+    }
+  ]
+}
