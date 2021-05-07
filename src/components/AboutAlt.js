@@ -302,7 +302,7 @@ const AboutAlt = () => {
         <AboutUl>
         <AboutList><strong><span role="img" aria-label=" ">🎁</span> 获得方式：</strong>如果你赞赏了 30 元，我们将给你邮寄胸针作为礼物。</AboutList>
         <AboutList><strong><span role="img" aria-label=" ">📅</span> 邮寄时间：</strong>每一个胸针都是手工钩编，我们一般是收到地址后的 <strong>7日内</strong> 制作和邮寄。（仅限国内）</AboutList>
-        <AboutList><strong><span role="img" aria-label=" ">🏠</span> 收获信息：</strong>发送你的手机号和收件地址，至邮箱： hitovi@outlook.com；或者添加 Tovi 的微信号发送：twowei </AboutList>
+        <AboutList><strong><span role="img" aria-label=" ">🏠</span> 收获信息：</strong>发送你的手机号和收件地址，至邮箱： hitovi@outlook.com；或者添加 Tovi 的微信号发送：tovifun </AboutList>
         <AboutList><strong><span role="img" aria-label=" ">💌</span> 说明一下：</strong>手工制作难免有瑕疵，完美主义者请慎拍。</AboutList>
         </AboutUl>
         

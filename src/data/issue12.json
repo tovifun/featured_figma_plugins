@@ -1,0 +1,104 @@
+{
+  "date": "2021-03-20",
+  "cells": [
+    {
+      "title": "Figside",
+      "link": "https://www.figma.com/community/plugin/942173178588958535/Figside",
+      "image": "images/figside.png",
+      "tag": "设计辅助",
+      "text": "将在 Figma 中的设计直接生成网站（需要使用到作者提供的模板）。我生成了一个，流程还挺简单的。",
+      "text-en": "Figside allows you to ship websites with Figma. Thanks to this plugin you can easily add Web behaviours like responsive grid, layout max/min height and width, navigation between Figma pages and more!",
+      "author": "Figside"
+    },
+    {
+      "title": "Voronoi",
+      "link": "https://www.figma.com/community/plugin/950202611096034331/%40sposhe%2Fvoronoi",
+      "image": "images/voronoi.png",
+      "tag": "创意生成",
+      "text": "很有意思的生成类插件。在一个 Frame 里添加一些圆形，然后运行插件后，它会帮你生成一个叫 Voronoi 的图形。",
+      "text-en": "Generate a Voronoi diagram from a single frame containing one or more ellipses.",
+      "author": "Sean O'Shea"
+    },
+    {
+      "title": "Figma Measure",
+      "link": "https://www.figma.com/community/plugin/739918456607459153/Figma-Measure",
+      "image": "images/figma_measure.png",
+      "tag": "原型与协作",
+      "text": "类似于 Redline，不过这个插件比较好玩的地方是，它的标注是跟随者界面元素变化的。",
+      "text-en": "A plugin for easy measurement of sizes. The simple user interface allows you to add easily redlines for heights and widths, fill spaces, measure distances between elements and more.",
+      "author": "Phil"
+    },
+    {
+      "title": "Spottie",
+      "link": "https://www.figma.com/community/plugin/946462676168136646/Spottie",
+      "image": "images/spotiie.png",
+      "tag": "内容填充",
+      "text": "有点类似 Youtube Cover 那个插件，只不过这个是插入 Spotify 里的专辑和曲目的封面。",
+      "text-en": "Insert album and track covers from Spotify into your designs.",
+      "author": "Nathakit Sae-Tan"
+    },
+    {
+      "title": "Insight Hunter",
+      "link": "https://www.figma.com/community/plugin/940934297949121971/Insight-Hunter",
+      "image": "images/insight_hunter.png",
+      "tag": "设计辅助",
+      "text": "更像是一个提供网页设计灵感的插件。插件里有根据不同行业来分类的好看的网站链接。",
+      "text-en": "The largest database of website references categorized by industry! Quickly find references from the industry you need and add them to your pitch.",
+      "author": "Insight Hunter"
+    },
+    {
+      "title": "Replace Nodes",
+      "link": "https://www.figma.com/community/plugin/748537235829892910/Replace-Nodes",
+      "image": "images/replace_nodes.png",
+      "tag": "效率小工具",
+      "text": "复制一个元素的，然后直接粘贴替换掉你想要被替换掉的元素。非常好用的一个小插件。",
+      "text-en": "replaces selected nodes with the copied node. Basically this plugin does paste over selection while removing the original selection.",
+      "author": "Stas Haas"
+    },
+    {
+      "title": "Looper Legacy",
+      "link": "https://www.figma.com/community/plugin/950725709690256515/Looper-Legacy",
+      "image": "images/looper_legacy.png",
+      "tag": "创意生成",
+      "text": "作者 Fork 了之前介绍过的 Looper，算是它的升级版——将选中的元素，生成特定的重复效果。",
+      "text-en": "It's a Figma plugin for creating trippy generated graphics. Works with any Vector, Shape or Text layer.",
+      "author": "Stas Haas"
+    },
+    {
+      "title": "Fig3D",
+      "link": "https://www.figma.com/community/plugin/946020080871644950/Fig3D",
+      "image": "images/fig3d.png",
+      "tag": "创意生成",
+      "text": "将图形转换成 3D 模型，然后实时预览并插入到 Figma。",
+      "text-en": "Instantly convert your shapes, icons, logos and UI designs to 3D models and get a good render. All in Figma.",
+      "author": "Palash Bansal"
+    },
+    {
+      "title": "Moodz",
+      "link": "https://www.figma.com/community/plugin/941336520474170939/Moodz",
+      "image": "images/moodz.png",
+      "tag": "设计辅助",
+      "text": "创建 Moodboard 的一个辅助工具——将图片拖入 Figma ，然后这个工具会帮你将图片排列好。",
+      "text-en": "Moodz is the easiest way to organize your inspiration. It’s as easy to use as 1,2,3.",
+      "author": "Milkshake Studio"
+    },
+    {
+      "title": "Pop a Component",
+      "link": "https://www.figma.com/community/plugin/940714430683584876/Pop-a-Component",
+      "image": "images/pop_a_component.png",
+      "tag": "效率小工具",
+      "text": "选中一个元素，然后直接创建组件的同时，在原位置生成一个 Instance。",
+      "text-en": "Speed up your component workflow. This plugin turns the selected layers into a component, leaving behind an instance in place.",
+      "author": "Nathan Manousos"
+    },
+    {
+      "title": "Lucide Icons",
+      "link": "https://www.figma.com/community/plugin/939567362549682242/Lucide-Icons",
+      "image": "images/lucide_icons.png",
+      "tag": "图标和插图",
+      "text": "作者在 Feather Icon 的基础上拓展了一些图标。",
+      "text-en": "An open-source icon library, a fork of Feather Icons.We're expanding the icon set as much as possible while keeping it nice-looking.",
+      "author": "Eric Fennis"
+    }
+  ]
+}
