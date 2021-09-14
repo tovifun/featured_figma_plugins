@@ -1,0 +1,392 @@
+{
+  "date": "2021-09-14",
+  "cells": [
+      {
+    "title": "variables",
+    "link": "https://www.figma.com/community/plugin/1000963812142874727/",
+    "image": "images/variables.png",
+    "tag": "💥ToviPick!",
+    "text": "这个插件好强啊！这不就是我梦寐以求的全局变量功能吗！",
+    "text-en": "Create global variables and link them to any property across any layer. Experiment with your designs, keep organized, and unlock new functionality within Figma.",
+    "author": "Dan Araujo"
+  },
+  {
+    "title": "Moonvy",
+    "link": "https://www.figma.com/community/plugin/981500558205940871",
+    "image": "images/moonvy.png",
+    "tag": "💥ToviPick!",
+    "text": "一款设计标注交付插件，体验做得很好，有许多设计得非常贴心的小功能。",
+    "text-en": "a lightweight and yet professional design handoff platform. You can use it to generate design into specification files with a full amount of detail and share them with your team members.",
+    "author": "Moonvy"
+  },
+  {
+    "title": "Font Awesome Icons",
+    "link": "https://www.figma.com/community/plugin/774202616885508874",
+    "image": "images/font_awesome_icons.png",
+    "tag": "图标和插图",
+    "text": "来自 Font Awesome 的图标库。",
+    "text-en": "The plugin provides access to the entire free icon collection.",
+    "author": "Vyacheslav Myskov"
+  },
+  {
+    "title": "Creative Market",
+    "link": "https://www.figma.com/community/plugin/966753973971133461",
+    "image": "images/creative_market.png",
+    "tag": "图标和插图",
+    "text": "素材市场，可以插入icon，图片，插画等素材，类似于之前介绍过的 Blush。使用起来挺方便的，需要购买。",
+    "text-en": "Quickly sample thousands of ready-to-use graphics and photos for free.",
+    "author": "Creative Market"
+  },
+  {
+    "title": "Designtips.today",
+    "link": "https://www.figma.com/community/plugin/1008725692377636781",
+    "image": "images/designer_tips_today.png",
+    "tag": "设计辅助",
+    "text": "在 Figma 中学习 Figma。。。最近社区了好多类似这种类型的插件，例如：Figmaster，Figma Tips，Mentor...另外，这个作者好高产啊，而且设计都挺好看。",
+    "text-en": "First Chinese Figma workshop plugin that teach you how to use Figma inside Figma!",
+    "author": "Lichin"
+  },
+  {
+    "title": "Mentor",
+    "link": "https://www.figma.com/community/plugin/977600732677252720",
+    "image": "images/mentor.png",
+    "tag": "设计辅助",
+    "text": "很值得一看的一个插件，聚合了一些常用的 Design Thinking 的学习链接，和一些模板。",
+    "text-en": "The All-in-One design helper to supercharge your design process. For all beginners and pros!",
+    "author": "Ali Öztürk"
+  },
+  {
+    "title": "Figmaster",
+    "link": "https://www.figma.com/community/plugin/961662168712449344/Figmaster",
+    "image": "images/figmaster.png",
+    "tag": "设计辅助",
+    "text": "这个插件手把手教你做Design System。类似于 Design.Tips Today，在 Figma 插件里学习。",
+    "text-en": "The world's first design systems workbook for Figma",
+    "author": "Mateusz Wierzbicki"
+  },
+  {
+    "title": "Globe 3D",
+    "link": "https://www.figma.com/community/plugin/977567760148608604/",
+    "image": "images/globe_3d.png",
+    "tag": "创意生成",
+    "text": "将你的地图图片变成可以互动的 3D 的球体。",
+    "text-en": "Create an Interactive 3D globe based on your flat world map design.",
+    "author": "Sonny Lazuardi"
+  },
+  {
+    "title": "Mesh Gradient",
+    "link": "https://www.figma.com/community/plugin/958202093377483021",
+    "image": "images/mesh_gradient.png",
+    "tag": "颜色和渐变",
+    "text": "可以生成更加复杂的渐变效果，非常实用的一个插件！",
+    "text-en": "Mesh Gradient generates a gradient image with an underlying 2d mesh, and lets you edit the vertices & edges of the mesh to get the perfect gradient look.",
+    "author": "Gautham"
+  },
+  {
+    "title": "Variable-Width Stroke",
+    "link": "https://www.figma.com/community/plugin/915785576743284465",
+    "image": "images/variable_width_stroke.png",
+    "tag": "图形处理",
+    "text": "将你的线条变成可变宽度的线条。（好早之前有看到过这个插件，还挺惊艳的，不知道为什么之前没有加进来）",
+    "text-en": "This plugin adds support for variable-width stroke to Figma.",
+    "author": "Evan Wallace"
+  },
+  {
+    "title": "Lanhu",
+    "link": "https://www.figma.com/community/plugin/1000018270921149282",
+    "image": "images/lanhu.png",
+    "tag": "代码与交付",
+    "text": "将 Figma 中的设计上传到蓝湖。\b好久没打开过蓝湖，刚看了下，新版本的视觉变好看了，不过还是给人很聒噪的感觉。",
+    "text-en": "蓝湖是一个提供最佳用户体验的的产品设计协作平台，可以无缝衔接产品、设计、研发流程，帮助团队降低沟通成本，缩短研发周期，大大提高工作效率。",
+    "author": "Lanhu"
+  },
+  {
+    "title": "Illustrations",
+    "link": "https://www.figma.com/community/plugin/781441863578182316",
+    "image": "images/illustrations.png",
+    "tag": "图标和插图",
+    "text": "作者整理的非常丰富的免费 Illustration 库，而且插入的 Illustration 是矢量格式的。",
+    "text-en": "Free Popular Illustration libraries for everyone, plugin allows you to insert high quality free illustrations right into Figma.",
+    "author": "Hexorial Studio"
+  },
+  {
+    "title": "Photos",
+    "link": "https://www.figma.com/community/plugin/745428728979155171",
+    "image": "images/photos.png",
+    "tag": "内容填充",
+    "text": "可以选择从 Flickr，Google，Pexels 等插入图片，因为图片来源丰富，用起来比 Unsplash 更好些。不过免费版有单个文件 20张图片的限制。",
+    "text-en": "Search and insert photos into your Figma files",
+    "author": "Emin Sinani"
+  },
+  {
+    "title": "Same Text Generator",
+    "link": "https://www.figma.com/community/plugin/863748474013054025",
+    "image": "images/same_text_generator.png",
+    "tag": "文本处理",
+    "text": "将所选的多个文字批量修改成相同的文本。和之前介绍过的 Bunch Text Changer 类似。",
+    "text-en": "Generate the same text with one click.",
+    "author": "Figma.Cool"
+  },
+  {
+    "title": "Plugin Store",
+    "link": "https://www.figma.com/community/plugin/964142928021463219",
+    "image": "images/plugin_store.png",
+    "tag": "设计辅助",
+    "text": "非常轻松地在设计稿中搜索全部 Figma 插件。",
+    "text-en": "Very easy to search all Figma plugins in your design work.",
+    "author": "Figma.Cool"
+  },
+  {
+    "title": "Export Variants",
+    "link": "https://www.figma.com/community/plugin/996640798188777330",
+    "image": "images/export_variants.png",
+    "tag": "代码与交付",
+    "text": "这个 Variants 导出的思路我特别喜欢——现在的 Variants 导出的时候，不能自己选择命名方式。不过这个插件做得太简陋了，只有按照中划线这个选项，而且也只能导出 SVG。",
+    "text-en": "Figma variants are neat however they can be frustrating to export since you can't control the naming scheme.",
+    "author": "Kevin Gutowski"
+  },
+  {
+    "title": "Renaming Convention",
+    "link": "https://www.figma.com/community/plugin/970748258682052941",
+    "image": "images/renaming_convention.png",
+    "tag": "代码与交付",
+    "text": "将图层名字按照特定的格式重新命名，比如驼峰，下划线，中划线，如果你对命名方面比较严格，可以用这个小插件来帮助你提升效率。",
+    "text-en": "Rename layer by naming cases.",
+    "author": "Hiroki Tani"
+  },
+  {
+    "title": "Complex Themes",
+    "link": "https://www.figma.com/community/plugin/953979671302711395",
+    "image": "images/complex_themes.png",
+    "tag": "组件与样式",
+    "text": "一款轻量化的管理颜色和文字样式的插件，而且可以用来切换不同的颜色主题。",
+    "text-en": "styling and painting your layouts with different color themes.",
+    "author": "Anton Shramko"
+  },
+  {
+    "title": "Fyfill",
+    "link": "https://www.figma.com/community/plugin/961383676925301983/Fyfill",
+    "image": "images/fyfill.png",
+    "tag": "内容填充",
+    "text": "绑定 Spotify 之后，可以在形状中填充你收藏的专辑封面。",
+    "text-en": "With Fyfill, you can connect your Spotify account with Figma to use album cover images as fills. You can also put artist names and album titles in text nodes.",
+    "author": "Phil"
+  },
+  {
+    "title": "Reset Text Layers Name",
+    "link": "https://www.figma.com/community/plugin/965643858347310681",
+    "image": "images/reset_text_layer_name.png",
+    "tag": "文档和整理",
+    "text": "简单实用的一个插件。如果你的文本图层命过其他名字，可以通过这个插件恢复它的名字。",
+    "text-en": "Reset all text layers name in selection at once.",
+    "author": "Marcin Lis"
+  },
+  {
+    "title": "Copy & Rotate",
+    "link": "https://www.figma.com/community/plugin/1003651932772848456",
+    "image": "images/copy_and_rotate.png",
+    "tag": "图形处理",
+    "text": "非常好用的 Copy Rotate 的插件，可以说是这个类型里最好用的了。",
+    "text-en": "Create radial interfaces and patterns with rotated copies of elements.",
+    "author": "Alexander Widua"
+  },
+  {
+    "title": "Crack Font",
+    "link": "https://www.figma.com/community/plugin/929414938810147814",
+    "image": "images/crack_font.png",
+    "tag": "文本处理",
+    "text": "简单实用的小插件，将一句话拆成一个个字。类似于之前介绍过的 Nisa，不过这个因为功能简单，操作起来非常方便。",
+    "text-en": "This Plugin rotate each letter of a selected text box in a random angular.",
+    "author": "Ferdinand"
+  },
+  {
+    "title": "Perfect Freehand",
+    "link": "https://www.figma.com/community/plugin/950892731860805817",
+    "image": "images/perfect_freehand.png",
+    "tag": "图形处理",
+    "text": "将你的形状转换成类似徒手绘制的线条的样式，还挺好玩的。",
+    "text-en": "Turn vector lines into freehand strokes.",
+    "author": "Steve Ruiz"
+  },
+  {
+    "title": "Round››all",
+    "link": "https://www.figma.com/community/plugin/939429933336921092",
+    "image": "images/round_all.png",
+    "tag": "文档和整理",
+    "text": "将所有有小数点的数值取整，比如圆角，坐标。强迫症狂喜。",
+    "text-en": "Round everything in your document or your specific selection to the nearest whole number, respecting numerical principals of rounding.",
+    "author": "Karl Koch"
+  },
+  {
+    "title": "SeCo",
+    "link": "https://www.figma.com/community/plugin/938533872521067245",
+    "image": "images/seco.png",
+    "tag": "图标和插图",
+    "text": "又一个可以获取知名品牌的 Logo 和品牌色的插件。类似于之前介绍的 Brandfetch。",
+    "text-en": "SeCo is a simple tool that allows you to quickly find brands & other properties from simpleicons.org.",
+    "author": "Leo Herrera"
+  },
+  {
+    "title": "Addjust",
+    "link": "https://www.figma.com/community/plugin/978648737523411901",
+    "image": "images/addjust.png",
+    "tag": "图标和插图",
+    "text": "插入一些 3D 的小物件，可以改配色和角度。",
+    "text-en": "The Addjust plugin adds hundreds of unique 3D illustrations and icons in PNG format to Figma.",
+    "author": "Alexander"
+  },
+  {
+    "title": "Indexer",
+    "link": "https://www.figma.com/community/plugin/995922087422639826",
+    "image": "images/indexer.png",
+    "tag": "文档和整理",
+    "text": "帮你生成目录，按照页面，链接或者画板，很实用。如果能定制样式就更好了。",
+    "text-en": "You can make Indexes with links to frames and page in a file using Indexer.",
+    "author": "Sriram Boppana"
+  },
+  {
+    "title": "Color Styleguide",
+    "link": "https://www.figma.com/community/plugin/941680506965181089",
+    "image": "images/color_styleguide.png",
+    "tag": "文档和整理",
+    "text": "创建所有 Color Style 的 StyleGuide 列表。和 ListCreator 类似，不过是针对颜色样式的，当你需要整理设计系统文档时很有用。",
+    "text-en": "Create the brillant Color Styleguide page using your local Color Styles.",
+    "author": "Hiroki Tani"
+  },
+  {
+    "title": "Typography Styleguide",
+    "link": "https://www.figma.com/community/plugin/965313760136371738",
+    "image": "images/typography_styleguide.png",
+    "tag": "文档和整理",
+    "text": "创建所有 text stylte 的 StyleGuide 列表。和 Color Styleguide 同一个作者。",
+    "text-en": "Create the brillant Typography Styleguide page using your local Text Styles.",
+    "author": "Hiroki Tani"
+  },
+  {
+    "title": "ListCreator",
+    "link": "https://www.figma.com/community/plugin/999016598490251786",
+    "image": "images/list_creator.png",
+    "tag": "文档和整理",
+    "text": "将所选的元素，整齐排列成列表，并且将图层名字放在旁别显示。在做设计系统文档的时候，用这个可以帮助里快速整理。",
+    "text-en": "Create an auto-layout list of your components + label in no time 👍 Handy when documenting your design system.",
+    "author": "Belfius Bank"
+  },
+  {
+    "title": "Figdoc",
+    "link": "https://www.figma.com/community/plugin/997529321448602758",
+    "image": "images/figdoc.png",
+    "tag": "文档和整理",
+    "text": "将 Markdown 文本在 Figma 中生成预览的 Frame。",
+    "text-en": "Create a document on Figma using the Markdown.",
+    "author": "Hiroki Tani"
+  },
+  {
+    "title": "Sync to Slides",
+    "link": "https://www.figma.com/community/plugin/952824515190483725",
+    "image": "images/sync_to_slides.png",
+    "tag": "原型与协作",
+    "text": "将 Figma 中的 Frame 同步到 Google Slides，而且在更新了 Frame 之后，还可以继续同步更新到 Slides。",
+    "text-en": "Upload Figma frames to Google Slides with ease. For a hassle free presentation making.",
+    "author": "Siddhartha Gudipati"
+  },
+  {
+    "title": "Jitter",
+    "link": "https://www.figma.com/community/plugin/961270034818256057",
+    "image": "images/jitter.png",
+    "tag": "动效",
+    "text": "将素材导入到 Jitter，方便快速制作动画。",
+    "text-en": "Import your Figma projects to Jitter, add animations easily, and export as a video or GIF.",
+    "author": "Jitter"
+  },
+  {
+    "title": "Iconify",
+    "link": "https://www.figma.com/community/plugin/735098390272716381",
+    "image": "images/iconify.png",
+    "tag": "图标和插图",
+    "text": "非常全的图标库，图标来自 Material Design Icons, FontAwesome, Jam Icons, EmojiOne, Twitter Emoji 等等。",
+    "text-en": "Import Material Design Icons, FontAwesome, Jam Icons, EmojiOne, Twitter Emoji and many other icons (more than 100 icon sets containing over 100,000 icons) to Figma document as vector shapes.",
+    "author": "Iconify"
+  },
+  {
+    "title": "Icons8 Background Remover",
+    "link": "https://www.figma.com/community/plugin/997643096679511216",
+    "image": "images/icons8_bgremover.png",
+    "tag": "图片处理",
+    "text": "来自 Icons8 的抠图工具。这类型的插件印象中至少有3个。",
+    "text-en": "Remove background from one or many images at once!",
+    "author": "Icons8"
+  },
+  {
+    "title": "HLFTN",
+    "link": "https://www.figma.com/community/plugin/1000012087652644703",
+    "image": "images/HLFTN.png",
+    "tag": "创意生成",
+    "text": "生成半调网点的矢量图。之前还介绍过一个可以对图片进行半调网点处理的插件 Halftones。",
+    "text-en": "Generate radial, linear or unform vector halftone gradients.",
+    "author": "Pavel Laptev"
+  },
+  {
+    "title": "Pattern Hero",
+    "link": "https://www.figma.com/community/plugin/740556241021336678/",
+    "image": "images/pattern_hero.png",
+    "tag": "创意生成",
+    "text": "将所选的元素按照所选的格子数复制，来生成重复的图案，挺实用的。",
+    "text-en": "Pattern Hero enables you to place selected elements or frames in a grid to create patterns.",
+    "author": "Nitin Gupta"
+  },
+  {
+    "title": "PixCut Background Remover",
+    "link": "https://www.figma.com/community/plugin/990188175789012011",
+    "image": "images/pixcut_bgremover.png",
+    "tag": "图片处理",
+    "text": "又一个抠图插件，来自 WonderShare。",
+    "text-en": "Want to remove background from image free? Wondershare PixCut plugin will help you to make image background transparent automatically for free.",
+    "author": "WonderShare"
+  },
+  {
+    "title": "Contento",
+    "link": "https://www.figma.com/community/plugin/1010552515551148469",
+    "image": "images/contento.png",
+    "tag": "内容填充",
+    "text": "一个简洁易用的内容填充工具。",
+    "text-en": "This plugin can be used both in Figma Design and FigJam.",
+    "author": "Bahtiyar Ahmidi"
+  },
+  {
+    "title": "Chinese Text Generator",
+    "link": "https://www.figma.com/community/plugin/1014572374531097782",
+    "image": "images/chinese_text_generator.png",
+    "tag": "内容填充",
+    "text": "中文句子生成器，可用来填充文本内容；句子来源于「一言（Hitokoto）」的句子库，涵盖动画、漫画、游戏、文学、诗词、影视等各种内容。",
+    "text-en": "中文句子生成器，可用来填充文本内容；",
+    "author": "MuXin"
+  },
+  {
+    "title": "A Selector",
+    "link": "https://www.figma.com/community/plugin/968465923536935510",
+    "image": "images/aselector.png",
+    "tag": "效率小工具",
+    "text": "一个强大的查找和选择元素的工具，你可以通过元素的各种属性来灵活的交叉选择各种元素，支持中英文切换。",
+    "text-en": "A powerful tool for finding and selecting elements, you can flexibly cross select various elements by various attributes of the element.",
+    "author": "Xing Zhuo"
+  },
+  {
+    "title": "Siter.io",
+    "link": "https://www.figma.com/community/plugin/1014191120140241695",
+    "image": "images/siterio.png",
+    "tag": "代码与交付",
+    "text": "又一个将 Figma 设计直接生成网页的插件。来自 Designmodo，设计得还挺好看的。",
+    "text-en": "Siter.io is a website builder that lets you create and publish entire sites without any coding at all. It works by directly exporting Figma design files without converting the designs into codes like HTML and CSS. You can make changes and adjustments directly on Siter.io, and easily import responsive versions of your designs.",
+    "author": "Designmodo"
+  },
+  {
+    "title": "Sources",
+    "link": "https://www.figma.com/community/plugin/955149600865163713/Sources",
+    "image": "images/sources.png",
+    "tag": "图片处理",
+    "text": "获取一个 Figma 文件里所有的图片。",
+    "text-en": "⚡️ Get all images of your file!",
+    "author": "Orkhan Jafarov 🦄"
+  }
+  ]
+}

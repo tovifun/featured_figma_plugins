@@ -2,6 +2,22 @@
     "date": "2019-10-21",
     "cells": [
         {
+          "title": "SkewDat",
+          "link": "https://www.figma.com/c/plugin/741472919529947576/SkewDat",
+          "tag": "💥ToviPick!",
+          "text": "SkewDat 可以帮助你快速斜切形状和文本，补足 Figma 不能难以制作斜切文字和形状的短板",
+          "author": "unfold.co",
+          "image": "images/skewdat.png"
+        },
+        {
+          "title": "Themer",
+          "link": "https://www.figma.com/community/plugin/731176732337510831",
+          "tag": "💥ToviPick!",
+          "text": "是一款多主题设计的辅助插件——定制多套颜色，字体样式，然后在它们之间进行快速切换。",
+          "author": "Tom Lorry",
+          "image": "images/themer.png"
+        },
+        {
           "title": "Arrow Auto",
           "link": "https://www.figma.com/c/plugin/751007211632768205/Arrow-Auto",
           "tag": "原型与协作",
@@ -36,7 +52,7 @@
         {
           "title": "Minimap",
           "link": "https://www.figma.com/c/plugin/772952119002135124/Minimap",
-          "tag": "设计辅助",
+          "tag": "效率小工具",
           "text": "如果你使用过 Photoshop，那么你可能知道它的一个叫预览的面板。这个就和它类似",
           "author": "Rasmus",
           "image": "images/minimap.png"
@@ -132,7 +148,7 @@
         {
           "title": "Arc",
           "link": "https://www.figma.com/c/plugin/762070688792833472/arc",
-          "tag": "文本处理",
+          "tag": "💥ToviPick!",
           "text": "Arc 可以快速地将一段文字沿着一个椭圆弧度摆放",
           "author": "unfold.co",
           "image": "images/arc.png"
@@ -156,7 +172,7 @@
         {
           "title": "Chroma",
           "link": "https://www.figma.com/c/plugin/739237058450529919/Chroma",
-          "tag": "组件与样式",
+          "tag": "💥ToviPick!",
           "text": "我很喜欢这个插件，它的作用是，根据当前形状来创建 Color Styles，这样你就可以批量创建 Color Styles 了（居然是 VS Code）的设计师出的",
           "author": "Miguel Solorio",
           "image": "images/chroma.png"
@@ -172,7 +188,7 @@
         {
           "title": "Component Page",
           "link": "https://www.figma.com/c/plugin/749583881837062159/Component-Page",
-          "tag": "组件与样式",
+          "tag": "💥ToviPick!",
           "text": "如果你习惯 Sketch 那种有个单独的 Component 页来存放 Component，那么可以试试这个",
           "author": "Tom Lowry",
           "image": "images/component_page.png"
@@ -228,7 +244,7 @@
         {
           "title": "Google Sheets Sync",
           "link": "https://www.figma.com/c/plugin/735770583268406934/Google-Sheets-Sync",
-          "tag": "内容填充",
+          "tag": "💥ToviPick!",
           "text": "同步 Google 表格的数据，直接到你的 Figma 文件，实用性和可玩性双佳",
           "author": "David Williames",
           "image": "images/google_sheets_sync.png"
@@ -289,14 +305,7 @@
           "author": "Carlo Jörges",
           "image": "images/roto.png"
         },
-        {
-          "title": "SkewDat",
-          "link": "https://www.figma.com/c/plugin/741472919529947576/SkewDat",
-          "tag": "设计辅助",
-          "text": "SkewDat 可以帮助你快速斜切形状和文本，补足 Figma 不能难以制作斜切文字和形状的短板",
-          "author": "unfold.co",
-          "image": "images/skewdat.png"
-        },
+
         {
           "title": "Smart Text",
           "link": "https://www.figma.com/c/plugin/773378597413161605/Smart-Text",

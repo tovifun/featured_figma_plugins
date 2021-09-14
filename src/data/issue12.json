@@ -86,7 +86,7 @@
       "title": "Pop a Component",
       "link": "https://www.figma.com/community/plugin/940714430683584876/Pop-a-Component",
       "image": "images/pop_a_component.png",
-      "tag": "效率小工具",
+      "tag": "组件与样式",
       "text": "选中一个元素，然后直接创建组件的同时，在原位置生成一个 Instance。",
       "text-en": "Speed up your component workflow. This plugin turns the selected layers into a component, leaving behind an instance in place.",
       "author": "Nathan Manousos"
