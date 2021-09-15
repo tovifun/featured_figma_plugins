@@ -28,7 +28,7 @@
         {
           "title": "zebra",
           "link": "https://www.figma.com/community/plugin/806578669827234193/zebra",
-          "tag": "设计辅助",
+          "tag": "颜色和渐变",
           "text": "又一个对比度测试的插件，之前推荐过其他的，这个还挺轻量的，不过操作逻辑有些奇怪",
           "author": "Daniel Hollick",
           "image": "images/zebra.png"
@@ -68,7 +68,7 @@
         {
           "title": "Ratio Resizer",
           "link": "https://www.figma.com/community/plugin/799264059516370366/Ratio-Resizer",
-          "tag": "设计辅助",
+          "tag": "图形处理",
           "text": "将元素快速改为你想要的比例",
           "author": "Job Harmsen",
           "image": "images/ratio_resizer.png"

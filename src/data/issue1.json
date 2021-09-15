@@ -18,12 +18,28 @@
           "image": "images/themer.png"
         },
         {
+          "title": "Arc",
+          "link": "https://www.figma.com/c/plugin/762070688792833472/arc",
+          "tag": "💥ToviPick!",
+          "text": "Arc 可以快速地将一段文字沿着一个椭圆弧度摆放",
+          "author": "unfold.co",
+          "image": "images/arc.png"
+        },
+        {
           "title": "Arrow Auto",
           "link": "https://www.figma.com/c/plugin/751007211632768205/Arrow-Auto",
           "tag": "原型与协作",
           "text": "快速地在两个元素之间创建箭头连线",
           "author": "SHOPEE SINGAPORE",
           "image": "images/arrow_auto.png"
+        },
+                {
+          "title": "PWA Icon App Exports",
+          "link": "https://www.figma.com/c/plugin/771341909571444129/PWA-Icon-App-Exports",
+          "tag": "代码与交付",
+          "text": "选中一个 Frame，运行插件后就可以设置一套默认的导出尺寸",
+          "author": "Geoffrey Crofte",
+          "image": "images/pwa_icon_app_exports.png"
         },
         {
           "title": "Design Tokenizer",
@@ -34,12 +50,12 @@
           "image": "images/design_tokenizer.png"
         },
         {
-          "title": "Duotones",
-          "link": "https://www.figma.com/c/plugin/775712743044356003/Duotones",
-          "tag": "图片处理",
-          "text": "如果你使用过 Spotify，那么你应该对它们的歌单的封面效果印象深刻，这个插件可以帮助你快速实现那种效果",
-          "author": "Fabien",
-          "image": "images/duotones.png"
+          "title": "Regulator",
+          "link": "https://www.figma.com/c/plugin/772054917007268360/Regulator",
+          "tag": "组件与样式",
+          "text": "帮助你给 颜色样式 重命名。终于有这种插件了，不过我相信迟早 Figma 官方会注意到这个问题的",
+          "author": "Miguel Solorio",
+          "image": "images/regulator.png"
         },
         {
           "title": "Ionicons",
@@ -50,13 +66,38 @@
           "image": "images/ionicons.png"
         },
         {
-          "title": "Minimap",
-          "link": "https://www.figma.com/c/plugin/772952119002135124/Minimap",
-          "tag": "效率小工具",
-          "text": "如果你使用过 Photoshop，那么你可能知道它的一个叫预览的面板。这个就和它类似",
-          "author": "Rasmus",
-          "image": "images/minimap.png"
+          "title": "Quantizer",
+          "link": "https://www.figma.com/c/plugin/753298710088509926/Quantizer",
+          "tag": "布局与网格",
+          "text": "将横纵规整的 frame 或 group 重新排列，比如你可以将 3 栏变为两栏。非常好用",
+          "author": "Vadim Pleshkov",
+          "image": "images/quantizer.png"
         },
+        {
+          "title": "Text Styles Generator",
+          "link": "https://www.figma.com/c/plugin/759472336242530542/Text-Styles-Generator",
+          "tag": "组件与样式",
+          "text": "用来批量生成文字样式，可以和生成颜色样式的 Chroma 搭配使用",
+          "author": "Vadim Pleshkov",
+          "image": "images/text_styles_generator.png"
+        },
+        {
+          "title": "Color Compass",
+          "link": "https://www.figma.com/c/plugin/754415266574382747/Color-Compass",
+          "tag": "颜色和渐变",
+          "text": "根据所选颜色，生成一系列相关的颜色，帮助你调整颜色方案",
+          "author": "Jaclyn Tan",
+          "image": "images/color_compass.png"
+        },
+        {
+          "title": "Duotones",
+          "link": "https://www.figma.com/c/plugin/775712743044356003/Duotones",
+          "tag": "图片处理",
+          "text": "如果你使用过 Spotify，那么你应该对它们的歌单的封面效果印象深刻，这个插件可以帮助你快速实现那种效果",
+          "author": "Fabien",
+          "image": "images/duotones.png"
+        },
+
         {
           "title": "Nisa Text Splitter",
           "link": "https://www.figma.com/c/plugin/739048247603902878/Nisa-Text-Splitter",
@@ -74,29 +115,14 @@
           "image": "images/pixels.png"
         },
         {
-          "title": "PWA Icon App Exports",
-          "link": "https://www.figma.com/c/plugin/771341909571444129/PWA-Icon-App-Exports",
-          "tag": "代码与交付",
-          "text": "选中一个 Frame，运行插件后就可以设置一套默认的导出尺寸",
-          "author": "Geoffrey Crofte",
-          "image": "images/pwa_icon_app_exports.png"
+          "title": "Minimap",
+          "link": "https://www.figma.com/c/plugin/772952119002135124/Minimap",
+          "tag": "效率小工具",
+          "text": "如果你使用过 Photoshop，那么你可能知道它的一个叫预览的面板。这个就和它类似",
+          "author": "Rasmus",
+          "image": "images/minimap.png"
         },
-        {
-          "title": "Quantizer",
-          "link": "https://www.figma.com/c/plugin/753298710088509926/Quantizer",
-          "tag": "布局与网格",
-          "text": "将横纵规整的 frame 或 group 重新排列，比如你可以将 3 栏变为两栏。非常好用",
-          "author": "Vadim Pleshkov",
-          "image": "images/quantizer.png"
-        },
-        {
-          "title": "Regulator",
-          "link": "https://www.figma.com/c/plugin/772054917007268360/Regulator",
-          "tag": "组件与样式",
-          "text": "帮助你给 颜色样式 重命名。终于有这种插件了，不过我相信迟早 Figma 官方会注意到这个问题的",
-          "author": "Miguel Solorio",
-          "image": "images/regulator.png"
-        },
+
         {
           "title": "Retextifier",
           "link": "https://www.figma.com/c/plugin/750499296698468459/Retextifier",
@@ -121,14 +147,7 @@
           "author": "Nate Greenwall",
           "image": "images/text_filler.png"
         },
-        {
-          "title": "Text Styles Generator",
-          "link": "https://www.figma.com/c/plugin/759472336242530542/Text-Styles-Generator",
-          "tag": "组件与样式",
-          "text": "用来批量生成文字样式，可以和生成颜色样式的 Chroma 搭配使用",
-          "author": "Vadim Pleshkov",
-          "image": "images/text_styles_generator.png"
-        },
+        
         {
           "title": "Vectary 3D",
           "link": "https://www.figma.com/c/plugin/769588393361258724/Vectary-3D",
@@ -145,14 +164,7 @@
           "author": "Simon Epskamp",
           "image": "images/add_numbers_to_texts.png"
         },
-        {
-          "title": "Arc",
-          "link": "https://www.figma.com/c/plugin/762070688792833472/arc",
-          "tag": "💥ToviPick!",
-          "text": "Arc 可以快速地将一段文字沿着一个椭圆弧度摆放",
-          "author": "unfold.co",
-          "image": "images/arc.png"
-        },
+
         {
           "title": "Bullets",
           "link": "https://www.figma.com/c/plugin/734628505008435795/Bullets",
@@ -176,14 +188,6 @@
           "text": "我很喜欢这个插件，它的作用是，根据当前形状来创建 Color Styles，这样你就可以批量创建 Color Styles 了（居然是 VS Code）的设计师出的",
           "author": "Miguel Solorio",
           "image": "images/chroma.png"
-        },
-        {
-          "title": "Color Compass",
-          "link": "https://www.figma.com/c/plugin/754415266574382747/Color-Compass",
-          "tag": "颜色和渐变",
-          "text": "根据所选颜色，生成一系列相关的颜色，帮助你调整颜色方案",
-          "author": "Jaclyn Tan",
-          "image": "images/color_compass.png"
         },
         {
           "title": "Component Page",
@@ -228,7 +232,7 @@
         {
           "title": "Figmotion",
           "link": "https://www.figma.com/c/plugin/733025261168520714/Figmotion",
-          "tag": "设计辅助",
+          "tag": "动效",
           "text": "在 Figma 里直接制作简易的动效，不过可维护性不佳，适合做那种做完就扔的展示动效，其他的还是老老实实用 Ae 吧。",
           "author": "Liam Martens",
           "image": "images/figmotion.png"
@@ -292,7 +296,7 @@
         {
           "title": "Responsify ⚡️",
           "link": "https://www.figma.com/c/plugin/743654854885744527/Responsify-%E2%9A%A1%EF%B8%8F",
-          "tag": "设计辅助",
+          "tag": " 效率小工具",
           "text": "选择一个 Frame，生成这个 frame 的各个尺寸大小的效果，帮助你快速测试每个设备大小下设计是否合理",
           "author": "Brian Lovin",
           "image": "images/responsify.png"

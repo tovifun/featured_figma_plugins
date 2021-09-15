@@ -26,14 +26,6 @@
           "author": "Fabien"
         },
         {
-          "title": "Paginate",
-          "link": "https://www.figma.com/community/plugin/805217025770129636/Paginate",
-          "image": "images/Paginate.png",
-          "tag": "设计辅助",
-          "text": "挺有意思的一个插件，创建一个 component 作为页码指示器，然后将它放到 Frame 里，他就会自动更新页数",
-          "author": "Simon Riisnæs Dagfinrud"
-        },
-        {
           "title": "Timer",
           "link": "https://www.figma.com/community/plugin/820311256083321341/Timer",
           "image": "images/Timer.png",
@@ -61,7 +53,7 @@
           "title": "Frame Status",
           "link": "https://www.figma.com/community/plugin/811381661295562811/Frame-Status",
           "image": "images/Frame-Status.png",
-          "tag": "设计辅助",
+          "tag": "原型与协作",
           "text": "给 Frame 添加状态指示，比如进行中、已完成这些",
           "author": "Héctor Vásquez"
         },

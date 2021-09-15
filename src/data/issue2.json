@@ -48,8 +48,8 @@
         {
           "title": "Butler",
           "link": "https://www.figma.com/c/plugin/789056888930973222/Butler",
-          "tag": "设计辅助",
-          "text": "一个挺好用的辅助插件，调出插件后有个搜索，可以搜索插件、样式，然后插入设计",
+          "tag": "组件与样式",
+          "text": "一个挺好用的辅助插件，调出插件后有个搜索，可以搜索组件、样式，然后插入设计",
           "author": "Micke",
           "image": "images/butler.png"
         },
@@ -72,7 +72,7 @@
         {
           "title": "SmoothShadow",
           "link": "https://www.figma.com/c/plugin/788830704169694737/SmoothShadow",
-          "tag": "设计辅助",
+          "tag": "💥ToviPick!",
           "text": "这段时间里最热门的插件了，生成更加平滑、好看的阴影",
           "author": "Philipp Brumm",
           "image": "images/smoothshadow.png"
@@ -136,7 +136,7 @@
         {
           "title": "Dating",
           "link": "https://www.figma.com/c/plugin/733062631231847948/Dating",
-          "tag": "设计辅助",
+          "tag": "创意生成",
           "text": "在 Figma 中创建一个日历，如果你的设计有日历的模块，可以用这个来初始化",
           "author": "Jared Hardy",
           "image": "images/dating.png"

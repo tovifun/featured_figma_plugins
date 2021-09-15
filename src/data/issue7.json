@@ -158,7 +158,7 @@
       "title": "Stark",
       "link": "https://www.figma.com/community/plugin/732603254453395948/Stark",
       "image": "images/stark.png",
-      "tag": "设计辅助",
+      "tag": "颜色和渐变",
       "text": "帮你测试文字和背景的对比度。类似的插件很多，比如叫 Contrast 的就有两个，而且感觉它们间的差距也不会非常大。有需要的时候选择一个来使用即可。",
       "text-en": "Design products that are accessible, ethical, and inclusive with a contrast checker, colorblind simulator, education and more. All based on WCAG guidelines.",
       "author": "Stark"
