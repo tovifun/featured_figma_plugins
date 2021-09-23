@@ -50,8 +50,8 @@
       "title": "Breakpoints",
       "link": "https://www.figma.com/community/plugin/824289601590456356/Breakpoints",
       "image": "images/breakpoints.png",
-      "tag": "设计辅助",
-      "text": "和上一次介绍的 Resposive 有点类似，直接在 Figma 预览你做好的响应式设计。当你拖动 Frame 宽度时，不同的设计会随着你设置好的断点展示出来。不过这个要好很多的是，在拖动的时候不需要打开插件窗口。",
+      "tag": "布局与网格",
+      "text": "和上一次介绍的 Responsive 有点类似，直接在 Figma 预览你做好的响应式设计。当你拖动 Frame 宽度时，不同的设计会随着你设置好的断点展示出来。不过这个要好很多的是，在拖动的时候不需要打开插件窗口。",
       "text-en": "Breakpoints are finally in Figma as a resizable instance #frame that works even without the opened plugin window. It means that for all collaborators in your team, the Breakpoints work correctly.",
       "author": "Floweare"
     },
@@ -59,7 +59,7 @@
       "title": "Gifmock ",
       "link": "https://www.figma.com/community/plugin/869265270145605728/Gifmock",
       "image": "images/gifmock.png",
-      "tag": "设计辅助",
+      "tag": "动效",
       "text": "直接在 Figma 做逐帧动画。操作很简单，选中多个 Frame 然后直接导出。",
       "text-en": "Gifmock is a tool that helps you create high-quality GIFs from static images and mockups.",
       "author": "Steven Fabre"
@@ -86,7 +86,7 @@
       "title": "Color Theme Manager",
       "link": "https://www.figma.com/community/plugin/877698871356754847/Color-Theme-Manager",
       "image": "images/color_theme_manager.png",
-      "tag": "设计辅助",
+      "tag": "组件与样式",
       "text": "一款非常清亮的主题切换插件。设置主题的逻辑比较简单，就是每次设置好主题色之后，用这个插件保存一次记录。然后要切换的时候，选择记录里的主题。",
       "text-en": "Color Theme Manager is a light weight easy to use plugin for create and swap between different color themes. ",
       "author": "Dewen Zhang"
@@ -104,7 +104,7 @@
       "title": "Connect",
       "link": "https://www.figma.com/community/plugin/874515048823651494/Connect",
       "image": "images/connect.png",
-      "tag": "设计辅助",
+      "tag": "组件与样式",
       "text": "将一个文件的 Frame 映射到另一个文件。不需要用到 Component 的功能。可以用在设计图发给他人预览的时候。",
       "text-en": "Mirror any screen to a any file and create global userflows without duplicating your content. Update them whenever you want.",
       "author": "Santiago Moreno"
@@ -122,7 +122,7 @@
       "title": "Translator",
       "link": "https://www.figma.com/community/plugin/743218037112142643/Translator",
       "image": "images/translator.png",
-      "tag": "设计辅助",
+      "tag": "文本处理",
       "text": "快速将文本翻译成别的语言的插件。速度非常快，而且可选语言很多。多语言插件非常多，觉得这款应该是体验比较好的那一个。",
       "text-en": "Translator instantly translates the text in your Figma designs into other langauges. Backed by the engine that powers Google Translate, you can test your designs in up to 104 different languages.",
       "author": "Dustin Mierau"
@@ -140,7 +140,7 @@
       "title": "Print for Figma",
       "link": "https://www.figma.com/community/plugin/874441781480244375/Print-for-Figma",
       "image": "images/print_for_figma.png",
-      "tag": "设计辅助",
+      "tag": "布局与网格",
       "text": "帮助在 Figma 中创建印刷尺寸的Frame。如果你需要在 Figma 中做需要印刷的设计，可以用下这个。",
       "text-en": "Create Print Documents in Figma 🖨️ 📄 📝Easily setup frames that are sized properly for printing at specific DPIs.",
       "author": "Ben K."
@@ -167,7 +167,7 @@
       "title": "Clean Document",
       "link": "https://www.figma.com/community/plugin/767379019764649932/Clean-Document",
       "image": "images/clean_up.png",
-      "tag": "效率小工具",
+      "tag": "文档和整理",
       "text": "帮助你“清洁”你的Figma文件——比如删除隐藏的图层，将元素像素对齐等等。另外，这个作者做了许多的插件，可以去他的个人页看看。",
       "text-en": "Automagically organize and clean up your Figma document.",
       "author": "Yuan Qing Lim"

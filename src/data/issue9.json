@@ -23,7 +23,7 @@
       "title": "Blue Pencil",
       "link": "https://www.figma.com/community/plugin/898042518253103388/Blue-Pencil",
       "image": "images/bluepencil.png",
-      "tag": "设计辅助",
+      "tag": "文档和整理",
       "text": "Figma 的 Tidy Up 本身就很好用的。这个插件有类似的功能，不过在排列 Frame 之外，还可以将图层顺序也按照排列顺序整理好。",
       "text-en": "Maintain formal design specs with frame tidying, numbering, and table of contents.",
       "author": "Riley"
@@ -50,7 +50,7 @@
       "title": "FrameAll",
       "link": "https://www.figma.com/community/plugin/891195693567112423/FrameAll",
       "image": "images/frameall.png",
-      "tag": "设计辅助",
+      "tag": "文档和整理",
       "text": "Figma Cool 的又一个插件！给所有选中的元素添加 Frame。",
       "text-en": "Add frame to all selected layers.",
       "author": "figma.cool"
@@ -59,7 +59,7 @@
       "title": "Motion",
       "link": "https://www.figma.com/community/plugin/889777319208467032/Motion",
       "image": "images/motion.png",
-      "tag": "设计辅助",
+      "tag": "动效",
       "text": "和之前介绍的 Figmotion 非常类似。同样的，适合做演示性的东西，不能用作生产。",
       "text-en": "Make keyframe animations. Export GIF, Sprites or Frames in 24/60 fps. Motion is an animation tool which helps you to bring your design to life. You can animate whatever you want. There is no need to switch to another motion tool such as Principle, Haiku or After Effect. Just try :)",
       "author": "Pavel Babkin"
@@ -95,7 +95,7 @@
       "title": "Multipaste",
       "link": "https://www.figma.com/community/plugin/893914045094807058/Multipaste",
       "image": "images/multipaste.png",
-      "tag": "设计辅助",
+      "tag": "快捷操作",
       "text": "将复制的元素一次性粘贴到多个 Frame 里边。",
       "text-en": "Multipaste is a Figma plugin that allows for copy and pasting elements to many frames at once. No more pasting frame-by-frame! Use this plugin to boost your workflow.",
       "author": "Marcelo Brasileiro"

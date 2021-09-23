@@ -23,7 +23,7 @@
         {
           "title": "Select Same",
           "link": "https://www.figma.com/c/plugin/792767780551514994/Select-Same",
-          "tag": "效率小工具",
+          "tag": "快捷操作",
           "text": "Figma 自带这个功能而且更为丰富，不过这个插件可以提供比较便捷的操作",
           "author": "Andreslav Kozlov",
           "image": "images/select_same.jpg"
@@ -40,7 +40,7 @@
         {
           "title": "Copy waste more",
           "link": "https://www.figma.com/c/plugin/743187242388663080/Copy-waste-more",
-          "tag": "效率小工具",
+          "tag": "快捷操作",
           "text": "强烈推荐！复制一个元素之后，你可以粘贴这个元素的更多属性到新的元素里！",
           "author": "Alain Groeneweg",
           "image": "images/copy_waste_more.png"
@@ -56,7 +56,7 @@
         {
           "title": "Copy paste position size",
           "link": "https://www.figma.com/c/plugin/787948653989604774/Copy-paste-position-size",
-          "tag": "效率小工具",
+          "tag": "快捷操作",
           "text": "和 Copy waste more 有点类似，不过没那么好用，因为没有面板",
           "author": "Sunshauiqi",
           "image": "images/copy_paste_position.png"
@@ -72,7 +72,7 @@
         {
           "title": "SmoothShadow",
           "link": "https://www.figma.com/c/plugin/788830704169694737/SmoothShadow",
-          "tag": "💥ToviPick!",
+          "tag": "💥 ToviPick!",
           "text": "这段时间里最热门的插件了，生成更加平滑、好看的阴影",
           "author": "Philipp Brumm",
           "image": "images/smoothshadow.png"
@@ -96,7 +96,7 @@
         {
           "title": "Redlines",
           "link": "https://www.figma.com/c/plugin/781354942292031141/Redlines",
-          "tag": "💥ToviPick!",
+          "tag": "💥 ToviPick!",
           "text": "就如作者说的，虽然 Figma 自带标注，不过遇到需要手动标注的时候，可以试试这个",
           "author": "Danny Keane",
           "image": "images/redlines.png"
@@ -149,14 +149,7 @@
           "author": "Kuldar",
           "image": "images/looper.png"
         },
-        {
-          "title": "Video Cover",
-          "link": "https://www.figma.com/c/plugin/780947947828574828/Video-Cover",
-          "tag": "内容填充",
-          "text": "如果你是做视频产品的，那么可以试下这个：下载 Youtube / Vimeo 视频封面",
-          "author": "Aarón García Hervás",
-          "image": "images/video_cover.png"
-        },
+
         {
           "title": "UI Faces",
           "link": "https://www.figma.com/c/plugin/769664006254845172/UI-Faces",

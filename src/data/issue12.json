@@ -5,7 +5,7 @@
       "title": "Figside",
       "link": "https://www.figma.com/community/plugin/942173178588958535/Figside",
       "image": "images/figside.png",
-      "tag": "设计辅助",
+      "tag": "代码与交付",
       "text": "将在 Figma 中的设计直接生成网站（需要使用到作者提供的模板）。我生成了一个，流程还挺简单的。",
       "text-en": "Figside allows you to ship websites with Figma. Thanks to this plugin you can easily add Web behaviours like responsive grid, layout max/min height and width, navigation between Figma pages and more!",
       "author": "Figside"
@@ -38,19 +38,10 @@
       "author": "Nathakit Sae-Tan"
     },
     {
-      "title": "Insight Hunter",
-      "link": "https://www.figma.com/community/plugin/940934297949121971/Insight-Hunter",
-      "image": "images/insight_hunter.png",
-      "tag": "设计辅助",
-      "text": "更像是一个提供网页设计灵感的插件。插件里有根据不同行业来分类的好看的网站链接。",
-      "text-en": "The largest database of website references categorized by industry! Quickly find references from the industry you need and add them to your pitch.",
-      "author": "Insight Hunter"
-    },
-    {
       "title": "Replace Nodes",
       "link": "https://www.figma.com/community/plugin/748537235829892910/Replace-Nodes",
       "image": "images/replace_nodes.png",
-      "tag": "效率小工具",
+      "tag": "快捷操作",
       "text": "复制一个元素的，然后直接粘贴替换掉你想要被替换掉的元素。非常好用的一个小插件。",
       "text-en": "replaces selected nodes with the copied node. Basically this plugin does paste over selection while removing the original selection.",
       "author": "Stas Haas"

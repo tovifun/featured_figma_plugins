@@ -86,7 +86,7 @@
     "title": "Copypasta",
     "link": "https://www.figma.com/community/plugin/858058624022776906/Copypasta",
     "image": "images/copypasta.jpg",
-    "tag": "效率小工具 ",
+    "tag": "快捷操作 ",
     "text": "简单的小插件，不过很实用。将复制的元素批量粘贴到多个 Frame 里。",
     "text-en": "Copypasta is a multi-frame clipboard tool. Select layers from multiple frames and duplicate them to multiple frames simultaneously.",
     "author": "Rui P. Cabrinha"
@@ -113,7 +113,7 @@
     "title": "Style Lens",
     "link": "https://www.figma.com/community/plugin/856227067026087708/Style-Lens",
     "image": "images/style_lens.png",
-    "tag": "效率小工具",
+    "tag": "快捷操作",
     "text": "功能很强，不过用起来不太流畅。这个插件将你页面中所有用到的 fills, fonts, strokes, shadows 等属性全部列列出来。方便你进行选择，可以说是 Figma 自带的 Select all with same ...的升级版",
     "text-en": "Style lens surfaces all the fills, fonts, strokes, shadows, blurs, radii, and text you’re using across your page and lets you quickly make broad sweeping changes to all the layers at once.",
     "author": "GOOD PLUGINS"
@@ -136,15 +136,7 @@
     "text-en": "Bibbble is UX/UI screenshot library handpicked from most popular websites.",
     "author": "Klāvs Bušs"
   },
-  {
-    "title": "Figma Finder",
-    "link": "https://www.figma.com/community/plugin/851217747476215597/Figma-Finder",
-    "image": "images/figma_finder.png",
-    "tag": "设计辅助 ",
-    "text": "感觉还挺好用的，将所有的元素列出来，可以通过搜索定位。",
-    "text-en": "Figma Finder is a launcher utility plugin.It gives you quick access to all your essential things.",
-    "author": "Oz Hashimoto"
-  },
+
   {
     "title": "Coolors",
     "link": "https://www.figma.com/community/plugin/867494723165643537/Bring-yours-Coolors-pallet-into-Figma",
@@ -163,15 +155,7 @@
     "text-en": "Stories is the latest creation from Freepik, one of the main references in the free graphic resources market.",
     "author": "Freepik Labs"
   },
-  {
-    "title": "Unlocker",
-    "link": "https://www.figma.com/community/plugin/862912103841000337/Unlocker",
-    "image": "images/unlocker.png",
-    "tag": "设计辅助",
-    "text": "列出当前页面中的所有锁住的元素，然后可以在列表中方便地解锁它们。",
-    "text-en": "Centrally manage your locked layers.",
-    "author": "Figma.Cool"
-  },
+
   {
     "title": "Text Search",
     "link": "https://www.figma.com/community/plugin/861860229188829870/Text-Search",
@@ -221,7 +205,7 @@
     "title": "Rotate Each",
     "link": "https://www.figma.com/community/plugin/865687644009449883/Rotate-Each",
     "image": "images/rotate_each.png",
-    "tag": "设计辅助",
+    "tag": "创意生成",
     "text": "选中元素，运行插件，然后它会将它们按照各自的中心点进行随机角度的旋转。配合 Smart Animate 可以生成一些有意思的动画作为背景。",
     "text-en": "Select one or multiple objects and rotate them randomly around their center point.",
     "author": "Stephen Barkan"
@@ -248,7 +232,7 @@
     "title": "Pencil Pal",
     "link": "https://www.figma.com/community/plugin/852436272709911555/Pencil-Pal",
     "image": "images/pencil_pal.png",
-    "tag": "设计辅助",
+    "tag": "图形处理",
     "text": "对于经常使用 Pencil Tool 的人来说这个应该会很实用。",
     "text-en": "Pencil Pal is for folks who want to get a little more out of the pencil tool.",
     "author": "Nelson Taruc"

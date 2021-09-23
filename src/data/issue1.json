@@ -4,7 +4,7 @@
         {
           "title": "SkewDat",
           "link": "https://www.figma.com/c/plugin/741472919529947576/SkewDat",
-          "tag": "💥ToviPick!",
+          "tag": "💥 ToviPick!",
           "text": "SkewDat 可以帮助你快速斜切形状和文本，补足 Figma 不能难以制作斜切文字和形状的短板",
           "author": "unfold.co",
           "image": "images/skewdat.png"
@@ -12,7 +12,7 @@
         {
           "title": "Themer",
           "link": "https://www.figma.com/community/plugin/731176732337510831",
-          "tag": "💥ToviPick!",
+          "tag": "💥 ToviPick!",
           "text": "是一款多主题设计的辅助插件——定制多套颜色，字体样式，然后在它们之间进行快速切换。",
           "author": "Tom Lorry",
           "image": "images/themer.png"
@@ -20,7 +20,7 @@
         {
           "title": "Arc",
           "link": "https://www.figma.com/c/plugin/762070688792833472/arc",
-          "tag": "💥ToviPick!",
+          "tag": "💥 ToviPick!",
           "text": "Arc 可以快速地将一段文字沿着一个椭圆弧度摆放",
           "author": "unfold.co",
           "image": "images/arc.png"
@@ -89,6 +89,16 @@
           "author": "Jaclyn Tan",
           "image": "images/color_compass.png"
         },
+
+        {
+            "title": "Unlocker",
+            "link": "https://www.figma.com/community/plugin/862912103841000337/Unlocker",
+            "image": "images/unlocker.png",
+            "tag": "文档和整理",
+            "text": "列出当前页面中的所有锁住的元素，然后可以在列表中方便地解锁它们。",
+            "text-en": "Centrally manage your locked layers.",
+            "author": "Figma.Cool"
+         },
         {
           "title": "Duotones",
           "link": "https://www.figma.com/c/plugin/775712743044356003/Duotones",
@@ -115,13 +125,14 @@
           "image": "images/pixels.png"
         },
         {
-          "title": "Minimap",
-          "link": "https://www.figma.com/c/plugin/772952119002135124/Minimap",
-          "tag": "效率小工具",
-          "text": "如果你使用过 Photoshop，那么你可能知道它的一个叫预览的面板。这个就和它类似",
-          "author": "Rasmus",
-          "image": "images/minimap.png"
+          "title": "Ratio Resizer",
+          "link": "https://www.figma.com/community/plugin/799264059516370366/Ratio-Resizer",
+          "tag": "图形处理",
+          "text": "将元素快速改为你想要的比例",
+          "author": "Job Harmsen",
+          "image": "images/ratio_resizer.png"
         },
+
 
         {
           "title": "Retextifier",
@@ -156,6 +167,31 @@
           "author": "Vectary",
           "image": "images/vectory.png"
         },
+                {
+          "title": "Video Cover",
+          "link": "https://www.figma.com/c/plugin/780947947828574828/Video-Cover",
+          "tag": "内容填充",
+          "text": "如果你是做视频产品的，那么可以试下这个：下载 Youtube / Vimeo 视频封面",
+          "author": "Aarón García Hervás",
+          "image": "images/video_cover.png"
+        },
+        {
+          "title": "Minimap",
+          "link": "https://www.figma.com/c/plugin/772952119002135124/Minimap",
+          "tag": "快捷操作",
+          "text": "如果你使用过 Photoshop，那么你可能知道它的一个叫预览的面板。这个就和它类似",
+          "author": "Rasmus",
+          "image": "images/minimap.png"
+        },
+    {
+      "title": "Insight Hunter",
+      "link": "https://www.figma.com/community/plugin/940934297949121971/Insight-Hunter",
+      "image": "images/insight_hunter.png",
+      "tag": "设计辅助",
+      "text": "更像是一个提供网页设计灵感的插件。插件里有根据不同行业来分类的好看的网站链接。",
+      "text-en": "The largest database of website references categorized by industry! Quickly find references from the industry you need and add them to your pitch.",
+      "author": "Insight Hunter"
+    },
         {
           "title": "Add numbers to texts",
           "link": "https://www.figma.com/c/plugin/738791203005929386/Add-numbers-to-texts",
@@ -184,7 +220,7 @@
         {
           "title": "Chroma",
           "link": "https://www.figma.com/c/plugin/739237058450529919/Chroma",
-          "tag": "💥ToviPick!",
+          "tag": "💥 ToviPick!",
           "text": "我很喜欢这个插件，它的作用是，根据当前形状来创建 Color Styles，这样你就可以批量创建 Color Styles 了（居然是 VS Code）的设计师出的",
           "author": "Miguel Solorio",
           "image": "images/chroma.png"
@@ -192,7 +228,7 @@
         {
           "title": "Component Page",
           "link": "https://www.figma.com/c/plugin/749583881837062159/Component-Page",
-          "tag": "💥ToviPick!",
+          "tag": "💥 ToviPick!",
           "text": "如果你习惯 Sketch 那种有个单独的 Component 页来存放 Component，那么可以试试这个",
           "author": "Tom Lowry",
           "image": "images/component_page.png"
@@ -200,7 +236,7 @@
         {
           "title": "Content Reel",
           "link": "https://www.figma.com/c/plugin/731627216655469013/Content-Reel",
-          "tag": "内容填充",
+          "tag": "💥 ToviPick!",
           "text": "一个比较全能的内容填充插件，可以填充文字、图标和图片等。不过内容是这个插件定好的，不能自定义，如果不想在内容上花功夫就可以用用",
           "author": "Microsoft",
           "image": "images/content_reel.png"
@@ -248,7 +284,7 @@
         {
           "title": "Google Sheets Sync",
           "link": "https://www.figma.com/c/plugin/735770583268406934/Google-Sheets-Sync",
-          "tag": "💥ToviPick!",
+          "tag": "💥 ToviPick!",
           "text": "同步 Google 表格的数据，直接到你的 Figma 文件，实用性和可玩性双佳",
           "author": "David Williames",
           "image": "images/google_sheets_sync.png"
@@ -293,14 +329,7 @@
           "author": "David Williames",
           "image": "images/qr_code_generator.png"
         },
-        {
-          "title": "Responsify ⚡️",
-          "link": "https://www.figma.com/c/plugin/743654854885744527/Responsify-%E2%9A%A1%EF%B8%8F",
-          "tag": " 效率小工具",
-          "text": "选择一个 Frame，生成这个 frame 的各个尺寸大小的效果，帮助你快速测试每个设备大小下设计是否合理",
-          "author": "Brian Lovin",
-          "image": "images/responsify.png"
-        },
+
         {
           "title": "Roto",
           "link": "https://www.figma.com/c/plugin/733184376355671573/Roto",
@@ -329,7 +358,7 @@
         {
           "title": "Visibility",
           "link": "https://www.figma.com/c/plugin/739089407370404321/Visibility",
-          "tag": "效率小工具",
+          "tag": "文档和整理",
           "text": "蛮有意思的一个插件，给图层命名为 `～visibility` 运行插件时会显示/隐藏该命名的所有插件",
           "author": "Egor",
           "image": "images/visibility.png"

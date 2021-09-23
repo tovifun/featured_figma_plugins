@@ -5,7 +5,7 @@
     "title": "variables",
     "link": "https://www.figma.com/community/plugin/1000963812142874727/",
     "image": "images/variables.png",
-    "tag": "💥ToviPick!",
+    "tag": "💥 ToviPick!",
     "text": "这个插件好强啊！这不就是我梦寐以求的全局变量功能吗！",
     "text-en": "Create global variables and link them to any property across any layer. Experiment with your designs, keep organized, and unlock new functionality within Figma.",
     "author": "Dan Araujo"
@@ -14,26 +14,17 @@
     "title": "Moonvy",
     "link": "https://www.figma.com/community/plugin/981500558205940871",
     "image": "images/moonvy.png",
-    "tag": "💥ToviPick!",
+    "tag": "💥 ToviPick!",
     "text": "一款设计标注交付插件，体验做得很好，有许多设计得非常贴心的小功能。",
     "text-en": "a lightweight and yet professional design handoff platform. You can use it to generate design into specification files with a full amount of detail and share them with your team members.",
     "author": "Moonvy"
-  },
-  {
-    "title": "Font Awesome Icons",
-    "link": "https://www.figma.com/community/plugin/774202616885508874",
-    "image": "images/font_awesome_icons.png",
-    "tag": "图标和插图",
-    "text": "来自 Font Awesome 的图标库，两还挺多的，可代替 iconfont 和 The Noun Project。",
-    "text-en": "The plugin provides access to the entire free icon collection.",
-    "author": "Vyacheslav Myskov"
   },
   {
     "title": "Creative Market",
     "link": "https://www.figma.com/community/plugin/966753973971133461",
     "image": "images/creative_market.png",
     "tag": "图标和插图",
-    "text": "素材市场，可以插入icon，图片，插画等素材，类似于之前介绍过的 Blush。使用起来挺方便的，需要购买。",
+    "text": "素材市场，可以插入 icon，图片，插画等素材，类似于之前介绍过的 Blush。使用起来挺方便的，需要购买。",
     "text-en": "Quickly sample thousands of ready-to-use graphics and photos for free.",
     "author": "Creative Market"
   },
@@ -60,7 +51,7 @@
     "link": "https://www.figma.com/community/plugin/961662168712449344/Figmaster",
     "image": "images/figmaster.png",
     "tag": "设计辅助",
-    "text": "这个插件手把手教你做Design System。类似于 Design.Tips Today，在 Figma 插件里学习。",
+    "text": "这个插件手把手教你做 Design System（内容是英文的）。类似于 Design.Tips Today，在 Figma 插件里学习。",
     "text-en": "The world's first design systems workbook for Figma",
     "author": "Mateusz Wierzbicki"
   },
@@ -78,7 +69,7 @@
     "link": "https://www.figma.com/community/plugin/958202093377483021",
     "image": "images/mesh_gradient.png",
     "tag": "颜色和渐变",
-    "text": "可以生成更加复杂的渐变效果，非常实用的一个插件！",
+    "text": "可以生成更加复杂的渐变效果，非常实用的一个插件！（生成的渐变是一张位图）",
     "text-en": "Mesh Gradient generates a gradient image with an underlying 2d mesh, and lets you edit the vertices & edges of the mesh to get the perfect gradient look.",
     "author": "Gautham"
   },
@@ -96,7 +87,7 @@
     "link": "https://www.figma.com/community/plugin/1000018270921149282",
     "image": "images/lanhu.png",
     "tag": "代码与交付",
-    "text": "将 Figma 中的设计上传到蓝湖。\b好久没打开过蓝湖，刚看了下，新版本的视觉变好看了，不过还是给人很聒噪的感觉。",
+    "text": "将 Figma 中的设计上传到蓝湖。好久没打开过蓝湖，刚看了下，新版本的视觉变好看了，不过还是给人很聒噪的感觉。",
     "text-en": "蓝湖是一个提供最佳用户体验的的产品设计协作平台，可以无缝衔接产品、设计、研发流程，帮助团队降低沟通成本，缩短研发周期，大大提高工作效率。",
     "author": "Lanhu"
   },
@@ -108,6 +99,15 @@
     "text": "作者整理的非常丰富的免费 Illustration 库，而且插入的 Illustration 是矢量格式的。",
     "text-en": "Free Popular Illustration libraries for everyone, plugin allows you to insert high quality free illustrations right into Figma.",
     "author": "Hexorial Studio"
+  },
+    {
+    "title": "Iconify",
+    "link": "https://www.figma.com/community/plugin/735098390272716381",
+    "image": "images/iconify.png",
+    "tag": "图标和插图",
+    "text": "非常全的图标库，图标来自 Material Design Icons, FontAwesome, Jam Icons, EmojiOne, Twitter Emoji 等等。",
+    "text-en": "Import Material Design Icons, FontAwesome, Jam Icons, EmojiOne, Twitter Emoji and many other icons (more than 100 icon sets containing over 100,000 icons) to Figma document as vector shapes.",
+    "author": "Iconify"
   },
   {
     "title": "Photos",
@@ -195,7 +195,7 @@
     "link": "https://www.figma.com/community/plugin/929414938810147814",
     "image": "images/crack_font.png",
     "tag": "文本处理",
-    "text": "简单实用的小插件，将一句话拆成一个个字。类似于之前介绍过的 Nisa，不过这个因为功能简单，操作起来非常方便。",
+    "text": "将一句话拆成一个个字。类似于之前介绍过的 Nisa，不过这个因为功能简单，操作起来非常方便。",
     "text-en": "This Plugin rotate each letter of a selected text box in a random angular.",
     "author": "Ferdinand"
   },
@@ -299,15 +299,6 @@
     "author": "Jitter"
   },
   {
-    "title": "Iconify",
-    "link": "https://www.figma.com/community/plugin/735098390272716381",
-    "image": "images/iconify.png",
-    "tag": "图标和插图",
-    "text": "非常全的图标库，图标来自 Material Design Icons, FontAwesome, Jam Icons, EmojiOne, Twitter Emoji 等等。",
-    "text-en": "Import Material Design Icons, FontAwesome, Jam Icons, EmojiOne, Twitter Emoji and many other icons (more than 100 icon sets containing over 100,000 icons) to Figma document as vector shapes.",
-    "author": "Iconify"
-  },
-  {
     "title": "Icons8 Background Remover",
     "link": "https://www.figma.com/community/plugin/997643096679511216",
     "image": "images/icons8_bgremover.png",
@@ -365,7 +356,7 @@
     "title": "A Selector",
     "link": "https://www.figma.com/community/plugin/968465923536935510",
     "image": "images/aselector.png",
-    "tag": "效率小工具",
+    "tag": "快捷操作",
     "text": "一个强大的查找和选择元素的工具，你可以通过元素的各种属性来灵活的交叉选择各种元素，支持中英文切换。",
     "text-en": "A powerful tool for finding and selecting elements, you can flexibly cross select various elements by various attributes of the element.",
     "author": "Xing Zhuo"

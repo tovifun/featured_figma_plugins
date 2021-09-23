@@ -5,7 +5,7 @@
           "title": "Heron Handoff",
           "link": "https://www.figma.com/community/plugin/830051293378016221",
           "image": "images/Juuust-Handoff.png",
-          "tag": "💥ToviPick!",
+          "tag": "💥 ToviPick!",
           "text": "国内知名 Figma 中文社区的作者（相信大家都知道的）。虽然同类型的插件有好多个，但是这个插件的体验还是很不错的",
           "author": "Jun"
         },
@@ -81,14 +81,7 @@
           "text": "内置了几组常用的导出设置，使用了一下，非常方便（如果能够存储用户自定义的导出设置，那就完美）",
           "author": "Kyle Kochanek"
         },
-        {
-          "title": "Frametastic",
-          "link": "https://www.figma.com/community/plugin/822809274991177560/Frametastic",
-          "image": "images/Frametastic.png",
-          "tag": "设计辅助",
-          "text": "设置几个Frame尺寸，然后这个插件可以帮你生成这些尺寸的的设计图（前提是你设置好 Constrains）",
-          "author": "Cabify"
-        },
+
         {
           "title": "Component Variables",
           "link": "https://www.figma.com/community/plugin/819995136233235915/Component-Variables",
@@ -122,14 +115,6 @@
           "author": "Jan Six"
         },
         {
-          "title": "Figma Chinese Rename",
-          "link": "https://www.figma.com/community/plugin/817636639982340201/Figma-Chinese-Rename",
-          "image": "images/Figma-Chinese-Rename.png",
-          "tag": "设计辅助",
-          "text": "帮助 Figma 中文用户合理命名图层的插件",
-          "author": "三球"
-        },
-        {
           "title": "Export styles to CSS variables",
           "link": "https://www.figma.com/community/plugin/816737626312049592/Export-styles-to-CSS-variables",
           "image": "images/Export-styles-to-CSS-variables.png",
@@ -161,14 +146,7 @@
           "text": "选中元素，然后生成它的 CSS。",
           "author": "Viesturs Marnauza"
         },
-        {
-          "title": "Switor",
-          "link": "https://www.figma.com/community/plugin/811288323820451882/Switor",
-          "image": "images/Switor.png",
-          "tag": "设计辅助",
-          "text": "主题切换，比之前介绍过的 Themer 要轻量很多",
-          "author": "Anashkin Andrey"
-        },
+
         {
           "title": "Spacing Manager",
           "link": "https://www.figma.com/community/plugin/809099681305129697/Spacing-Manager",
@@ -181,7 +159,7 @@
           "title": "skale",
           "link": "https://www.figma.com/community/plugin/808289809557716614/skale",
           "image": "images/skale.png",
-          "tag": "💥ToviPick!",
+          "tag": "💥 ToviPick!",
           "text": "帮助你比较精确地缩放 一个 instance（另外，作者的其它插件也都还不错）",
           "author": "Jan Six"
         },

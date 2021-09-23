@@ -104,7 +104,7 @@
       "title": "Sleuth",
       "link": "https://www.figma.com/community/plugin/897573542579499089/Sleuth",
       "image": "images/sleuth.png",
-      "tag": "设计辅助",
+      "tag": "组件与样式",
       "text": "扫描你的 Figma 文件，帮你计算出外面组件的使用率。而且可以找出所有没有使用字体和颜色样式的图层，帮你定位问题。非常实用的一个插件。",
       "text-en": "Sleuth helps you follow best practices by reportinng on external library usage and identifying problem layers in your files.",
       "author": "Keap"
@@ -113,7 +113,7 @@
       "title": "Find & Replace",
       "link": "https://www.figma.com/community/plugin/905964570877397972/Find-%26-Replace",
       "image": "images/find_and_replace.png",
-      "tag": "设计辅助",
+      "tag": "文本处理",
       "text": "查找设计稿中的文本并替换成你想要的文字。类似于文档中的查找与替换。",
       "text-en": "I couldn't find a plugin that let me find and replace text using regular expressions, so I threw this together. Maybe you'll find it handy, too.",
       "author": "Aaron Wright"
@@ -167,7 +167,7 @@
       "title": "Custom Graph",
       "link": "https://www.figma.com/community/plugin/907304045650716211/Custom-Graph",
       "image": "images/custom_graph.png",
-      "tag": "设计辅助",
+      "tag": "图形处理",
       "text": "可以根据你设计的元素，来生成柱状图等等。可以自己填数值。",
       "text-en": "Custom Graph lets you build line, bar and cumulative graphs based on your design elements.",
       "author": "GoodGantt for Trello"

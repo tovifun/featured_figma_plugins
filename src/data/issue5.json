@@ -68,7 +68,7 @@
       "title": "Chinese Font Picker",
       "link": "https://www.figma.com/community/plugin/851126455550003999/Chinese-Font-Picker",
       "image": "images/chinese_font_picker.png",
-      "tag": "💥ToviPick!",
+      "tag": "💥 ToviPick!",
       "text": "中文字体选择器（Chinese Font Picker）选择和预览系统中已安装的中文字体。",
       "text-en": "Previews the installed Chinese fonts on the system.",
       "author": "Figma.Cool"
@@ -118,20 +118,12 @@
       "text-en": "Create a guided flow through any selection of elements. Add notes and share your Walkthrough with others.",
       "author": "Joseph Wright"
     },
-    {
-      "title": "Unit Converter",
-      "link": "https://www.figma.com/community/plugin/841435609952260079/Unit-Converter",
-      "image": "images/unit_converter.png",
-      "tag": "设计辅助",
-      "text": "单位换算的小工具，还挺方便的。",
-      "text-en": "Convert Inches to Centimeters to Milimeters to Pixels per Inch.",
-      "author": "Marcelo Novaes"
-    },
+
     {
       "title": "Rotate Copies",
       "link": "https://www.figma.com/community/plugin/841400867216942053/Rotate-Copies",
       "image": "images/rotate_copies.png",
-      "tag": "设计辅助",
+      "tag": "图形处理",
       "text": "旋转复制的小插件，类似与 Sketch 自带的旋转复制工具。",
       "text-en": "Create rotated copies of any element.",
       "author": "Christian Konrad"
@@ -146,19 +138,10 @@
       "author": "Jacky Lee"
     },
     {
-      "title": "Page Automator",
-      "link": "https://www.figma.com/community/plugin/841201477778898873/Page-Automator",
-      "image": "images/page_automator.png",
-      "tag": "设计辅助",
-      "text": "帮你批量创建预设好的 Page，尤其在项目开始的时候，会需要提前创建好多个页面。",
-      "text-en": "Automate creating multiple pages.",
-      "author": "Afnizar Nur Ghifari"
-    },
-    {
       "title": "Responsive",
       "link": "https://www.figma.com/community/plugin/840727678445998968/Responsive",
       "image": "images/responsive.png",
-      "tag": "设计辅助",
+      "tag": "布局与网格",
       "text": "非常酷的一个插件，直接在 Figma 预览你做好的响应式设计。当你拖动 Frame 宽度时，不同的设计会随着你设置好的断点展示出来。",
       "text-en": "Preview your responsive designs inside Figma!",
       "author": "Emin Sinani"
@@ -194,7 +177,7 @@
       "title": "Radium",
       "link": "https://www.figma.com/community/plugin/838889318422718953/Radium",
       "image": "images/radium.png",
-      "tag": "设计辅助",
+      "tag": "图形处理",
       "text": "和前面的 Rotate Copies 比较类似。有这个需求的可以对比一下试试",
       "text-en": "Generate rotated copies of the selected object. Ideal for designing watches and other radial UI's.",
       "author": "Ian Cox"
@@ -209,15 +192,6 @@
       "author": "Qiqi Xu"
     },
     {
-      "title": "Search & Focus",
-      "link": "https://www.figma.com/community/plugin/838752837372119505/Search-%26-Focus",
-      "image": "images/search_and_focus.png",
-      "tag": "效率小工具",
-      "text": "使用这个插件通过 Frame 名搜索和跳到当前页面的 Frame。",
-      "text-en": "Search everything in Figma with autocomplete. Focusing on your results - just choose item in lists.",
-      "author": "Владимир Симоненко"
-    },
-    {
       "title": "Automatic Style Guides",
       "link": "https://www.figma.com/community/plugin/838622388628773312/Automatic-Style-Guides",
       "image": "images/automatic_style_guides.png",
@@ -230,7 +204,7 @@
       "title": "Unused Components",
       "link": "https://www.figma.com/community/plugin/838413521721548186/Unused-Components",
       "image": "images/unused_components.png",
-      "tag": "设计辅助",
+      "tag": "组件与样式",
       "text": "扫描您的文件中所有未使用的组件以及您使用每个组件的次数。",
       "text-en": "Scan you file for all unsued components and how many times you've used each component.",
       "author": "Idan Arbel"
@@ -243,15 +217,6 @@
       "text": "将选中的元素转为位图，Figma 自带这个功能，不过只能1倍，这个插件可以设置多倍的。",
       "text-en": "Rasterize the selected layers at a high resolution (2x, 3x, 4x, 8x, or 10x).",
       "author": "Yuan Qing Lim"
-    },
-    {
-      "title": "Label Maker",
-      "link": "https://www.figma.com/community/plugin/837733390949354788/Label-Maker",
-      "image": "images/label_frames.png",
-      "tag": "设计辅助",
-      "text": "创建与你的图层名称链接的标签。有点繁琐，这个可以用在演示上。",
-      "text-en": "Create labels permanently linked with your layers' names.",
-      "author": "Henrique Gusso"
     },
     {
       "title": "Axure",
@@ -281,15 +246,6 @@
       "author": "Seán Halpin"
     },
     {
-      "title": "Scale",
-      "link": "https://www.figma.com/community/plugin/836326694968364056/Scale",
-      "image": "images/scale.png",
-      "tag": "设计辅助",
-      "text": "通过输入数值来缩放元素，稍微弥补了 Figma 自带的缩放不能输入数值的缺点。",
-      "text-en": "Scale any frame, it’s contents, and all effects to any defined width or height.",
-      "author": "Max Di Capua"
-    },
-    {
       "title": "Colors → Code",
       "link": "https://www.figma.com/community/plugin/834722635660200680/Colors-%E2%86%92-Code",
       "image": "images/colors_to_code_alt.png",
@@ -298,24 +254,7 @@
       "text-en": "Export your color tokens directly into any given format to smoothly integrate them into your stack.",
       "author": "Sugarcode"
     },
-    {
-      "title": "Dark Mode Magic",
-      "link": "https://www.figma.com/community/plugin/834062945643616879/Dark-Mode-Magic",
-      "image": "images/dark_mode_magic.png",
-      "tag": "设计辅助",
-      "text": "将你的界面直接转为 Dark Mode，用起来很简单，不用再进行额外的设置。在前期用来预览一下还可以。",
-      "text-en": "Transform your design into Dark mode",
-      "author": "Руслан"
-    },
-    {
-      "title": "Ultra Renamer 2",
-      "link": "https://www.figma.com/community/plugin/833716037588204076/Ultra-Renamer-2",
-      "image": "images/ultra_renamer.png",
-      "tag": "效率小工具",
-      "text": "自带的批量命名非常好用，不过这个可以按照画布上的顺序帮你批量重新命名元素。",
-      "text-en": "Enumerate your Frames with just one click. ",
-      "author": "Igor"
-    },
+
     {
       "title": "Linky",
       "link": "https://www.figma.com/community/plugin/833020696010433995/Linky",
@@ -329,7 +268,7 @@
       "title": "Spotlight",
       "link": "https://www.figma.com/community/plugin/831936468026040598/Spotlight",
       "image": "images/spotlight.png",
-      "tag": "效率小工具",
+      "tag": "快捷操作",
       "text": "在文件里快速导航，查找并跳转到任何页面、Frame、组件。支持搜索，如果你有良好的命名习惯，这个插件应该挺适合你。",
       "text-en": "Fast navigation in your project. Find and jump to any Page, Frame, Component, Layer. That's it!",
       "author": "Vlad Solomakha"
